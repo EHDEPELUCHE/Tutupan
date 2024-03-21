@@ -10,7 +10,6 @@ namespace VRM
     /// </summary>
     public class Blinker : MonoBehaviour
     {
-        public Animator animator;
         VRMBlendShapeProxy m_blendShapes;
 
         [FormerlySerializedAs("m_interVal")]
@@ -30,7 +29,7 @@ namespace VRM
         public float CloseSeconds = 0.1f;
 
         Coroutine m_coroutine;
-        private int hashJoyfJump = 2081823275;
+
         float m_nextRequest;
         bool m_request;
         public bool Request
@@ -113,12 +112,14 @@ namespace VRM
                 m_coroutine = null;
             }
         }
-
+  
         private float Speed = 2f;
+        public Animator animator;
         public void Update(){
             //Debug.Log("animacion:" + this.animator.GetCurrentAnimatorStateInfo(0).shortNameHash + " inf " + hashJoyfJump );
              if (Input.GetKeyDown(KeyCode.Space)){
                 animator.PlayInFixedTime("Joyful Jump",-1, 0.30f);
+                //animator.Play("Joyful Jump", 1, 0);
                 StartCoroutine(Smile());
              }
                 
