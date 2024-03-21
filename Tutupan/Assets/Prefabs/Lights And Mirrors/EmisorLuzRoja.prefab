@@ -9,6 +9,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 7f38c757ac2e2854f947b3b8cebbefff, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f38c757ac2e2854f947b3b8cebbefff, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f38c757ac2e2854f947b3b8cebbefff, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f38c757ac2e2854f947b3b8cebbefff, type: 3}
       propertyPath: m_LocalPosition.x
       value: 77.07956
       objectReference: {fileID: 0}
@@ -58,7 +70,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ef5db9c8cafb41e4188e5e01cb662faa, type: 2}
     - target: {fileID: 919132149155446097, guid: 7f38c757ac2e2854f947b3b8cebbefff, type: 3}
       propertyPath: m_Name
-      value: EmisorLuzRojo
+      value: EmisorLuzRoja
       objectReference: {fileID: 0}
     - target: {fileID: 6260216051105776834, guid: 7f38c757ac2e2854f947b3b8cebbefff, type: 3}
       propertyPath: m_Materials.Array.data[0]
