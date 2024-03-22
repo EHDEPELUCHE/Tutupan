@@ -5069,6 +5069,7 @@ GameObject:
   - component: {fileID: 1843409510211336383}
   - component: {fileID: 7437889384896000910}
   - component: {fileID: 6386889186931146379}
+  - component: {fileID: -5115420276174807010}
   m_Layer: 0
   m_Name: TutupanRopaverde
   m_TagString: Untagged
@@ -5133,7 +5134,7 @@ Animator:
   m_GameObject: {fileID: 7065077781464348265}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 5b2feb7b44cf5b74b9d55137b63bb030, type: 2}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0efb4e3280228174e95839536e897719, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -5368,6 +5369,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 423fb0cccbe420047ac28163cce68db4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-5115420276174807010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7065077781464348265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69ea1f88e8d74e04e9341465573a4ef8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Interval: 13
+  ClosingTime: 0.06
+  OpeningSeconds: 0.03
+  CloseSeconds: 0.1
+  animator: {fileID: 7412716049919963331}
 --- !u!1 &7100010422743341904
 GameObject:
   m_ObjectHideFlags: 0

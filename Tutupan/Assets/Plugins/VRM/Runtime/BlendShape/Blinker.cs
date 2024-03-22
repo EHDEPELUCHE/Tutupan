@@ -122,6 +122,31 @@ namespace VRM
                 //animator.Play("Joyful Jump", 1, 0);
                 StartCoroutine(Smile());
              }
+             if (Input.GetKeyDown(KeyCode.K)){
+                animator.PlayInFixedTime("Blow A Kiss",-1, 0.30f);
+                //animator.Play("Joyful Jump", 1, 0);
+                StartCoroutine(Blink_L());
+             }
+             if (Input.GetKeyDown(KeyCode.T)){
+                animator.PlayInFixedTime("Thankful",-1, 0.30f);
+                //animator.Play("Joyful Jump", 1, 0);
+                //StartCoroutine(Blink_L());
+             }
+             if (Input.GetKeyDown(KeyCode.R)){
+                animator.PlayInFixedTime("Rejected",-1, 0.30f);
+                //animator.Play("Joyful Jump", 1, 0);
+                StartCoroutine(Sorrow());
+             }
+             if (Input.GetKeyDown(KeyCode.I)){
+                animator.PlayInFixedTime("Flair",-1, 0.30f);
+                //animator.Play("Joyful Jump", 1, 0);
+                //StartCoroutine(Sorrow());
+             }
+             if (Input.GetKeyDown(KeyCode.H)){
+                animator.PlayInFixedTime("Excited",-1, 0.30f);
+                //animator.Play("Joyful Jump", 1, 0);
+                StartCoroutine(Smile());
+             }
                 
                
             
@@ -142,9 +167,9 @@ namespace VRM
                 Debug.Log("Sonrie");
                 m_blendShapes.ImmediatelySetValue(BlendShapeKey.CreateFromPreset(BlendShapePreset.Joy), 1.0f); 
             
-            if (animator.GetCurrentAnimatorStateInfo(0).IsName("Joyful Jump"))
+            if (animator.GetCurrentAnimatorStateInfo(0).IsName("Excited"))
             {
-                Debug.Log("Jumping");
+                yield return new WaitForSeconds(4.5f);
             }
                while (true)
                 {
@@ -157,6 +182,71 @@ namespace VRM
                     yield return null;
                 }
                 m_blendShapes.ImmediatelySetValue(BlendShapeKey.CreateFromPreset(BlendShapePreset.Joy), 0.0f);
+            
+        }
+
+        IEnumerator Blink_L(){
+            float Speed = 0.9f;
+            float value = 0;
+            while (true)
+                {
+                    value += Time.deltaTime * Speed;
+                    if (value >= 1.0f)
+                    {
+                        break;
+                    }
+                    //m_blendShapes.ImmediatelySetValue(BlendShapeKey.CreateFromPreset(BlendShapePreset.Blink_L), value);
+                    m_blendShapes.ImmediatelySetValue(BlendShapeKey.CreateFromPreset(BlendShapePreset.Fun), value);
+                    yield return null;
+                }
+                //m_blendShapes.ImmediatelySetValue(BlendShapeKey.CreateFromPreset(BlendShapePreset.Blink_L), 1.0f); 
+                m_blendShapes.ImmediatelySetValue(BlendShapeKey.CreateFromPreset(BlendShapePreset.Fun), 1.0f);
+            
+            if (animator.GetCurrentAnimatorStateInfo(0).IsName("Blow A Kiss"))
+            {
+                Debug.Log("kisss");
+            }
+               while (true)
+                {
+                    value -= Time.deltaTime * Speed;
+                    if (value < 0f)
+                    {
+                        break;
+                    }
+                   // m_blendShapes.ImmediatelySetValue(BlendShapeKey.CreateFromPreset(BlendShapePreset.Blink_L), value);
+                     m_blendShapes.ImmediatelySetValue(BlendShapeKey.CreateFromPreset(BlendShapePreset.Fun), value);
+                    yield return null;
+                }
+                //m_blendShapes.ImmediatelySetValue(BlendShapeKey.CreateFromPreset(BlendShapePreset.Blink_L), 0.0f);
+                m_blendShapes.ImmediatelySetValue(BlendShapeKey.CreateFromPreset(BlendShapePreset.Fun), 0.0f);
+            
+        }
+
+        IEnumerator Sorrow(){
+            float value = 0;
+            while (true)
+                {
+                    value += Time.deltaTime * Speed;
+                    if (value >= 1.0f)
+                    {
+                        break;
+                    }
+                    m_blendShapes.ImmediatelySetValue(BlendShapeKey.CreateFromPreset(BlendShapePreset.Sorrow), value);
+                    yield return null;
+                }
+                m_blendShapes.ImmediatelySetValue(BlendShapeKey.CreateFromPreset(BlendShapePreset.Sorrow), 1.0f); 
+
+               while (true)
+                {
+                    value -= Time.deltaTime * Speed;
+                    if (value < 0f)
+                    {
+                        break;
+                    }
+                    m_blendShapes.ImmediatelySetValue(BlendShapeKey.CreateFromPreset(BlendShapePreset.Sorrow), value);
+                    yield return null;
+                }
+                m_blendShapes.ImmediatelySetValue(BlendShapeKey.CreateFromPreset(BlendShapePreset.Sorrow), 0.0f);
             
         }
     }
