@@ -21,7 +21,7 @@ public class AudioTester : MonoBehaviour
     {
         //Play the Animation STate from beginning even if it's playing
         animator.Play(audioClip.name.Substring(0, 10), 1, 0);
-        Debug.Log("Animator haciendo algo");
+        //Debug.Log("Animator haciendo algo");
 
         //Play the Voice Over audio, restart it if needed
         if (audioSource.isPlaying) audioSource.Stop();

@@ -116,6 +116,7 @@
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:CROSS_PLATFORM_INPUT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -define:UNITY_EDITOR_ONLY_COMPILATION
@@ -369,6 +370,12 @@
 "Assets/Scripts/Editor/GenerateLipsyncEditor.cs"
 "Assets/Scripts/Editor/PhonemeDataEditor.cs"
 "Assets/Scripts/Editor/ReadRadishEditor.cs"
+"Assets/Unity-Standard-Assets-master/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs"
+"Assets/Unity-Standard-Assets-master/Editor/Water/Water4/GerstnerDisplaceEditor.cs"
+"Assets/Unity-Standard-Assets-master/Editor/Water/Water4/PlanarReflectionEditor.cs"
+"Assets/Unity-Standard-Assets-master/Editor/Water/Water4/SpecularLightingEditor.cs"
+"Assets/Unity-Standard-Assets-master/Editor/Water/Water4/WaterBaseEditor.cs"
+"Assets/Unity-Standard-Assets-master/Editor/Water/Water4/WaterEditorUtility.cs"
 -langversion:9.0
 
 /deterministic
