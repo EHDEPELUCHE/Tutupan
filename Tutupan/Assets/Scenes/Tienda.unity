@@ -209,7 +209,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 924203262}
         m_TargetAssemblyTypeName: ControladorCompras, Assembly-CSharp
-        m_MethodName: AumentarCarritoComprasPrisma
+        m_MethodName: ComprarPrisma
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1293,7 +1293,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 924203262}
         m_TargetAssemblyTypeName: ControladorCompras, Assembly-CSharp
-        m_MethodName: AumentarCarritoComprasCunna
+        m_MethodName: ComprarCunna
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1668,6 +1668,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 47774685}
+  NotEnough: {fileID: 8300000, guid: 8dff1b092e5899241bbe16c6414ac7f2, type: 3}
   tCunnas: {fileID: 1280035564}
   tEspejos: {fileID: 1252286450}
   tEspejosDobles: {fileID: 327097902}
@@ -1698,8 +1699,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 8c22204db575451479fc980fdcb52fee, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -2303,8 +2304,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 9a5f1b3a954a4884f9cfc9f06d8d770b, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -2816,7 +2817,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 924203262}
         m_TargetAssemblyTypeName: ControladorCompras, Assembly-CSharp
-        m_MethodName: AumentarCarritoComprasEspejoDoble
+        m_MethodName: ComprarEspejoDoble
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3019,7 +3020,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 924203262}
         m_TargetAssemblyTypeName: ControladorCompras, Assembly-CSharp
-        m_MethodName: AumentarCarritoComprasEspejo
+        m_MethodName: ComprarEspejo
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

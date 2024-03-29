@@ -7,7 +7,7 @@ public class MenuInicialController : MonoBehaviour
 {
     public Animator animator;
     private AudioSource audioSource;
-    private float tiempoEspera = 5f;
+    private float tiempoEspera = 10f;
     // Start is called before the first frame update
     void Start()
     {

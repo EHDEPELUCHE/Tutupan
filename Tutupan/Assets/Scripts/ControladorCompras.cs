@@ -8,6 +8,7 @@ public class ControladorCompras : MonoBehaviour
     //Variables para que de las gracias por comprar
     public Animator animator;
     private AudioSource audioSource;
+    public AudioClip NotEnough;
     //VAriables publicas que informan de lo que tiene el usuario
     public Text tCunnas;
     public Text tEspejos;
@@ -80,6 +81,9 @@ public class ControladorCompras : MonoBehaviour
             audioSource.Play(0);
             animator.Play("0000000014", 1, 0); //Thank you
             animator.PlayInFixedTime("Thankful",-1, 0.30f);
+        }else{
+            animator.Play("0000000015", 1, 0); //Not enought points audio
+            audioSource.PlayOneShot(NotEnough);
         }
         
     }
@@ -98,6 +102,9 @@ public class ControladorCompras : MonoBehaviour
             tPuntos.text = "Puntos: " + Puntos;
             audioSource.Play(0);
             animator.Play("0000000014", 1, 0); //Thank you
+        }else{
+            animator.Play("0000000015", 1, 0); //Not enought points audio
+            audioSource.PlayOneShot(NotEnough);
         }
         
     }
@@ -115,6 +122,9 @@ public class ControladorCompras : MonoBehaviour
             tPuntos.text = "Puntos: " + Puntos;
             audioSource.Play(0);
             animator.Play("0000000014", 1, 0); //Thank you
+        }else{
+            animator.Play("0000000015", 1, 0); //Not enought points audio
+            audioSource.PlayOneShot(NotEnough);
         }
         
     }
@@ -131,6 +141,9 @@ public class ControladorCompras : MonoBehaviour
             tPuntos.text = "Puntos: " + Puntos;
             audioSource.Play(0);
             animator.Play("0000000014", 1, 0); //Thank you
+        }else{
+            animator.Play("0000000015", 1, 0); //Not enought points audio
+            audioSource.PlayOneShot(NotEnough);
         }
       
     }
