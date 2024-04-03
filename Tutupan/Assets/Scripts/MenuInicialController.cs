@@ -12,6 +12,7 @@ public class MenuInicialController : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        tiempoEspera += Time.time;
     }
 
     // Update is called once per frame
