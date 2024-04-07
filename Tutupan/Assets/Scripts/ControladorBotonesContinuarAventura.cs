@@ -27,7 +27,7 @@ public class ControladorBotonesContinuarAventura : MonoBehaviour
         maxNivelsuperado = PlayerPrefs.GetInt("maxNivelSuperado");
         foreach (GameObject BotonNivel in BotonesNivel)
         {
-            if(int.Parse(BotonNivel.name.Substring(16)) <= 7+maxNivelsuperado)
+            if(int.Parse(BotonNivel.name.Substring(16)) <= maxNivelsuperado)
             {
                BotonNivel.GetComponent<Image>().color = colorsuperado;
                
@@ -40,7 +40,7 @@ public class ControladorBotonesContinuarAventura : MonoBehaviour
         }
         foreach (GameObject Bandera in Banderitas)
         {
-            if(int.Parse(Bandera.name.Substring(9)) == 7+1+maxNivelsuperado)
+            if(int.Parse(Bandera.name.Substring(9)) == 1+maxNivelsuperado)
             {
                Bandera.SetActive(true);
                
