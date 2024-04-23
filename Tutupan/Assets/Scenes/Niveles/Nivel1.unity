@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,6 +123,37 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &54263861
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 54263862}
+  m_Layer: 0
+  m_Name: ControladorColocacion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &54263862
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54263861}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.31040514, y: 0.09349966, z: 0.08075619}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &63501117
 GameObject:
   m_ObjectHideFlags: 0
@@ -470,6 +501,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CasillaPrefab: {fileID: 7563833845452003690, guid: 682a8538b98dba142976f9ca890c7fb9, type: 3}
+  creadorLuzBlanco: {fileID: 3363243305393651906, guid: fcd025d36d6818f4ab5cf6ba667a6ec8, type: 3}
+  receptorLuzBlanco: {fileID: 1294267299725319375, guid: 6d17b773a9356b84eaec50187bb95105, type: 3}
+  Muro: {fileID: 6462964389421226629, guid: 1d9170f9162b4ba44aaa8f807585e94c, type: 3}
   Ancho: 12
   Alto: 12
 --- !u!1 &410756248
@@ -2241,3 +2275,4 @@ SceneRoots:
   - {fileID: 1348265704}
   - {fileID: 1163057905}
   - {fileID: 706211839}
+  - {fileID: 54263862}
