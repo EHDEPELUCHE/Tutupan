@@ -19,13 +19,13 @@ public class CrearCasillas : MonoBehaviour
                 GameObject casillaAux = Instantiate(CasillaPrefab, new Vector3(i, 0, j), Quaternion.identity);
                 casillaAux.GetComponent<Casilla>().NumCasilla = cont;
                 if (cont == 14){
-                    Instantiate(creadorLuzBlanco, new Vector3(i-0.7f, 0.5f, j+1), aux);
+                    Instantiate(creadorLuzBlanco, new Vector3(i-0.9f, 0, j+0.85f), aux);
                 }
                 if (cont == 18){
-                    Instantiate(receptorLuzBlanco, new Vector3(i+0.3f, 0.5f, j+0.9f), aux);
+                    Instantiate(receptorLuzBlanco, new Vector3(i+0.17f, 0, j+0.9f), aux);
                 }
                 if (cont == 16){
-                    Instantiate(Muro, new Vector3(i-2.3f, 0.5f, j+1.2f), aux);
+                    Instantiate(Muro, new Vector3(i-2.4f, 0, j+1f), aux);
                 }
                 cont++; 
             }
