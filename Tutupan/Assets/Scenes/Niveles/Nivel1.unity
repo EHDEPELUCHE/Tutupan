@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -235,7 +235,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 63501120}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 155285313}
+        m_TargetAssemblyTypeName: BotonesNiveles, Assembly-CSharp
+        m_MethodName: ColocarCunna
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &63501120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -395,6 +407,70 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 134568704}
   m_CullTransparentMesh: 1
+--- !u!1 &155285312
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 155285314}
+  - component: {fileID: 155285313}
+  m_Layer: 0
+  m_Name: ScriptBotones
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &155285313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155285312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49d0b587ab53a4b47845710fb1743993, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  espejo: {fileID: 8428198251357338385, guid: 8bdccdf6619c1b24bb6d91afbfb5ebfa, type: 3}
+  espejoDoble: {fileID: 2408004541471987618, guid: 1bf68fcb1268170478080b59c7c568a1, type: 3}
+  prisma: {fileID: 1595189024326784953, guid: 7703b9ba77d7d1647bf7a193afec9ff9, type: 3}
+  cunna: {fileID: 1707290318056810907, guid: c0033f907d25c5944aae06a0d9c91267, type: 3}
+  eventitou:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7468526107867511294, guid: 682a8538b98dba142976f9ca890c7fb9, type: 3}
+        m_TargetAssemblyTypeName: Casilla, Assembly-CSharp
+        m_MethodName: eventitou
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  Auxiliar: {fileID: 8428198251357338385, guid: 8bdccdf6619c1b24bb6d91afbfb5ebfa, type: 3}
+--- !u!4 &155285314
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155285312}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1544, y: 720, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &205718707
 GameObject:
   m_ObjectHideFlags: 0
@@ -501,8 +577,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CasillaPrefab: {fileID: 7563833845452003690, guid: 682a8538b98dba142976f9ca890c7fb9, type: 3}
-  creadorLuzBlanco: {fileID: 3363243305393651906, guid: fcd025d36d6818f4ab5cf6ba667a6ec8, type: 3}
-  receptorLuzBlanco: {fileID: 1294267299725319375, guid: 6d17b773a9356b84eaec50187bb95105, type: 3}
+  creadorLuzBlanco: {fileID: 2914580963918515523, guid: 7f4214e28a5091540872d53cd009e495, type: 3}
+  creadorLuzRoja: {fileID: 3363243305393651906, guid: fcd025d36d6818f4ab5cf6ba667a6ec8, type: 3}
+  creadorLuzAzul: {fileID: 6630555326781827226, guid: ecbd0b676eb0f6048820889da18cde8c, type: 3}
+  creadorLuzAmarilla: {fileID: 7127490318646626891, guid: 626ca45e0fb61914d9e3fb648a5b97a7, type: 3}
+  receptorLuzBlanco: {fileID: 519000774515647867, guid: 0fa0d66799f752146ab70c041ccf4a53, type: 3}
+  receptorLuzRoja: {fileID: 1294267299725319375, guid: 6d17b773a9356b84eaec50187bb95105, type: 3}
+  receptorLuzAzul: {fileID: 5339355592803144095, guid: 0f5bdf2c65b16e44288e200a9029fc9e, type: 3}
+  receptorLuzAmarilla: {fileID: 6940616144385325657, guid: c004afbc3df606e44902a138108f76b7, type: 3}
   Muro: {fileID: 6462964389421226629, guid: 1d9170f9162b4ba44aaa8f807585e94c, type: 3}
   Ancho: 12
   Alto: 12
@@ -787,7 +869,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 677791666}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 155285313}
+        m_TargetAssemblyTypeName: BotonesNiveles, Assembly-CSharp
+        m_MethodName: ColocarPrisma
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &677791666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1958,7 +2052,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1585757743}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 155285313}
+        m_TargetAssemblyTypeName: BotonesNiveles, Assembly-CSharp
+        m_MethodName: ColocarEspejoDoble
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1585757743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2146,7 +2252,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1714781757}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 155285313}
+        m_TargetAssemblyTypeName: BotonesNiveles, Assembly-CSharp
+        m_MethodName: ColocarEspejo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1714781757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2276,3 +2394,4 @@ SceneRoots:
   - {fileID: 1163057905}
   - {fileID: 706211839}
   - {fileID: 54263862}
+  - {fileID: 155285314}

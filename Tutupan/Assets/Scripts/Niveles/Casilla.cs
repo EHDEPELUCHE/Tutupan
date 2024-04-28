@@ -5,18 +5,41 @@ using UnityEngine;
 public class Casilla : MonoBehaviour
 {
     public int NumCasilla;
+    private GameObject obj;
     public bool bMovible = true;
+    public bool bColocar = false;
     
+    void Update() {
+        if(bColocar && obj != null){
+            Quaternion aux = Quaternion.Euler(-90, 90, 0);
+            int i = NumCasilla % 12 + 1;
+            int j = NumCasilla / 12 + 1;
+            Instantiate(obj, new Vector3(i-0.9f, 0, j+0.85f), aux);
+            Debug.Log("Se ha creado algo en alguna parte.");
+            bColocar = false;
+            obj = null;
+        }
+    }
+
     void OnMouseDown() {
+        bColocar = true;
         print(NumCasilla.ToString());
     }
 
     public void eventitou() {
-        Quaternion aux = Quaternion.Euler(-90, 90, 0);
-        GameObject obj = GetComponent<BotonesNiveles>().Auxiliar;
-        //REVISAR EL CALCULO DE I E J
-        int i = NumCasilla % 12 + 1;
-        int j = NumCasilla / 12 + 1;
-        Instantiate(obj, new Vector3(i-0.9f, 0, j+0.85f), aux); 
+        obj = GetComponent<BotonesNiveles>().Auxiliar;
+        /*
+        if(bColocar){
+            Quaternion aux = Quaternion.Euler(-90, 90, 0);
+            GameObject obj = GetComponent<BotonesNiveles>().Auxiliar;
+            //REVISAR EL CALCULO DE I E J
+            int i = NumCasilla % 12 + 1;
+            int j = NumCasilla / 12 + 1;
+            Instantiate(obj, new Vector3(i-0.9f, 0, j+0.85f), aux);
+            Debug.Log("Se ha creado algo en alguna parte.");
+        }
+        Debug.Log("No está entrando en el if.");
+        bColocar = false;
+        */
     }
 }

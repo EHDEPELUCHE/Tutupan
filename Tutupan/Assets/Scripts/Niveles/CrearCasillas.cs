@@ -33,43 +33,85 @@ public class CrearCasillas : MonoBehaviour
                             case 14: 
                                 Instantiate(creadorLuzBlanco, new Vector3(i-0.9f, 0, j+0.85f), aux); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false; 
-                                break;
+                            break;
                             case 16: case 28: 
                                 Instantiate(Muro, new Vector3(i-2.4f, 0, j+1f), aux); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false; 
-                                break;
-                            case 18: Instantiate(receptorLuzBlanco, new Vector3(i+0.17f, 0, j+0.9f), aux); 
+                            break;
+                            case 18: 
+                                Instantiate(receptorLuzBlanco, new Vector3(i+0.17f, 0, j+0.9f), aux); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false; 
-                                break;
+                            break;
                         }
                     break;
                     case "2":
+                    break;
                     case "3":
+                        switch(cont) {
+                            case 15:
+                                Instantiate(creadorLuzAzul, new Vector3(i-0.9f, 0, j+0.85f), aux); 
+                                casillaAux.GetComponent<Casilla>().bMovible = false;
+                            break;
+                            case 51:
+                                Instantiate(creadorLuzRoja, new Vector3(i-0.9f, 0, j+0.85f), aux); 
+                                casillaAux.GetComponent<Casilla>().bMovible = false;
+                            break;
+                            case 114: 
+                                Instantiate(receptorLuzRoja, new Vector3(i+0.17f, 0, j+0.9f), aux); 
+                                casillaAux.GetComponent<Casilla>().bMovible = false;
+                            break;
+                            case 117: 
+                                Instantiate(receptorLuzAzul, new Vector3(i+0.17f, 0, j+0.9f), aux); 
+                                casillaAux.GetComponent<Casilla>().bMovible = false;
+                            break;
+                        }
+                    break;
                     case "4":
+                    break;
                     case "5":
+                    break;
                     case "6":
+                    break;
                     case "7":
+                    break;
                     case "8":
+                    break;
                     case "9":
+                    break;
                     case "10":
+                    break;
                     case "11":
+                    break;
                     case "12":
+                    break;
                     case "13":
+                    break;
                     case "14":
+                    break;
                     case "15":
+                    break;
                     case "16":
+                    break;
                     case "17":
+                    break;
                     case "18":
+                    break;
                     case "19":
+                    break;
                     case "20":
+                    break;
                     case "21":
+                    break;
                     case "22":
+                    break;
                     case "23":
+                    break;
                     case "24":
+                    break;
                     case "25":
+                    break;
                     default: break;
                 }
-
                 cont++; 
             }
     }
