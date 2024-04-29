@@ -5,7 +5,7 @@ using UnityEngine;
 public class Casilla : MonoBehaviour
 {
     public int NumCasilla;
-    private GameObject obj;
+    public GameObject obj;
     public bool bMovible = true;
     public bool bColocar = false;
     
@@ -13,7 +13,7 @@ public class Casilla : MonoBehaviour
     //tocado algun espejo.
     void Update() {
         if(bColocar && obj != null){
-            Quaternion aux = Quaternion.Euler(-90, 90, 0);
+            Quaternion aux = Quaternion.Euler(-90, 90, 0);  
             int i = NumCasilla % 12 + 1;
             int j = NumCasilla / 12 + 1;
             Instantiate(obj, new Vector3(i-0.9f, 0, j+0.85f), aux);
@@ -26,12 +26,14 @@ public class Casilla : MonoBehaviour
     //Se activa al pulsar una casilla del tablero
     void OnMouseDown() {
         bColocar = true;
-        print(NumCasilla.ToString());
+        print(NumCasilla.ToString() + " " + bColocar);
     }
 
     //Se activa al pulsar un espejo de la interfaz
     public void eventitou() {
-        obj = GetComponent<BotonesNiveles>().Auxiliar;
+        //obj = GetComponent<BotonesNiveles>().Auxiliar;
+        obj = BotonesNiveles.Auxiliar;
+        Debug.Log("Se asigna el auxiliar a obj: " + obj.name);
         /*
         if(bColocar){
             Quaternion aux = Quaternion.Euler(-90, 90, 0);
