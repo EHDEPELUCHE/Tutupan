@@ -31,15 +31,15 @@ public class CrearCasillas : MonoBehaviour
                     case "1": 
                         switch(cont) {
                             case 14: 
-                                Instantiate(creadorLuzBlanco, new Vector3(i-0.9f, 0, j+0.85f), aux); 
+                                Instantiate(creadorLuzBlanco, new Vector3(i-0.9f, 0, j+0.8f), aux); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false; 
                             break;
                             case 16: case 28: 
-                                Instantiate(Muro, new Vector3(i-2.4f, 0, j+1f), aux); 
+                                Instantiate(Muro, new Vector3(i-2.37f, 0, j+1.05f), aux); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false; 
                             break;
                             case 18: 
-                                Instantiate(receptorLuzBlanco, new Vector3(i+0.17f, 0, j+0.9f), aux); 
+                                Instantiate(receptorLuzBlanco, new Vector3(i+0.15f, 0, j+0.9f), aux); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false; 
                             break;
                         }

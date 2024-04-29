@@ -151,6 +151,5 @@ public class ControladorCompras : MonoBehaviour
     public void Atras(){
         SceneManager.LoadScene("MenuInicial");
     }
-  
 
 }

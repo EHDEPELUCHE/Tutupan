@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class BotonesNiveles : MonoBehaviour
 {
@@ -33,4 +34,7 @@ public class BotonesNiveles : MonoBehaviour
         eventitou.Invoke();
     }
 
+    public void Atras(){
+        SceneManager.LoadScene("ContinuarAventura");
+    }
 }

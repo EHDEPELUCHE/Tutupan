@@ -368,7 +368,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 134568707}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 155285313}
+        m_TargetAssemblyTypeName: BotonesNiveles, Assembly-CSharp
+        m_MethodName: Atras
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &134568707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -455,7 +467,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  Auxiliar: {fileID: 8428198251357338385, guid: 8bdccdf6619c1b24bb6d91afbfb5ebfa, type: 3}
 --- !u!4 &155285314
 Transform:
   m_ObjectHideFlags: 0

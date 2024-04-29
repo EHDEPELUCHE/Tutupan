@@ -12,12 +12,28 @@ public class Casilla : MonoBehaviour
     //Se entra cuando se ha pulsado una casilla y 
     //tocado algun espejo.
     void Update() {
-        if(bColocar && obj != null){
+        if(bColocar && obj != null && bMovible) {
             Quaternion aux = Quaternion.Euler(-90, 90, 0);  
-            int i = NumCasilla % 12 + 1;
-            int j = NumCasilla / 12 + 1;
-            Instantiate(obj, new Vector3(i, 0, j), aux);
-            Debug.Log("Se ha creado algo en alguna parte.");
+            int j = NumCasilla % 12 + 1;
+            int i = NumCasilla / 12 + 1;
+            switch(obj.name){
+                case "Espejo":
+                    Instantiate(obj, new Vector3(i - 1.9f , 0, j - 1.5f), aux);
+                break;
+                case "EspejoDoble":
+                    Instantiate(obj, new Vector3(i - 3.45f, 0, j - 1.5f ), aux);
+                break;
+                case "Cunna":
+                    Instantiate(obj, new Vector3(i + 0.37f, 0, j - 1.85f), aux);
+                break;
+                case "Prisma":
+                    Instantiate(obj, new Vector3(i - 4.85f, 0, j - 1.5f), aux);
+                break;
+                default:
+                    Debug.Log("No he puesto nada " + obj.name);
+                break;
+            }
+            bMovible = false;
             bColocar = false;
             obj = null;
         }
@@ -25,8 +41,10 @@ public class Casilla : MonoBehaviour
 
     //Se activa al pulsar una casilla del tablero
     void OnMouseDown() {
-        bColocar = true;
-        print(NumCasilla.ToString() + " " + bColocar);
+        if (obj != null) {
+            bColocar = true;
+            print(NumCasilla.ToString() + " " + bColocar);
+        }
     }
 
     //Se activa al pulsar un espejo de la interfaz
