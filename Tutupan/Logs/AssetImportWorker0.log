@@ -15,7 +15,7 @@ C:/Users/FX506/Desktop/Asignaturas/DSH/ProyectosDSH/Tutupan/Tutupan
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60174
+56395
 Successfully changed project path to: C:/Users/FX506/Desktop/Asignaturas/DSH/ProyectosDSH/Tutupan/Tutupan
 C:/Users/FX506/Desktop/Asignaturas/DSH/ProyectosDSH/Tutupan/Tutupan
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/FX506/Desktop/Asignaturas/DSH/ProyectosDSH/Tutupan/Tutupan
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [28328] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1575851378 [EditorId] 1575851378 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-TSDLB3US) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13272] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1538702653 [EditorId] 1538702653 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-TSDLB3US) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [28328] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1575851378 [EditorId] 1575851378 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-TSDLB3US) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13272] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1538702653 [EditorId] 1538702653 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-TSDLB3US) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 3.30 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 2.67 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.19f1 (244b723c30a6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -70,49 +70,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009384 seconds.
-- Loaded All Assemblies, in  0.348 seconds
+Registered in 0.009322 seconds.
+- Loaded All Assemblies, in  0.385 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 254 ms
+Android Extension - Scanning For ADB Devices 416 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.553 seconds
-Domain Reload Profiling: 899ms
-	BeginReloadAssembly (103ms)
+- Finished resetting the current domain, in  0.851 seconds
+Domain Reload Profiling: 1235ms
+	BeginReloadAssembly (117ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (146ms)
-		LoadAssemblies (101ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (155ms)
+		LoadAssemblies (116ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (143ms)
-			TypeCache.Refresh (142ms)
-				TypeCache.ScanAssembly (128ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (151ms)
+				TypeCache.ScanAssembly (137ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (553ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (852ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (502ms)
+		SetupLoadedEditorAssemblies (773ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (363ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (566ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (96ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
+			ProcessInitializeOnLoadAttributes (145ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,465 +120,106 @@ Domain Reload Profiling: 899ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file data-000001DAF7636840 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-000001BEDA855240 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF651A010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file data-000001BEDA879300 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD3E0CDE0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001BEB746A810 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD3E0CDE0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001BEDA14AF40 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD3E0CDE0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001BEB748C220 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD3E0CDE0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001BEB749EA30 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF6497650 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001BEB74B7810 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD3E15BB0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file data-000001BEB74B7810 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF676C020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001BEB74BFE20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF678FE30 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001BEB74BFE20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF64D1C70 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-000001BEFC76E950 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF67D1240 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-000001BEDAFE2230 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD3E699A0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-000001BEFC76E950 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF67D7690 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file data-000001BEB74D5C50 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5BD2010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file data-000001BEFCEC8C30 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5BF3020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-000001BEDB0161F0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5C32820 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001BEDB0161F0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF67E8720 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-000001BEB7406300 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF602D840 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file data-000001BEB74B7810 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF60F2430 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file data-000001BEB7440720 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD3D517A0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001BEFCDD7420 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD3D8A1B0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001BEFCE0FE30 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5C54C50 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file data-000001BEFCE0FE30 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5C54C50 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file data-000001BEFCE0FE30 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5C54C50 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001BEFCE1BC40 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD3DDCA00 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file data-000001BEFCB73370 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.476 seconds
-Refreshing native plugins compatible for Editor in 1.73 ms, found 1 plugins.
+- Loaded All Assemblies, in  1.009 seconds
+Refreshing native plugins compatible for Editor in 4.61 ms, found 1 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.407 seconds
-Domain Reload Profiling: 879ms
-	BeginReloadAssembly (144ms)
+- Finished resetting the current domain, in  0.595 seconds
+Domain Reload Profiling: 1601ms
+	BeginReloadAssembly (281ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (256ms)
-		LoadAssemblies (237ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (100ms)
-			TypeCache.Refresh (84ms)
-				TypeCache.ScanAssembly (71ms)
-			ScanForSourceGeneratedMonoScriptInfo (12ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (407ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (257ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (151ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.47 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2048 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (365.0 KB). Loaded Objects now: 2554.
-Memory consumption went from 130.3 MB to 129.9 MB.
-Total: 2.931400 ms (FindLiveObjects: 0.185500 ms CreateObjectMapping: 0.042300 ms MarkObjects: 2.438900 ms  DeleteObjects: 0.263500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Import Request.
-  Time since last request: 6108.550991 seconds.
-  path: Assets/Scripts/Niveles/Casilla.cs
-  artifactKey: Guid(062a92f9e05929c4d9d620334fe21063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Niveles/Casilla.cs using Guid(062a92f9e05929c4d9d620334fe21063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307310162270d58e3497cdabf455e4eb') in 0.002577 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file data-000001DAB07E2060 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5C54C50 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF61E8030 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5C95230 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAB08360B0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAB08360B0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFD00DE30 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5F94F10 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF6DB0020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF6C7E040 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFD031C40 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAB07B6020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD3DE4F30 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF6C8E050 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAB07B6020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF7A7C050 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF7A7C050 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF6DB0020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD3DF2790 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFD0EB420 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD3EE0010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFD0EB420 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD3F18A20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFD0F8C30 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFD0F8C30 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF76C54C0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.509 seconds
-Refreshing native plugins compatible for Editor in 1.63 ms, found 1 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.591 seconds
-Domain Reload Profiling: 1097ms
-	BeginReloadAssembly (298ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (146ms)
-		LoadAssemblies (365ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (14ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (591ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (282ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (168ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 1.68 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2016 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 13 unused Assets / (338.0 KB). Loaded Objects now: 2557.
-Memory consumption went from 124.6 MB to 124.3 MB.
-Total: 3.032900 ms (FindLiveObjects: 0.266100 ms CreateObjectMapping: 0.053400 ms MarkObjects: 2.506900 ms  DeleteObjects: 0.205100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file data-000001DAF5F90070 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAB08360B0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF61E8030 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD3E20950 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD3E20950 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD3E20950 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB40364010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAB0394F90 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5D20A10 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5E88500 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFD031C40 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF7043020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD3DEDD00 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5E624B0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF7043020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5E88500 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5E88500 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5C9CF10 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5C9CF10 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF6C7E040 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF6456040 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF6C7E040 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5E92910 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5E92910 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF6DBBE30 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF7A7C050 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.402 seconds
-Refreshing native plugins compatible for Editor in 1.88 ms, found 1 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.560 seconds
-Domain Reload Profiling: 959ms
-	BeginReloadAssembly (146ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (34ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (55ms)
 	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (177ms)
-		LoadAssemblies (228ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (597ms)
+		LoadAssemblies (535ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (24ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (8ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (560ms)
+		AnalyzeDomain (219ms)
+			TypeCache.Refresh (171ms)
+				TypeCache.ScanAssembly (149ms)
+			ScanForSourceGeneratedMonoScriptInfo (33ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (596ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (258ms)
+		SetupLoadedEditorAssemblies (365ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (25ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (59ms)
-			ProcessInitializeOnLoadAttributes (140ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (203ms)
 			ProcessInitializeOnLoadMethodAttributes (21ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 1.57 ms, found 1 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.73 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2017 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 13 unused Assets / (370.4 KB). Loaded Objects now: 2560.
-Memory consumption went from 126.9 MB to 126.5 MB.
-Total: 2.314300 ms (FindLiveObjects: 0.167700 ms CreateObjectMapping: 0.035800 ms MarkObjects: 1.889100 ms  DeleteObjects: 0.220700 ms)
+Unloading 2048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (397.5 KB). Loaded Objects now: 2554.
+Memory consumption went from 130.4 MB to 130.0 MB.
+Total: 4.512700 ms (FindLiveObjects: 0.342800 ms CreateObjectMapping: 0.099400 ms MarkObjects: 3.691500 ms  DeleteObjects: 0.377400 ms)
 
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file data-000001DB40724290 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5F90070 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD3D51530 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5A66010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF6EFAF70 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAB0900020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5EEC020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB4169B660 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF676C020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF6C7E040 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD3C74310 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF6612020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF6E84020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF6E8B430 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF6612020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF7735020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5E5C060 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB41686890 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF6F01980 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF6C7E040 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFD0C1010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF6DB0020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF7735020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB40294960 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB40294960 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD3DE4F30 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.314 seconds
-Refreshing native plugins compatible for Editor in 1.43 ms, found 1 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.540 seconds
-Domain Reload Profiling: 851ms
-	BeginReloadAssembly (122ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (133ms)
-		LoadAssemblies (189ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (540ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (259ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (28ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (148ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 2.22 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2017 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 13 unused Assets / (338.1 KB). Loaded Objects now: 2563.
-Memory consumption went from 128.8 MB to 128.4 MB.
-Total: 2.433200 ms (FindLiveObjects: 0.178000 ms CreateObjectMapping: 0.044500 ms MarkObjects: 1.998600 ms  DeleteObjects: 0.210600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
@@ -595,113 +236,121 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 53.210093 seconds.
+  Time since last request: 230.706837 seconds.
   path: Assets/Scripts/Niveles/Casilla.cs
   artifactKey: Guid(062a92f9e05929c4d9d620334fe21063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Niveles/Casilla.cs using Guid(062a92f9e05929c4d9d620334fe21063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0dfd9296bbb2252b565b0be1fb4cc6') in 0.012216 seconds
+Start importing Assets/Scripts/Niveles/Casilla.cs using Guid(062a92f9e05929c4d9d620334fe21063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28580e0ea28a4cfb287e1297fea93491') in 0.004535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scripts/Niveles/BotonesNiveles.cs
+  artifactKey: Guid(49d0b587ab53a4b47845710fb1743993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Niveles/BotonesNiveles.cs using Guid(49d0b587ab53a4b47845710fb1743993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60460e86cd0bdacb48c2b1a155da3856') in 0.002072 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file data-000001DB410F1090 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-000001BEB6B9EE20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF71C5010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file data-000001BEDA659820 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFE46C730 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001BEDA85AE90 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFCEC6010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001BEFC528030 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB3F8EF2C0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001BF00CC5550 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAB03900F0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001BEDA55FEC0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFD9BAFA0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001BEFE290510 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5D36EC0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file data-000001BEB74D2630 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFDD51000 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001BF00C1FAF0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF676C020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001BEDAA76F30 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF710F010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-000001BEFE2C7B20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF74BD020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-000001BEDAA76F30 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFDADABC0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-000001BF00CC5550 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF710F010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file data-000001BEDAC37020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF7043020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file data-000001BF00C1FAF0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB42D1C010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-000001BEB7450730 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF76B8E40 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001BEB7450730 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB4110C330 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-000001BD43F15840 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB40C55CF0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file data-000001BEB745E020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF676C020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file data-000001BD438EC420 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB3F99EF50 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001BD43916010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF6C7E040 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001BD438EC420 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB4110C330 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file data-000001BD4394EA20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF7087060 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file data-000001BD43F1A2E0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFDADABC0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001BEDAA86F40 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF7087060 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file data-000001BEDAA8B200 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.365 seconds
-Refreshing native plugins compatible for Editor in 1.58 ms, found 1 plugins.
+- Loaded All Assemblies, in  0.613 seconds
+Refreshing native plugins compatible for Editor in 1.99 ms, found 1 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.549 seconds
-Domain Reload Profiling: 910ms
-	BeginReloadAssembly (143ms)
+- Finished resetting the current domain, in  0.682 seconds
+Domain Reload Profiling: 1292ms
+	BeginReloadAssembly (374ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (29ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (155ms)
-		LoadAssemblies (218ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (176ms)
+		LoadAssemblies (470ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (21ms)
-			TypeCache.Refresh (8ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (9ms)
 				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (6ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (550ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (682ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (265ms)
+		SetupLoadedEditorAssemblies (224ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (23ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (57ms)
-			ProcessInitializeOnLoadAttributes (147ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (126ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 1.44 ms, found 1 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2016 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 13 unused Assets / (346.4 KB). Loaded Objects now: 2566.
-Memory consumption went from 130.5 MB to 130.1 MB.
-Total: 2.263600 ms (FindLiveObjects: 0.167400 ms CreateObjectMapping: 0.040500 ms MarkObjects: 1.837500 ms  DeleteObjects: 0.217100 ms)
+Unloading 13 unused Assets / (346.0 KB). Loaded Objects now: 2557.
+Memory consumption went from 124.7 MB to 124.3 MB.
+Total: 2.172000 ms (FindLiveObjects: 0.145000 ms CreateObjectMapping: 0.035400 ms MarkObjects: 1.814700 ms  DeleteObjects: 0.176000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -721,229 +370,104 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file data-000001DB410F1090 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-000001BEFCADA060 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF71C5010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file data-000001BEFC5DE040 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB3FC8B0A0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001BEDA85AE90 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFCEC6010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001BD440FB030 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFE4DD6D0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001BEDA7B3A30 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAB03900F0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001BEFE159EB0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB40DFFD60 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001BEB7371290 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5CAD860 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file data-000001BEB74D2630 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFDD51000 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001BEFD82B020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5E88500 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001BEFD82B020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFD37D030 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-000001BD438F9620 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFD145010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-000001BF00C5FB10 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD4465070 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-000001BEDA7B3A30 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB3FC857B0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file data-000001BF008F7710 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFDD7FC20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file data-000001BF00C5FB10 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFCEC6010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-000001BD4398AF60 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB3F8EA020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001BEDABE39D0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB42495FE0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-000001BEFE2E2020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB40C55CF0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file data-000001BEDA7BAE40 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5E88500 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file data-000001BD43940420 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB3F99EF50 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001BEFE1D4680 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5E88500 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001BD43940420 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB42495FE0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file data-000001BEFE20D090 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFE573010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file data-000001BEDA561030 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB42495FE0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001BEDA561030 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFDADABC0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file data-000001BEFC528030 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.332 seconds
+- Loaded All Assemblies, in  0.347 seconds
 Refreshing native plugins compatible for Editor in 1.48 ms, found 1 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.597 seconds
-Domain Reload Profiling: 926ms
-	BeginReloadAssembly (134ms)
+- Finished resetting the current domain, in  0.507 seconds
+Domain Reload Profiling: 852ms
+	BeginReloadAssembly (151ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (27ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (26ms)
 	RebuildNativeTypeToScriptingClass (9ms)
 	initialDomainReloadingComplete (23ms)
 	LoadAllAssembliesAndSetupDomain (135ms)
-		LoadAssemblies (193ms)
+		LoadAssemblies (218ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (10ms)
 			TypeCache.Refresh (5ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (598ms)
+	FinalizeReload (508ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (273ms)
+		SetupLoadedEditorAssemblies (239ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (28ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (152ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 1.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2017 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 13 unused Assets / (346.2 KB). Loaded Objects now: 2569.
-Memory consumption went from 132.7 MB to 132.3 MB.
-Total: 2.899200 ms (FindLiveObjects: 0.199500 ms CreateObjectMapping: 0.041100 ms MarkObjects: 2.341200 ms  DeleteObjects: 0.316100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Import Request.
-  Time since last request: 54.306596 seconds.
-  path: Assets/Scripts/Niveles/Casilla.cs
-  artifactKey: Guid(062a92f9e05929c4d9d620334fe21063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Niveles/Casilla.cs using Guid(062a92f9e05929c4d9d620334fe21063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e252fe5b2eff55317d6d23661ea6265') in 0.008176 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file data-000001DB410F1090 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF71C5010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFE46C730 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD3708020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFD6E6260 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFD6E6260 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFD9BAFA0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5D36EC0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB4227F020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFD72E710 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB40131020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF76061E0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB41EE4C20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF709D2C0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD3826070 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD384E090 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB41E8F010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB41E45B10 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD3DF2010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFD72E710 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB41EAF960 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5E88500 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD3C9F340 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF7087060 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB41859020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD3CC1D00 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.347 seconds
-Refreshing native plugins compatible for Editor in 1.56 ms, found 1 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.486 seconds
-Domain Reload Profiling: 831ms
-	BeginReloadAssembly (125ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (155ms)
-		LoadAssemblies (203ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (20ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (6ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (487ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (217ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
+			InitializePlatformSupportModulesInManaged (21ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (50ms)
-			ProcessInitializeOnLoadAttributes (119ms)
-			ProcessInitializeOnLoadMethodAttributes (15ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (136ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 1.34 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 2.24 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2016 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 13 unused Assets / (346.1 KB). Loaded Objects now: 2572.
-Memory consumption went from 134.3 MB to 134.0 MB.
-Total: 2.433000 ms (FindLiveObjects: 0.148100 ms CreateObjectMapping: 0.036200 ms MarkObjects: 2.049800 ms  DeleteObjects: 0.197800 ms)
+Unloading 2017 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (370.2 KB). Loaded Objects now: 2560.
+Memory consumption went from 126.9 MB to 126.5 MB.
+Total: 3.408700 ms (FindLiveObjects: 0.402100 ms CreateObjectMapping: 0.082700 ms MarkObjects: 2.504100 ms  DeleteObjects: 0.418400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -963,104 +487,104 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file data-000001DB410F1090 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-000001BEB733C430 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF71C5010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file data-000001BEFC5DE040 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB4006BD10 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001BEDA85AE90 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD384E090 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001BEFC8EC010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB3F992020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001BEFE2E2020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFD6E6260 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001BEFE2E2020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB40DFFD60 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001BEDA6CC540 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5D36EC0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file data-000001BEFD96FC60 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB4227F020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001BF4208F720 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5E88500 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001BEB74BFE20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB40131020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-000001BEDA6F0350 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD3826070 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-000001BD44608E20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB41EE4C20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-000001BEDA6F0350 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB4060F010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file data-000001BEFE155010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD3826070 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file data-000001BD44608E20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFD09F010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-000001BF008F7710 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFDD8DD20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001BEDAA37030 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF6DDE030 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-000001BF008F7710 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD3DF2010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file data-000001BEFD96FC60 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5E88500 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file data-000001BD43F0F430 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF68AA010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001BEFDB07110 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5E88500 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001BD43F0F430 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF6DDE030 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file data-000001BEFDB3FB20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF6DC4020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file data-000001BF008FC1B0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF6DDE030 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001BF008FC1B0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB40131020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file data-000001BEDA915510 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.324 seconds
-Refreshing native plugins compatible for Editor in 1.44 ms, found 1 plugins.
+- Loaded All Assemblies, in  0.351 seconds
+Refreshing native plugins compatible for Editor in 1.57 ms, found 1 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.575 seconds
-Domain Reload Profiling: 896ms
-	BeginReloadAssembly (127ms)
+- Finished resetting the current domain, in  0.539 seconds
+Domain Reload Profiling: 886ms
+	BeginReloadAssembly (137ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
+		CreateAndSetChildDomain (25ms)
 	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (135ms)
-		LoadAssemblies (197ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (200ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (9ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (575ms)
+	FinalizeReload (539ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (274ms)
+		SetupLoadedEditorAssemblies (236ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (23ms)
+			InitializePlatformSupportModulesInManaged (24ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (53ms)
-			ProcessInitializeOnLoadAttributes (165ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			ProcessInitializeOnLoadAttributes (133ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 1.77 ms, found 1 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.45 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2017 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 13 unused Assets / (346.5 KB). Loaded Objects now: 2575.
-Memory consumption went from 136.5 MB to 136.2 MB.
-Total: 2.555000 ms (FindLiveObjects: 0.163500 ms CreateObjectMapping: 0.037500 ms MarkObjects: 2.113100 ms  DeleteObjects: 0.239500 ms)
+Unloading 13 unused Assets / (378.0 KB). Loaded Objects now: 2563.
+Memory consumption went from 128.8 MB to 128.5 MB.
+Total: 2.293800 ms (FindLiveObjects: 0.148200 ms CreateObjectMapping: 0.034500 ms MarkObjects: 1.914800 ms  DeleteObjects: 0.195700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1078,114 +602,106 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 183.364128 seconds.
-  path: Assets/Scripts/Niveles/Casilla.cs
-  artifactKey: Guid(062a92f9e05929c4d9d620334fe21063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Niveles/Casilla.cs using Guid(062a92f9e05929c4d9d620334fe21063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955888a087d37256633ed75447de5b80') in 0.012452 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file data-000001DB410F1090 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-000001BEDAD31080 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF71C5010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file data-000001BEFE155010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFE46C730 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001BEB746A810 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFE551030 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001BEFE2B2010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB41DA4180 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001BEDABCF010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFDDF4800 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001BF43F33F20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFD9BAFA0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001BEDA8F4700 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5D36EC0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file data-000001BEDAA3D550 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB3F91F480 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001BEFC482020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFD72E710 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001BF4208F720 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD4051030 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-000001BEDA636EE0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF76061E0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-000001BEFC482020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFE12B030 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-000001BEDA918510 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFD696020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file data-000001BEDA636EE0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFDAB9020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file data-000001BEB73A0AE0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD3D2C030 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-000001BF008F7710 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB3F9CBF60 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001BEFCB73370 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF70CD010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-000001BEDA6EF470 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB40724490 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file data-000001BEDA7BAC40 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFD72E710 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file data-000001BF4208F720 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB3F99EF50 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001BF43497010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF708D2B0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001BF4208F720 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF70CD010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file data-000001BEFDB3FB20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFE012CB0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file data-000001BEB74BFE20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5C9EC90 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001BEFE5BD020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB42644EB0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file data-000001BEFE5C1870 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.440 seconds
-Refreshing native plugins compatible for Editor in 2.68 ms, found 1 plugins.
+- Loaded All Assemblies, in  0.328 seconds
+Refreshing native plugins compatible for Editor in 1.47 ms, found 1 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.789 seconds
-Domain Reload Profiling: 1225ms
-	BeginReloadAssembly (190ms)
+- Finished resetting the current domain, in  0.571 seconds
+Domain Reload Profiling: 897ms
+	BeginReloadAssembly (131ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (170ms)
-		LoadAssemblies (251ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (130ms)
+		LoadAssemblies (195ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (21ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (7ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (789ms)
+	FinalizeReload (572ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (383ms)
+		SetupLoadedEditorAssemblies (273ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (32ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (82ms)
-			ProcessInitializeOnLoadAttributes (226ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (163ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 2.16 ms, found 1 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.62 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2016 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 13 unused Assets / (370.6 KB). Loaded Objects now: 2578.
-Memory consumption went from 138.2 MB to 137.8 MB.
-Total: 3.425400 ms (FindLiveObjects: 0.241900 ms CreateObjectMapping: 0.048200 ms MarkObjects: 2.763500 ms  DeleteObjects: 0.370500 ms)
+Unloading 2017 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (370.1 KB). Loaded Objects now: 2566.
+Memory consumption went from 130.8 MB to 130.4 MB.
+Total: 3.051700 ms (FindLiveObjects: 0.246500 ms CreateObjectMapping: 0.066100 ms MarkObjects: 2.384800 ms  DeleteObjects: 0.353400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1205,104 +721,455 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file data-000001DB410F1090 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-000001BEDAD31080 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF71C5010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file data-000001BF41972B50 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB41F083A0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001BEB746A810 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFDAC9030 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001BEDA11FD00 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB3FA24770 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001BEDABCF010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB3FA24770 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001BF43F33F20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD44F9020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001BF4450A010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5D36EC0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file data-000001BEFC5DE040 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB3F91F480 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001BEFCB44010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB4227E010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001BEB74BFE20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF7223080 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-000001BEFC5E2D60 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB417C6030 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-000001BEFCB44010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAD3C72010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-000001BF43F33F20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB4060F010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file data-000001BEB743A120 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB417C6030 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file data-000001BF44771020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFDAC9030 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-000001BF41960B30 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB3F9CBF60 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001BEFCB73370 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB41E3B010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-000001BF44EF7FD0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB40724490 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file data-000001BEB6BA3770 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5E88500 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file data-000001BEB74BFE20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFE95B020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001BEB7371290 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAF5E88500 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001BEB74BFE20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB41E3B010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file data-000001BF44EF7FD0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DAFE012CB0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file data-000001BEDABCF010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB41E3B010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001BEDABCF010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DB3FC857B0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file data-000001BEB6BA3770 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.344 seconds
-Refreshing native plugins compatible for Editor in 1.59 ms, found 1 plugins.
+- Loaded All Assemblies, in  0.404 seconds
+Refreshing native plugins compatible for Editor in 1.53 ms, found 1 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.613 seconds
-Domain Reload Profiling: 954ms
-	BeginReloadAssembly (130ms)
+Domain Reload Profiling: 1013ms
+	BeginReloadAssembly (155ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (150ms)
-		LoadAssemblies (212ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (169ms)
+		LoadAssemblies (231ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (613ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (279ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (145ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2017 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (338.0 KB). Loaded Objects now: 2569.
+Memory consumption went from 132.7 MB to 132.3 MB.
+Total: 2.704800 ms (FindLiveObjects: 0.156000 ms CreateObjectMapping: 0.038800 ms MarkObjects: 2.291800 ms  DeleteObjects: 0.217200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BEDA904710 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BF4208F720 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEB746A810 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BF42F40E20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEDABCF010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BF45FCC010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEB7318020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEDABEB640 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BD44608E20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEB74BFE20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEFC5DE040 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BF463CAD10 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEDA632040 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEB6B99310 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BF463CAD10 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEDA1D9020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BF41011D80 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BF44EF7FD0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEB733BE30 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEB74BFE20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEDA792020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEB74BFE20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEDABCF010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEDB07F020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEDA37C020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEFCB9DCB0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.364 seconds
+Refreshing native plugins compatible for Editor in 1.76 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.651 seconds
+Domain Reload Profiling: 1010ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (152ms)
+		LoadAssemblies (219ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
 			TypeCache.Refresh (5ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (614ms)
+	FinalizeReload (651ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (297ms)
+		SetupLoadedEditorAssemblies (318ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
+			InitializePlatformSupportModulesInManaged (29ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (170ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (181ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2017 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (370.4 KB). Loaded Objects now: 2572.
+Memory consumption went from 134.6 MB to 134.3 MB.
+Total: 3.461100 ms (FindLiveObjects: 0.172600 ms CreateObjectMapping: 0.046900 ms MarkObjects: 2.956800 ms  DeleteObjects: 0.283700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BEDA904710 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEFC5DE040 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEB746A810 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEFCB73370 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEFE5BD020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEDABCF010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEDA1A0020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEDA632040 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BF4493B020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BF4449C010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEB6B99310 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEB73A0AE0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEFD96B850 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BF4109DE40 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEB73A0AE0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BF44A01430 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BF40FF9070 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEFCE32060 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEFDA44360 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BF4449C010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BD438C2010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEB74BFE20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEFCE32060 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEDA37C020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEDA37C020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEFC6862E0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.032 seconds
+Refreshing native plugins compatible for Editor in 1.74 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.645 seconds
+Domain Reload Profiling: 4674ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (790ms)
+		LoadAssemblies (871ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (3646ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (224ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 2.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2017 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (370.1 KB). Loaded Objects now: 2575.
+Memory consumption went from 136.5 MB to 136.2 MB.
+Total: 3.281700 ms (FindLiveObjects: 0.180800 ms CreateObjectMapping: 0.050300 ms MarkObjects: 2.743000 ms  DeleteObjects: 0.306200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BF41E5C360 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BF0062D4E0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEFC9E0020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEFE0AB1A0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BF465FFC20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BD4394DC60 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BF473C0080 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BF417AB4C0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BF003EA8B0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BF434C4740 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BF42985020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEFCB44010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BD43993EF0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BF005C8050 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEFCF23040 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEFE0AB1A0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEDA1F1850 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BF47BDF030 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BF002A3870 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEDA904710 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEFE470070 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BF41724440 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BF4210F010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BEFC499D30 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BD445D7D80 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BF465CF970 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.460 seconds
+Refreshing native plugins compatible for Editor in 1.72 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.751 seconds
+Domain Reload Profiling: 1206ms
+	BeginReloadAssembly (174ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (190ms)
+		LoadAssemblies (276ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (752ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (348ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (196ms)
 			ProcessInitializeOnLoadMethodAttributes (25ms)
 			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 1.92 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.78 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2017 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 13 unused Assets / (354.4 KB). Loaded Objects now: 2581.
-Memory consumption went from 140.4 MB to 140.0 MB.
-Total: 3.628600 ms (FindLiveObjects: 0.187600 ms CreateObjectMapping: 0.110700 ms MarkObjects: 2.908100 ms  DeleteObjects: 0.421400 ms)
+Unloading 13 unused Assets / (370.4 KB). Loaded Objects now: 2578.
+Memory consumption went from 138.5 MB to 138.1 MB.
+Total: 3.216600 ms (FindLiveObjects: 0.288700 ms CreateObjectMapping: 0.049000 ms MarkObjects: 2.625400 ms  DeleteObjects: 0.250900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):

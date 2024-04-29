@@ -5,7 +5,7 @@ using UnityEngine;
 public class Casilla : MonoBehaviour
 {
     public int NumCasilla;
-    public GameObject obj;
+    static public GameObject obj;
     public bool bMovible = true;
     public bool bColocar = false;
     
@@ -16,7 +16,7 @@ public class Casilla : MonoBehaviour
             Quaternion aux = Quaternion.Euler(-90, 90, 0);  
             int i = NumCasilla % 12 + 1;
             int j = NumCasilla / 12 + 1;
-            Instantiate(obj, new Vector3(i-0.9f, 0, j+0.85f), aux);
+            Instantiate(obj, new Vector3(i, 0, j), aux);
             Debug.Log("Se ha creado algo en alguna parte.");
             bColocar = false;
             obj = null;
