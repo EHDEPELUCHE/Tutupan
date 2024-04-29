@@ -9,6 +9,8 @@ public class Casilla : MonoBehaviour
     public bool bMovible = true;
     public bool bColocar = false;
     
+    //Se entra cuando se ha pulsado una casilla y 
+    //tocado algun espejo.
     void Update() {
         if(bColocar && obj != null){
             Quaternion aux = Quaternion.Euler(-90, 90, 0);
@@ -21,11 +23,13 @@ public class Casilla : MonoBehaviour
         }
     }
 
+    //Se activa al pulsar una casilla del tablero
     void OnMouseDown() {
         bColocar = true;
         print(NumCasilla.ToString());
     }
 
+    //Se activa al pulsar un espejo de la interfaz
     public void eventitou() {
         obj = GetComponent<BotonesNiveles>().Auxiliar;
         /*
