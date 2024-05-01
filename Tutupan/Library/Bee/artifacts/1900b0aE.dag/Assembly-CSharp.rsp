@@ -361,6 +361,7 @@
 "Assets/Scripts/CreateAnimationCurse/CreateAnimationCurve.cs"
 "Assets/Scripts/CreateAnimationCurse/GenerateLipsync.cs"
 "Assets/Scripts/CreateAnimationCurse/ReadRadish.cs"
+"Assets/Scripts/Lights and Mirrors/Rotacion.cs"
 "Assets/Scripts/MenuInicialController.cs"
 "Assets/Scripts/Niveles/BotonesNiveles.cs"
 "Assets/Scripts/Niveles/Casilla.cs"
