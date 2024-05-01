@@ -13,21 +13,20 @@ public class Casilla : MonoBehaviour
     //tocado algun espejo.
     void Update() {
         if(bColocar && obj != null && bMovible) {
-            Quaternion aux = Quaternion.Euler(-90, 90, 0);  
             int j = NumCasilla % 12 + 1;
             int i = NumCasilla / 12 + 1;
             switch(obj.name){
                 case "Espejo":
-                    Instantiate(obj, new Vector3(i - 1.9f , 0, j - 1.5f), aux);
+                    Instantiate(obj, new Vector3(i, 0, j), Quaternion.identity);
                 break;
                 case "EspejoDoble":
-                    Instantiate(obj, new Vector3(i - 3.45f, 0, j - 1.5f ), aux);
+                    Instantiate(obj, new Vector3(i, 0, j), Quaternion.identity);
                 break;
                 case "Cunna":
-                    Instantiate(obj, new Vector3(i + 0.37f, 0, j - 1.85f), aux);
+                    Instantiate(obj, new Vector3(i, 0, j), Quaternion.identity);
                 break;
                 case "Prisma":
-                    Instantiate(obj, new Vector3(i - 4.85f, 0, j - 1.5f), aux);
+                    Instantiate(obj, new Vector3(i, 0, j), Quaternion.identity);
                 break;
                 default:
                     Debug.Log("No he puesto nada " + obj.name);
