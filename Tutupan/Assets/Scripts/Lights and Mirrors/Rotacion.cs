@@ -12,15 +12,13 @@ public class Rotacion : MonoBehaviour
         t = this.GetComponent<Transform>();
     }
 
-    public void OnClick() 
-    {
-        Debug.Log("somebody clicked me");
-    }
-    void OnMouseDown() 
+      void OnMouseDown() 
     {
         Debug.Log("Pulsado");
-        Vector3 aux = t.eulerAngles;
-        t.Rotate(aux.x, aux.y + 90,aux.z);
+        t.RotateAround(this.transform.position, Vector3.up, 90f);
+        //Quaternion aux = t.localRotation;
+        //t.localRotation = Quaternion.Euler(aux.x, aux.y + 90,aux.z  + 90);
+        //t.Rotate(Vector3.forward, 90f, Space.Self);
     }
     // Update is called once per frame
   /*  void Update()
