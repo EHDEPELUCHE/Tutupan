@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -592,10 +592,10 @@ MonoBehaviour:
   creadorLuzRoja: {fileID: 4624521925633755450, guid: 86bbb07afffea0943970840dd18bb66f, type: 3}
   creadorLuzAzul: {fileID: 8098883531467557040, guid: 69a82a542d07a97478810c722ba484bc, type: 3}
   creadorLuzAmarilla: {fileID: 6523229284842140860, guid: e2651cfbc93991747a846ffe528b5b33, type: 3}
-  receptorLuzBlanco: {fileID: 519000774515647867, guid: 0fa0d66799f752146ab70c041ccf4a53, type: 3}
-  receptorLuzRoja: {fileID: 1294267299725319375, guid: 6d17b773a9356b84eaec50187bb95105, type: 3}
-  receptorLuzAzul: {fileID: 5339355592803144095, guid: 0f5bdf2c65b16e44288e200a9029fc9e, type: 3}
-  receptorLuzAmarilla: {fileID: 6940616144385325657, guid: c004afbc3df606e44902a138108f76b7, type: 3}
+  receptorLuzBlanco: {fileID: 1596043022507648010, guid: eb5840423e348ed43a456a66a1ba6015, type: 3}
+  receptorLuzRoja: {fileID: 4388548023684410321, guid: 026a2df268669e64495e79deb52fe2de, type: 3}
+  receptorLuzAzul: {fileID: 7826680836222798806, guid: b3a24752f46a1c94cac63fcbbbfbfaab, type: 3}
+  receptorLuzAmarilla: {fileID: 1393944572346559608, guid: 452a0d66c0bd3874ea008e4dc792dbd9, type: 3}
   Muro: {fileID: 6462964389421226629, guid: 1d9170f9162b4ba44aaa8f807585e94c, type: 3}
   Ancho: 12
   Alto: 12

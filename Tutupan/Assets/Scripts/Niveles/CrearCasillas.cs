@@ -1,7 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
+public class Rotaciones {
+    public static Quaternion ABAJO = Quaternion.Euler(0, 90, 0);
+    public static Quaternion IZQUIERDA = Quaternion.Euler(0, 180, 0);
+    public static Quaternion ARRIBA = Quaternion.Euler(0, 270, 0);
+    public static Quaternion DERECHA = Quaternion.Euler(0, 0, 0);
+}
 
 public class CrearCasillas : MonoBehaviour
 {
@@ -19,7 +24,6 @@ public class CrearCasillas : MonoBehaviour
     public int Alto;
 
     void Start() {
-        Quaternion aux = Quaternion.Euler(-90, 0, 0);;
         int cont = 0;
         string sNivelActual = SceneManager.GetActiveScene().name.Substring(5);
         Debug.Log(sNivelActual);
@@ -31,27 +35,27 @@ public class CrearCasillas : MonoBehaviour
                     case "1": 
                         switch(cont) {
                             case 51: 
-                                Instantiate(creadorLuzRoja, new Vector3(i, 0.4f, j), Quaternion.identity); 
+                                Instantiate(creadorLuzRoja, new Vector3(i, 0.4f, j), Rotaciones.ARRIBA); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false; 
                             break;
                              case 114: 
-                                Instantiate(receptorLuzRoja, new Vector3(i + 0.1f, 0.1f, j + 0.15f), aux); 
+                                Instantiate(receptorLuzRoja, new Vector3(i , 0.1f, j), Quaternion.identity); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false; 
                             break;
                         }
                     break;
                     case "2":
-			            switch(cont) {
+                        switch(cont) {
                             case 14: 
-                                Instantiate(creadorLuzBlanco, new Vector3(i-0.9f, 0, j+0.8f), aux); 
+                                Instantiate(creadorLuzBlanco, new Vector3(i, 0.4f, j), Quaternion.identity); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false; 
                             break;
                             case 16: case 28: 
-                                Instantiate(Muro, new Vector3(i-2.37f, 0, j+1.05f), aux); 
+                                Instantiate(Muro, new Vector3(i - 2.37f, 0, j + 1.05f), Quaternion.identity); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false; 
                             break;
                             case 18: 
-                                Instantiate(receptorLuzBlanco, new Vector3(i+0.15f, 0, j+0.9f), aux); 
+                                Instantiate(receptorLuzBlanco, new Vector3(i, 0.1f, j), Quaternion.identity); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false; 
                             break;
                         }
@@ -59,19 +63,19 @@ public class CrearCasillas : MonoBehaviour
                     case "3":
                         switch(cont) {
                             case 15:
-                                Instantiate(creadorLuzAzul, new Vector3(i-0.9f, 0, j+0.85f), aux); 
+                                Instantiate(creadorLuzAzul, new Vector3(i, 0.4f, j), Quaternion.identity); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 51:
-                                Instantiate(creadorLuzRoja, new Vector3(i-0.9f, 0, j+0.85f), aux); 
+                                Instantiate(creadorLuzRoja, new Vector3(i, 0.4f, j), Quaternion.identity); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 114: 
-                                Instantiate(receptorLuzRoja, new Vector3(i+0.17f, 0, j+0.9f), aux); 
+                                Instantiate(receptorLuzRoja, new Vector3(i, 0.1f, j), Quaternion.identity); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 117: 
-                                Instantiate(receptorLuzAzul, new Vector3(i+0.17f, 0, j+0.9f), aux); 
+                                Instantiate(receptorLuzAzul, new Vector3(i, 0.1f, j), Quaternion.identity); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                         }
@@ -79,19 +83,19 @@ public class CrearCasillas : MonoBehaviour
                     case "4":
                         switch(cont) {
                             case 8:
-                                Instantiate(receptorLuzAmarilla, new Vector3(i+0.17f, 0, j+0.9f), aux);
+                                Instantiate(receptorLuzAmarilla, new Vector3(i, 0.1f, j), Quaternion.identity);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break; 
                             case 64:
-                                Instantiate(receptorLuzAzul, new Vector3(i+0.17f, 0, j+0.9f), aux);
+                                Instantiate(receptorLuzAzul, new Vector3(i, 0.1f, j), Quaternion.identity);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 71:
-                                Instantiate(creadorLuzAmarilla, new Vector3(i-0.9f, 0, j+0.85f), aux); 
+                                Instantiate(creadorLuzAmarilla, new Vector3(i, 0.4f, j), Quaternion.identity); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 104:
-                                Instantiate(creadorLuzAzul, new Vector3(i-0.9f, 0, j+0.85f), aux); 
+                                Instantiate(creadorLuzAzul, new Vector3(i, 0.4f, j), Quaternion.identity); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                         }
@@ -99,11 +103,11 @@ public class CrearCasillas : MonoBehaviour
                     case "5":
                         switch(cont) {
                             case 7: case 139:
-                                Instantiate(receptorLuzAzul, new Vector3(i+0.17f, 0, j+0.9f), aux);
+                                Instantiate(receptorLuzAzul, new Vector3(i, 0.1f, j), Quaternion.identity);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 17:
-                                Instantiate(creadorLuzAzul, new Vector3(i-0.9f, 0, j+0.85f), aux); 
+                                Instantiate(creadorLuzAzul, new Vector3(i, 0.4f, j), Quaternion.identity); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                         }
@@ -111,27 +115,27 @@ public class CrearCasillas : MonoBehaviour
                     case "6":
                         switch(cont) {
                             case 5:
-                                Instantiate(receptorLuzAmarilla, new Vector3(i+0.17f, 0, j+0.9f), aux);
+                                Instantiate(receptorLuzAmarilla, new Vector3(i, 0.1f, j), Quaternion.identity);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 39:
-                                Instantiate(receptorLuzAzul, new Vector3(i+0.17f, 0, j+0.9f), aux);
+                                Instantiate(receptorLuzAzul, new Vector3(i, 0.1f, j), Quaternion.identity);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 46:
-                                Instantiate(creadorLuzAmarilla, new Vector3(i-0.9f, 0, j+0.85f), aux); 
+                                Instantiate(creadorLuzAmarilla, new Vector3(i, 0.4f, j), Quaternion.identity); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 65:
-                                Instantiate(creadorLuzAzul, new Vector3(i-0.9f, 0, j+0.85f), aux); 
+                                Instantiate(creadorLuzAzul, new Vector3(i, 0.4f, j), Quaternion.identity); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 77:
-                                Instantiate(creadorLuzRoja, new Vector3(i-0.9f, 0, j+0.85f), aux); 
+                                Instantiate(creadorLuzRoja, new Vector3(i, 0.4f, j), Quaternion.identity); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 143:
-                                Instantiate(receptorLuzRoja, new Vector3(i+0.17f, 0, j+0.9f), aux);
+                                Instantiate(receptorLuzRoja, new Vector3(i, 0.1f, j), Quaternion.identity);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                         }
@@ -139,11 +143,11 @@ public class CrearCasillas : MonoBehaviour
                     case "7":
                      switch(cont) {
                             case 22: case 108: case 119:
-                                Instantiate(receptorLuzAmarilla, new Vector3(i+0.17f, 0, j+0.9f), aux);
+                                Instantiate(receptorLuzAmarilla, new Vector3(i, 0.1f, j), Quaternion.identity);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 72:
-                                Instantiate(creadorLuzAmarilla, new Vector3(i-0.9f, 0, j+0.85f), aux); 
+                                Instantiate(creadorLuzAmarilla, new Vector3(i, 0.4f, j), Quaternion.identity); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                         }
@@ -151,15 +155,15 @@ public class CrearCasillas : MonoBehaviour
                     case "8":
                         switch(cont){
                             case 18:
-                                Instantiate(creadorLuzAzul, new Vector3(i-0.9f, 0, j+0.85f), aux);
+                                Instantiate(creadorLuzAzul, new Vector3(i, 0.4f, j), Quaternion.identity);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 66:
-                                Instantiate(Muro, new Vector3(i-2.37f, 0, j+1.05f), aux); 
+                                Instantiate(Muro, new Vector3(i - 2.37f, 0, j + 1.05f), Quaternion.identity); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false; 
                             break;
                             case 114:
-                                Instantiate(receptorLuzAzul, new Vector3(i+0.17f, 0, j+0.9f), aux);
+                                Instantiate(receptorLuzAzul, new Vector3(i, 0.1f, j), Quaternion.identity);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                         }
@@ -167,19 +171,19 @@ public class CrearCasillas : MonoBehaviour
                     case "9":
                         switch(cont){
                             case 29:
-                                Instantiate(creadorLuzAmarilla, new Vector3(i-0.9f, 0, j+0.85f), aux);
+                                Instantiate(creadorLuzAmarilla, new Vector3(i, 0.4f, j), Quaternion.identity);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 45:
-                                Instantiate(creadorLuzAzul, new Vector3(i-0.9f, 0, j+0.85f), aux);
+                                Instantiate(creadorLuzAzul, new Vector3(i, 0.4f, j), Quaternion.identity);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 108:
-                                Instantiate(receptorLuzAmarilla, new Vector3(i+0.17f, 0, j+0.9f), aux);
+                                Instantiate(receptorLuzAmarilla, new Vector3(i, 0.1f, j), Quaternion.identity);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 110: case 118:
-                                Instantiate(receptorLuzAzul, new Vector3(i+0.17f, 0, j+0.9f), aux);
+                                Instantiate(receptorLuzAzul, new Vector3(i, 0.1f, j), Quaternion.identity);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                         }
@@ -187,23 +191,23 @@ public class CrearCasillas : MonoBehaviour
                     case "10":
                         switch(cont){
                             case 18:
-                                Instantiate(creadorLuzAzul, new Vector3(i-0.9f, 0, j+0.85f), aux);
+                                Instantiate(creadorLuzAzul, new Vector3(i, 0.4f, j), Quaternion.identity);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 20:
-                                Instantiate(creadorLuzAmarilla, new Vector3(i-0.9f, 0, j+0.85f), aux);
+                                Instantiate(creadorLuzAmarilla, new Vector3(i, 0.4f, j), Quaternion.identity);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 50:
-                                Instantiate(receptorLuzAmarilla, new Vector3(i+0.17f, 0, j+0.9f), aux);
+                                Instantiate(receptorLuzAmarilla, new Vector3(i, 0.1f, j), Quaternion.identity);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 119:
-                                Instantiate(receptorLuzAzul, new Vector3(i+0.17f, 0, j+0.9f), aux);
+                                Instantiate(receptorLuzAzul, new Vector3(i, 0.1f, j), Quaternion.identity);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 66:
-                                Instantiate(Muro, new Vector3(i-2.37f, 0, j+1.05f), aux); 
+                                Instantiate(Muro, new Vector3(i - 2.37f, 0, j + 1.05f), Quaternion.identity); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false; 
                             break;
                         }
@@ -211,23 +215,23 @@ public class CrearCasillas : MonoBehaviour
                     case "11":
                         switch (cont){
                             case 15: case 43: case 52: case 109: case 130:
-                                Instantiate(Muro, new Vector3(i-2.37f, 0, j+1.05f), aux); 
+                                Instantiate(Muro, new Vector3(i - 2.37f, 0, j + 1.05f), Quaternion.identity); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false; 
                             break;
                             case 27:
-                                Instantiate(creadorLuzAmarilla, new Vector3(i-0.9f, 0, j+0.85f), aux);
+                                Instantiate(creadorLuzAmarilla, new Vector3(i, 0.4f, j), Quaternion.identity);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 30:
-                                Instantiate(creadorLuzAzul, new Vector3(i-0.9f, 0, j+0.85f), aux);
+                                Instantiate(creadorLuzAzul, new Vector3(i, 0.4f, j), Quaternion.identity);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 36:
-                                Instantiate(receptorLuzAmarilla, new Vector3(i+0.17f, 0, j+0.9f), aux);
+                                Instantiate(receptorLuzAmarilla, new Vector3(i, 0.1f, j), Quaternion.identity);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 99:
-                                Instantiate(receptorLuzAzul, new Vector3(i+0.17f, 0, j+0.9f), aux);
+                                Instantiate(receptorLuzAzul, new Vector3(i, 0.1f, j), Quaternion.identity);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                         }
