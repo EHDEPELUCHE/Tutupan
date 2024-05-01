@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -448,10 +448,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49d0b587ab53a4b47845710fb1743993, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  espejo: {fileID: 8428198251357338385, guid: 8bdccdf6619c1b24bb6d91afbfb5ebfa, type: 3}
-  espejoDoble: {fileID: 2408004541471987618, guid: 1bf68fcb1268170478080b59c7c568a1, type: 3}
-  prisma: {fileID: 1595189024326784953, guid: 7703b9ba77d7d1647bf7a193afec9ff9, type: 3}
-  cunna: {fileID: 1707290318056810907, guid: c0033f907d25c5944aae06a0d9c91267, type: 3}
+  espejo: {fileID: 709508392426200379, guid: 58439f3a7a3632c43955c426ad833de6, type: 3}
+  espejoDoble: {fileID: 4432243131155780870, guid: 2523601b42b82ab45a1b952e284e7037, type: 3}
+  prisma: {fileID: 1711975993743795389, guid: bfee7bf57e2244048bc545309f37e7ca, type: 3}
+  cunna: {fileID: 4959172849408418811, guid: a56a459d9c0a3c24c8825901b67ade65, type: 3}
   eventitou:
     m_PersistentCalls:
       m_Calls:
