@@ -19,7 +19,7 @@ public class CrearCasillas : MonoBehaviour
     public int Alto;
 
     void Start() {
-        Quaternion aux = Quaternion.Euler(-90, 90, 0);;
+        Quaternion aux = Quaternion.Euler(-90, 0, 0);;
         int cont = 0;
         string sNivelActual = SceneManager.GetActiveScene().name.Substring(5);
         Debug.Log(sNivelActual);
@@ -31,11 +31,11 @@ public class CrearCasillas : MonoBehaviour
                     case "1": 
                         switch(cont) {
                             case 51: 
-                                Instantiate(creadorLuzRoja, new Vector3(i-0.9f, 0, j+0.8f), aux); 
+                                Instantiate(creadorLuzRoja, new Vector3(i, 0.4f, j), Quaternion.identity); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false; 
                             break;
                              case 114: 
-                                Instantiate(receptorLuzRoja, new Vector3(i+0.15f, 0, j+0.9f), aux); 
+                                Instantiate(receptorLuzRoja, new Vector3(i + 0.1f, 0.1f, j + 0.15f), aux); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false; 
                             break;
                         }
