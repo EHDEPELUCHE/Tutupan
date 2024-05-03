@@ -363,6 +363,7 @@
 "Assets/Scripts/CreateAnimationCurse/ReadRadish.cs"
 "Assets/Scripts/LaserReflector.cs"
 "Assets/Scripts/LaserSource.cs"
+"Assets/Scripts/Lights and Mirrors/ReflejoEspejo.cs"
 "Assets/Scripts/Lights and Mirrors/Rotacion.cs"
 "Assets/Scripts/MenuInicialController.cs"
 "Assets/Scripts/Niveles/BotonesNiveles.cs"

@@ -25,14 +25,9 @@ public class LaserSource : MonoBehaviour
             if(hit.collider.CompareTag("Reflector")){
                 tempReflector = hit.collider.gameObject;
                 Vector3 temp = Vector3.Reflect(direction, hit.normal);
-                hit.collider.gameObject.GetComponent<LaserReflector>().OpenRay(hit.point, temp);
             }
             lr.SetPosition(1, hit.point);
         }else{
-            if(tempReflector){
-                tempReflector.GetComponent<LaserReflector>().CloseRay();
-                tempReflector = null;
-            }
             lr.SetPosition(1, direction * 200);
         }
     }

@@ -86,3 +86,111 @@ public class LaserReflector : MonoBehaviour
         lr.positionCount = 0;
     }
 }
+
+
+/*
+
+using UnityEngine;
+
+[RequireComponent(typeof(LineRenderer))]
+[RequireComponent(typeof(PolygonCollider2D))] // O el tipo de collider que desees
+public class LineWithCollider : MonoBehaviour
+{
+    LineRenderer lineRenderer;
+    PolygonCollider2D polyCollider;
+
+    void Start()
+    {
+        // Obtener el Line Renderer y el Collider
+        lineRenderer = GetComponent<LineRenderer>();
+        polyCollider = GetComponent<PolygonCollider2D>();
+
+        // Crear el Collider basado en la forma del Line Renderer
+        UpdateCollider();
+    }
+
+    void Update()
+    {
+        // Si la trayectoria del Line Renderer cambia, actualiza el Collider
+        UpdateCollider();
+    }
+
+    void UpdateCollider()
+    {
+        // Obtener los puntos del Line Renderer
+        Vector3[] points = new Vector3[lineRenderer.positionCount];
+        lineRenderer.GetPositions(points);
+
+        // Convertir los puntos locales a puntos del mundo
+        for (int i = 0; i < points.Length; i++)
+        {
+            points[i] = transform.TransformPoint(points[i]);
+        }
+
+        // Asignar los puntos al Collider
+        polyCollider.SetPath(0, points);
+    }
+}
+
+*/
+
+/*
+
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Rope : MonoBehaviour
+{
+    public Transform player;
+
+    public LineRenderer rope;
+    public LayerMask collMask;
+
+    public List<Vector3> ropePositions { get; set; } = new List<Vector3>();
+
+    private void Awake() => AddPosToRope(Vector3.zero);
+
+    private void Update()
+    {
+        UpdateRopePositions();
+        LastSegmentGoToPlayerPos();
+
+        DetectCollisionEnter();
+        if (ropePositions.Count > 2) DetectCollisionExits();        
+    }
+
+    private void DetectCollisionEnter()
+    {
+        RaycastHit hit;
+        if (Physics.Linecast(player.position, rope.GetPosition(ropePositions.Count - 2), out hit, collMask))
+        {
+            ropePositions.RemoveAt(ropePositions.Count - 1);
+            AddPosToRope(hit.point);
+        }
+    }
+
+    private void DetectCollisionExits()
+    {
+        RaycastHit hit;
+        if (!Physics.Linecast(player.position, rope.GetPosition(ropePositions.Count - 3), out hit, collMask))
+        {
+            ropePositions.RemoveAt(ropePositions.Count - 2);
+        }
+    }
+
+    private void AddPosToRope(Vector3 _pos)
+    {
+        ropePositions.Add(_pos);
+        ropePositions.Add(player.position); //Always the last pos must be the player
+    }
+
+    private void UpdateRopePositions()
+    {
+        rope.positionCount = ropePositions.Count;
+        rope.SetPositions(ropePositions.ToArray());
+    }
+
+    private void LastSegmentGoToPlayerPos() => rope.SetPosition(rope.positionCount - 1, player.position);
+}
+
+*/
