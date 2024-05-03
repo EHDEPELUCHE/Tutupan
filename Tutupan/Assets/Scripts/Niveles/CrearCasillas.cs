@@ -47,7 +47,7 @@ public class CrearCasillas : MonoBehaviour
                     case "2":
                         switch(cont) {
                             case 14: 
-                                Instantiate(creadorLuzBlanco, new Vector3(i, 0.4f, j), Quaternion.identity); 
+                                Instantiate(creadorLuzBlanco, new Vector3(i, 0.4f, j), Rotaciones.DERECHA); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false; 
                             break;
                             case 16: case 28: 
@@ -63,11 +63,11 @@ public class CrearCasillas : MonoBehaviour
                     case "3":
                         switch(cont) {
                             case 15:
-                                Instantiate(creadorLuzAzul, new Vector3(i, 0.4f, j), Quaternion.identity); 
+                                Instantiate(creadorLuzAzul, new Vector3(i, 0.4f, j), Rotaciones.ARRIBA); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 51:
-                                Instantiate(creadorLuzRoja, new Vector3(i, 0.4f, j), Quaternion.identity); 
+                                Instantiate(creadorLuzRoja, new Vector3(i, 0.4f, j), Rotaciones.ARRIBA); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 114: 
@@ -91,11 +91,11 @@ public class CrearCasillas : MonoBehaviour
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 71:
-                                Instantiate(creadorLuzAmarilla, new Vector3(i, 0.4f, j), Quaternion.identity); 
+                                Instantiate(creadorLuzAmarilla, new Vector3(i, 0.4f, j), Rotaciones.ABAJO); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 104:
-                                Instantiate(creadorLuzAzul, new Vector3(i, 0.4f, j), Quaternion.identity); 
+                                Instantiate(creadorLuzAzul, new Vector3(i, 0.4f, j), Rotaciones.IZQUIERDA); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                         }
@@ -107,7 +107,7 @@ public class CrearCasillas : MonoBehaviour
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 17:
-                                Instantiate(creadorLuzAzul, new Vector3(i, 0.4f, j), Quaternion.identity); 
+                                Instantiate(creadorLuzAzul, new Vector3(i, 0.4f, j), Rotaciones.ARRIBA); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                         }
@@ -123,15 +123,15 @@ public class CrearCasillas : MonoBehaviour
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 46:
-                                Instantiate(creadorLuzAmarilla, new Vector3(i, 0.4f, j), Quaternion.identity); 
+                                Instantiate(creadorLuzAmarilla, new Vector3(i, 0.4f, j), Rotaciones.ABAJO); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 65:
-                                Instantiate(creadorLuzAzul, new Vector3(i, 0.4f, j), Quaternion.identity); 
+                                Instantiate(creadorLuzAzul, new Vector3(i, 0.4f, j), Rotaciones.IZQUIERDA); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 77:
-                                Instantiate(creadorLuzRoja, new Vector3(i, 0.4f, j), Quaternion.identity); 
+                                Instantiate(creadorLuzRoja, new Vector3(i, 0.4f, j), Rotaciones.ARRIBA); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 143:
@@ -147,7 +147,7 @@ public class CrearCasillas : MonoBehaviour
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 72:
-                                Instantiate(creadorLuzAmarilla, new Vector3(i, 0.4f, j), Quaternion.identity); 
+                                Instantiate(creadorLuzAmarilla, new Vector3(i, 0.4f, j), Rotaciones.ARRIBA); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                         }
@@ -155,7 +155,7 @@ public class CrearCasillas : MonoBehaviour
                     case "8":
                         switch(cont){
                             case 18:
-                                Instantiate(creadorLuzAzul, new Vector3(i, 0.4f, j), Quaternion.identity);
+                                Instantiate(creadorLuzAzul, new Vector3(i, 0.4f, j), Rotaciones.DERECHA);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 66:
@@ -171,11 +171,11 @@ public class CrearCasillas : MonoBehaviour
                     case "9":
                         switch(cont){
                             case 29:
-                                Instantiate(creadorLuzAmarilla, new Vector3(i, 0.4f, j), Quaternion.identity);
+                                Instantiate(creadorLuzAmarilla, new Vector3(i, 0.4f, j), Rotaciones.DERECHA);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 45:
-                                Instantiate(creadorLuzAzul, new Vector3(i, 0.4f, j), Quaternion.identity);
+                                Instantiate(creadorLuzAzul, new Vector3(i, 0.4f, j), Rotaciones.ABAJO);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 108:
@@ -191,11 +191,11 @@ public class CrearCasillas : MonoBehaviour
                     case "10":
                         switch(cont){
                             case 18:
-                                Instantiate(creadorLuzAzul, new Vector3(i, 0.4f, j), Quaternion.identity);
+                                Instantiate(creadorLuzAzul, new Vector3(i, 0.4f, j), Rotaciones.DERECHA);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 20:
-                                Instantiate(creadorLuzAmarilla, new Vector3(i, 0.4f, j), Quaternion.identity);
+                                Instantiate(creadorLuzAmarilla, new Vector3(i, 0.4f, j), Rotaciones.ARRIBA);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 50:
@@ -219,11 +219,11 @@ public class CrearCasillas : MonoBehaviour
                                 casillaAux.GetComponent<Casilla>().bMovible = false; 
                             break;
                             case 27:
-                                Instantiate(creadorLuzAmarilla, new Vector3(i, 0.4f, j), Quaternion.identity);
+                                Instantiate(creadorLuzAmarilla, new Vector3(i, 0.4f, j), Rotaciones.DERECHA);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 30:
-                                Instantiate(creadorLuzAzul, new Vector3(i, 0.4f, j), Quaternion.identity);
+                                Instantiate(creadorLuzAzul, new Vector3(i, 0.4f, j), Rotaciones.DERECHA);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 36:
