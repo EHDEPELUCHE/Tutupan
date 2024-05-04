@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1510,6 +1510,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Laser1: {fileID: 90849044}
   Laser2: {fileID: 1345271411}
+  aux: 0
 --- !u!1001 &1117969920
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1600,7 +1601,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6104599283231765146, guid: 2523601b42b82ab45a1b952e284e7037, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.343495
+      value: -3.46
       objectReference: {fileID: 0}
     - target: {fileID: 6104599283231765146, guid: 2523601b42b82ab45a1b952e284e7037, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1725,6 +1726,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Laser1: {fileID: 75583502}
   Laser2: {fileID: 774887072}
+  aux: 0
 --- !u!64 &1272909380
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1761,6 +1763,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Laser1: {fileID: 1654312675}
   Laser2: {fileID: 734927556}
+  aux: 0
 --- !u!64 &1272909382
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1990,6 +1993,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Laser1: {fileID: 2141039031}
   Laser2: {fileID: 741297300}
+  aux: 0
 --- !u!54 &1512402608
 Rigidbody:
   m_ObjectHideFlags: 0

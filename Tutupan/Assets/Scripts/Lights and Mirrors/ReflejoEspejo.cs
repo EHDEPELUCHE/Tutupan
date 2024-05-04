@@ -11,7 +11,10 @@ public class ReflejoEspejo : MonoBehaviour
     public Transform Laser2;
     private LineRenderer lr1;
     private LineRenderer lr2;
-    public static bool aux = false;
+    public  bool aux = false;
+ 
+    GameObject tempReflector1;
+    GameObject tempReflector2;
     private void Start()
     {
         // Obtén la referencia al Line Renderer
@@ -23,7 +26,7 @@ public class ReflejoEspejo : MonoBehaviour
     }
     void Update()
     {
-        if (aux){
+        if (aux ){
             lr1.enabled = true;
             lr2.enabled = true;
             lr1.SetPosition(0, Laser1.position);
@@ -33,33 +36,41 @@ public class ReflejoEspejo : MonoBehaviour
             RaycastHit hit;
             if(Physics.Raycast(Laser1.position, direction1, out hit, Mathf.Infinity)){
                 if(hit.collider.CompareTag("Reflector")){
-                    //tempReflector = hit.collider.gameObject;
-                   // Vector3 temp = Vector3.Reflect(direction, hit.normal);
-                   Debug.Log("Update detecta la etiqueta");
+                    tempReflector1 = hit.collider.gameObject;
+                    hit.collider.gameObject.GetComponent<ReflejoEspejo>().Choca(lr1.material);
+                }else if(tempReflector1 != null){
+                     tempReflector1.GetComponent<ReflejoEspejo>().noChoca();
+                     tempReflector1 = null;
                 }
                 lr1.SetPosition(1, hit.point);
-                //lr2.SetPosition(1, direction2 * 200);
             }else{
                 lr1.SetPosition(1, direction1 * 200);
-                //lr2.SetPosition(1, direction2 * 200);
             }
+            
             if(Physics.Raycast(Laser2.position, direction2, out hit, Mathf.Infinity)){
                 if(hit.collider.CompareTag("Reflector")){
-                    //tempReflector = hit.collider.gameObject;
-                   // Vector3 temp = Vector3.Reflect(direction, hit.normal);
-                   Debug.Log("Update detecta la etiqueta");
+                    tempReflector2 = hit.collider.gameObject;
+                    hit.collider.gameObject.GetComponent<ReflejoEspejo>().Choca(lr2.material);
+                }else if(tempReflector2 != null){
+                    tempReflector2.GetComponent<ReflejoEspejo>().noChoca();
+                    tempReflector2 = null;
                 }
-                //lr1.SetPosition(1, direction1 * 200);
                 lr2.SetPosition(1, hit.point);
             }else{
-               // lr1.SetPosition(1, direction1 * 200);
                 lr2.SetPosition(1, direction2 * 200);
             }
         }else{
             lr1.enabled = false;
             lr2.enabled = false;
-            //lr1.SetPosition(1, Laser1.position);
-            //lr2.SetPosition(1, Laser2.position);
+            if(tempReflector1 != null){
+                tempReflector1.GetComponent<ReflejoEspejo>().noChoca();
+                tempReflector1 = null;
+            }
+            if(tempReflector2 != null){
+                tempReflector2.GetComponent<ReflejoEspejo>().noChoca();
+                tempReflector2 = null;
+            }
+
         }
         
     }
@@ -82,6 +93,7 @@ public class ReflejoEspejo : MonoBehaviour
         lr1.material = m;
         lr2.material = m;
     }
+
     public void noChoca(){
         aux = false;
     }

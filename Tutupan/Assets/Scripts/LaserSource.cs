@@ -27,14 +27,10 @@ public class LaserSource : MonoBehaviour
                 Vector3 temp = Vector3.Reflect(direction, hit.normal);
                 hit.collider.gameObject.GetComponent<ReflejoEspejo>().Choca(lr.material);
                 //hit.collider.gameObject.GetComponent<ReflejoEspejo>().noChoca();
-            }else{
-                ReflejoEspejo.aux = false;
+            }else if(tempReflector != null){
+                    tempReflector.GetComponent<ReflejoEspejo>().noChoca();
+                    tempReflector = null;
             }
-          /*while(hit.collider.CompareTag("Reflector")){
-                tempReflector = hit.collider.gameObject;
-                Vector3 temp = Vector3.Reflect(direction, hit.normal);
-                hit.collider.gameObject.GetComponent<ReflejoEspejo>().Choca();
-            }*/
             lr.SetPosition(1, hit.point);
         }else{
             lr.SetPosition(1, direction * 200);
