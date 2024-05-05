@@ -24,20 +24,20 @@ public class LaserSource : MonoBehaviour
         if(Physics.Raycast(laserStartPoint.position, direction, out hit, Mathf.Infinity)){
             if(hit.collider.CompareTag("Reflector")){
                 if(tempReflector){
-                    tempReflector.GetComponent<ReflejoEspejo>().noChoca();
+                    tempReflector.GetComponent<ReflejoEspejo>().NoChoca();
                 }
                 tempReflector = hit.collider.gameObject;
                 Vector3 temp = Vector3.Reflect(direction, hit.normal);
                 hit.collider.gameObject.GetComponent<ReflejoEspejo>().Choca(lr.material, this.gameObject);
-                //hit.collider.gameObject.GetComponent<ReflejoEspejo>().noChoca();
+                //hit.collider.gameObject.GetComponent<ReflejoEspejo>().NoChoca();
             }else if(tempReflector != null){
-                tempReflector.GetComponent<ReflejoEspejo>().noChoca();
+                tempReflector.GetComponent<ReflejoEspejo>().NoChoca();
                 tempReflector = null;
             }
             lr.SetPosition(1, hit.point);
         }else{
             if(tempReflector != null){
-                tempReflector.GetComponent<ReflejoEspejo>().noChoca();
+                tempReflector.GetComponent<ReflejoEspejo>().NoChoca();
                 tempReflector = null;
             }
             lr.SetPosition(1, direction * 200);
