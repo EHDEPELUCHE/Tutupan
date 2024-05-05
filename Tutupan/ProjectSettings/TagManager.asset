@@ -9,6 +9,11 @@ TagManager:
   - SueloUnitario
   - Reflector
   - Bloqueo
+  - Fruit
+  - Bomb
+  - Ray
+  - GameManager
+  - BottomTag
   layers:
   - Default
   - TransparentFX
