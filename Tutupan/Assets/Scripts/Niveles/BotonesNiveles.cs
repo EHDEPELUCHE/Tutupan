@@ -14,26 +14,33 @@ public class BotonesNiveles : MonoBehaviour
     static public GameObject Auxiliar;
     
     public void ColocarEspejo(){
+        Rotacion.modoBorrado = false;
         Auxiliar = espejo;
         Debug.Log("Se asigna el espejo a auxiliar: " + Auxiliar.name);
         eventitou.Invoke();
     }
     public void ColocarEspejoDoble(){
+        Rotacion.modoBorrado = false;
         Auxiliar = espejoDoble;
         Debug.Log("Se asigna el espejo a auxiliar: " + Auxiliar.name);
         eventitou.Invoke();
     }
     public void ColocarPrisma(){
+        Rotacion.modoBorrado = false;
         Auxiliar = prisma;
         Debug.Log("Se asigna el espejo a auxiliar: " + Auxiliar.name);
         eventitou.Invoke();
     }
     public void ColocarCunna(){
+        Rotacion.modoBorrado = false;
         Auxiliar = cunna;
         Debug.Log("Se asigna el espejo a auxiliar: " + Auxiliar.name);
         eventitou.Invoke();
     }
 
+    public void Eliminar(){
+        Rotacion.modoBorrado = true;
+    }
     public void Atras(){
         SceneManager.LoadScene("ContinuarAventura");
     }
