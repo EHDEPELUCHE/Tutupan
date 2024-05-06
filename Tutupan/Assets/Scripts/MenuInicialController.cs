@@ -36,7 +36,7 @@ public class MenuInicialController : MonoBehaviour
     
     public void Desafio()
     {
-        SceneManager.LoadScene("Desafio");
+        SceneManager.LoadScene("ModoDesafio");
         
     }
 
