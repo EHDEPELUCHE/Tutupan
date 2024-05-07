@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4131279156862871390}
   m_Layer: 0
   m_Name: ReceptorLuzRoja
-  m_TagString: Untagged
+  m_TagString: Receptor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
