@@ -113,19 +113,6 @@ public class ReflejoEspejo : MonoBehaviour
         }
     }
 
-    void OnTriggerStay(Collider other)
-    {
-        // Realizar acciones específicas cuando colisiona con otros objetos
-        if (other.CompareTag("Reflector"))
-        {
-            Debug.Log("El laser golpea donde tiene que golpear");
-        }
-        else
-        {
-            Debug.Log("El laser ya no está tocando el trigger");
-        }
-    }
-
     public void Choca(Material m, GameObject or)
     {
         aux = true;
