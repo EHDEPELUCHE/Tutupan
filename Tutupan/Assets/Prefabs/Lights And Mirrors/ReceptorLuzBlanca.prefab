@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8551023067822889527}
   m_Layer: 0
   m_Name: ReceptorLuzBlanca
-  m_TagString: Receptor
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84,16 +84,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3894053234435244662, guid: 0fa0d66799f752146ab70c041ccf4a53, type: 3}
+      propertyPath: m_TagString
+      value: Receptor
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3894053234435244662, guid: 0fa0d66799f752146ab70c041ccf4a53, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3066672830883619093}
+      addedObject: {fileID: 405807423283105308}
     - targetCorrespondingSourceObject: {fileID: 3894053234435244662, guid: 0fa0d66799f752146ab70c041ccf4a53, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 405807423283105308}
+      addedObject: {fileID: 5148962140455609412}
   m_SourcePrefab: {fileID: 100100000, guid: 0fa0d66799f752146ab70c041ccf4a53, type: 3}
 --- !u!4 &166773345942906347 stripped
 Transform:
@@ -105,28 +109,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3894053234435244662, guid: 0fa0d66799f752146ab70c041ccf4a53, type: 3}
   m_PrefabInstance: {fileID: 1020192453131901482}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &3066672830883619093
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4044803564991633500}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -54812730450095186, guid: e842732941e6c994cb0bdd338b7dce22, type: 3}
 --- !u!54 &405807423283105308
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -154,3 +136,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5148962140455609412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4044803564991633500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 590a6a70e68d2b54c994cf9f8f39b5e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  active: 0

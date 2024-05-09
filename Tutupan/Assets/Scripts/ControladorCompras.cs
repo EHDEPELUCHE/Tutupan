@@ -10,32 +10,16 @@ public class ControladorCompras : MonoBehaviour
     private AudioSource audioSource;
     public AudioClip NotEnough;
     //VAriables publicas que informan de lo que tiene el usuario
-    public Text tCunnas;
-    public Text tEspejos;
-    public Text tEspejosDobles;
-    public Text tPrismas;
-    public Text tPuntos;
+    public Text tCunnas, tEspejos, tEspejosDobles, tPrismas, tPuntos;
     //Variables para poder comprar
-    private int Puntos;
-    
-    //Los precios pueden variar según el modo desafio, no os cortéis
-    private int PrecioBaseCunna = 400;
-    private int PrecioBaseEspejo = 200;
-    private int PrecioBaseEspejoDoble = 350;
-    private int PrecioBasePrisma = 500;
+    private int Puntos, PrecioBaseCunna = 400, PrecioBaseEspejo = 200, 
+                PrecioBaseEspejoDoble = 350, PrecioBasePrisma = 500,
     //Estas son las disponibles para el jugador 
-    private int CunnasCompradas;
-    private int EspejosComprados;
-    private int EspejosDoblesComprados;
-    private int PrismasComprados;
+                CunnasCompradas, EspejosComprados, EspejosDoblesComprados, PrismasComprados, 
     //Estas son para calcular el precio en base a cuantas se hayan comprado ya
-    private int CunnasCompradasTotales;
-    private int EspejosCompradosTotales;
-    private int EspejosDoblesCompradosTotales;
-    private int PrismasCompradosTotales;
+                CunnasCompradasTotales, EspejosCompradosTotales, EspejosDoblesCompradosTotales, PrismasCompradosTotales;
   
-    void Start()
-    {
+    void Start() {
         audioSource = GetComponent<AudioSource>();
         Puntos = PlayerPrefs.GetInt("Puntos");
 
@@ -58,17 +42,10 @@ public class ControladorCompras : MonoBehaviour
         tEspejosDobles.text = "Price: " + PrecioBaseEspejoDoble + "\n Inventory: " + EspejosDoblesComprados;
         tPrismas.text = "Price: " + PrecioBasePrisma + "\n Inventory: " + PrismasComprados;
         tPuntos.text = "Points: " + Puntos;
-
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public void ComprarCunna(){
-        if(PrecioBaseCunna <= Puntos){
+    public void ComprarCunna() {
+        if(PrecioBaseCunna <= Puntos) {
             CunnasCompradasTotales++;
             PlayerPrefs.SetInt("CunnasCompradasTotales", CunnasCompradasTotales);
             CunnasCompradas++;
@@ -81,16 +58,14 @@ public class ControladorCompras : MonoBehaviour
             audioSource.Play(0);
             animator.Play("0000000014", 1, 0); //Thank you
             animator.PlayInFixedTime("Thankful",-1, 0.30f);
-        }else{
+        }else {
             animator.Play("0000000015", 1, 0); //Not enought points audio
             audioSource.PlayOneShot(NotEnough);
         }
-        
     }
     
-
-     public void ComprarEspejo(){
-          if(PrecioBaseEspejo <= Puntos){
+    public void ComprarEspejo() {
+        if (PrecioBaseEspejo <= Puntos) {
             EspejosCompradosTotales++;
             PlayerPrefs.SetInt("EspejosCompradosTotales", EspejosCompradosTotales);
             EspejosComprados++;
@@ -102,15 +77,14 @@ public class ControladorCompras : MonoBehaviour
             tPuntos.text = "Puntos: " + Puntos;
             audioSource.Play(0);
             animator.Play("0000000014", 1, 0); //Thank you
-        }else{
+        } else {
             animator.Play("0000000015", 1, 0); //Not enought points audio
             audioSource.PlayOneShot(NotEnough);
-        }
-        
+        } 
     }
   
-    public void ComprarEspejoDoble(){
-        if(PrecioBaseEspejoDoble <= Puntos){
+    public void ComprarEspejoDoble() {
+        if (PrecioBaseEspejoDoble <= Puntos) {
             EspejosDoblesCompradosTotales++;
             PlayerPrefs.SetInt("EspejosDoblesCompradasTotales", EspejosDoblesCompradosTotales);
             EspejosDoblesComprados++;
@@ -121,15 +95,14 @@ public class ControladorCompras : MonoBehaviour
             tEspejosDobles.text = "Price: " + PrecioBaseEspejoDoble + "\n Inventory: " + EspejosDoblesComprados;
             tPuntos.text = "Puntos: " + Puntos;
             audioSource.Play(0);
-            animator.Play("0000000014", 1, 0); //Thank you
-        }else{
+           animator.Play("0000000014", 1, 0); //Thank you
+        } else {
             animator.Play("0000000015", 1, 0); //Not enought points audio
             audioSource.PlayOneShot(NotEnough);
         }
-        
     }
-     public void ComprarPrisma(){
-         if(PrecioBasePrisma <= Puntos){
+     public void ComprarPrisma() {
+         if (PrecioBasePrisma <= Puntos) {
             PrismasCompradosTotales++;
             PlayerPrefs.SetInt("PrismasCompradosTotales", PrismasCompradosTotales);
             PrismasComprados++;
@@ -141,15 +114,13 @@ public class ControladorCompras : MonoBehaviour
             tPuntos.text = "Puntos: " + Puntos;
             audioSource.Play(0);
             animator.Play("0000000014", 1, 0); //Thank you
-        }else{
+        } else {
             animator.Play("0000000015", 1, 0); //Not enought points audio
             audioSource.PlayOneShot(NotEnough);
         }
-      
     }
 
-    public void Atras(){
+    public void Atras() {
         SceneManager.LoadScene("MenuInicial");
     }
-
 }

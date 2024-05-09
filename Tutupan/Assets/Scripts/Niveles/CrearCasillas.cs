@@ -10,18 +10,9 @@ public class Rotaciones {
 
 public class CrearCasillas : MonoBehaviour
 {
-    public GameObject CasillaPrefab;
-    public GameObject creadorLuzBlanco;
-    public GameObject creadorLuzRoja;
-    public GameObject creadorLuzAzul;
-    public GameObject creadorLuzAmarilla;
-    public GameObject receptorLuzBlanco;
-    public GameObject receptorLuzRoja;
-    public GameObject receptorLuzAzul;
-    public GameObject receptorLuzAmarilla;
-    public GameObject Muro;
-    public int Ancho;
-    public int Alto;
+    public GameObject CasillaPrefab, creadorLuzBlanco, creadorLuzRoja, creadorLuzAzul, creadorLuzAmarilla,
+                      receptorLuzBlanco, receptorLuzRoja, receptorLuzAzul, receptorLuzAmarilla, Muro;
+    public int Ancho, Alto;
 
     void Start() {
         int cont = 0;

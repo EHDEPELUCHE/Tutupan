@@ -1,0 +1,1179 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.19f1 (244b723c30a6) revision 2378610'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'es' Physical Memory: 16083 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/elena/Desktop/DSHconj/Tutupan/Tutupan
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51936
+Successfully changed project path to: C:/Users/elena/Desktop/DSHconj/Tutupan/Tutupan
+C:/Users/elena/Desktop/DSHconj/Tutupan/Tutupan
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14664] Host "[IP] 192.168.0.1 [Port] 0 [Flags] 2 [Guid] 3534203950 [EditorId] 3534203950 [Version] 1048832 [Id] WindowsEditor(7,elena) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [14664] Host "[IP] 192.168.0.1 [Port] 0 [Flags] 2 [Guid] 3534203950 [EditorId] 3534203950 [Version] 1048832 [Id] WindowsEditor(7,elena) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 46.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.19f1 (244b723c30a6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/elena/Desktop/DSHconj/Tutupan/Tutupan/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x46a8)
+    Vendor:   Intel
+    VRAM:     8041 MB
+    Driver:   30.0.101.2079
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009860 seconds.
+- Loaded All Assemblies, in  1.528 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 398 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.819 seconds
+Domain Reload Profiling: 2346ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (266ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (1059ms)
+		LoadAssemblies (119ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1056ms)
+			TypeCache.Refresh (1055ms)
+				TypeCache.ScanAssembly (485ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (820ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (755ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (550ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (135ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file data-000001DC93EAA2D0 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC934F0200 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC92BA2020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9425CA30 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC94274840 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC94274840 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC93315010 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC92897620 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9346F850 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9334C620 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9334C620 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9346F850 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC93353030 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC93475C60 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC92A99400 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC93F76450 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC93F97260 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC93FA1670 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9335A440 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC93FA1670 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9419B020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC93FA1670 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC93FAEE80 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC941E3A40 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC941EF850 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9297DDA0 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  7.073 seconds
+Refreshing native plugins compatible for Editor in 1.48 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.727 seconds
+Domain Reload Profiling: 7772ms
+	BeginReloadAssembly (3065ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (110ms)
+	RebuildNativeTypeToScriptingClass (338ms)
+	initialDomainReloadingComplete (202ms)
+	LoadAllAssembliesAndSetupDomain (3328ms)
+		LoadAssemblies (5891ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (360ms)
+			TypeCache.Refresh (328ms)
+				TypeCache.ScanAssembly (311ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (727ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (456ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (269ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 2.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2072 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (373.7 KB). Loaded Objects now: 2581.
+Memory consumption went from 135.9 MB to 135.6 MB.
+Total: 3.827300 ms (FindLiveObjects: 0.187500 ms CreateObjectMapping: 0.054500 ms MarkObjects: 3.338900 ms  DeleteObjects: 0.244500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001DC94336FB0 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9308C820 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9B51E010 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC92FCD020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9301AE90 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9301AE90 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC93EF4020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9451C0C0 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC95B2C020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC941BF230 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC93F30320 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9B83C750 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC92F79020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC93F30320 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9B83C750 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC941BF230 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC941BF230 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC95F68020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC92F86840 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9614D430 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC96058020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9614D430 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC96090A30 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9615EC50 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC95F73E30 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC95B302C0 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.520 seconds
+Refreshing native plugins compatible for Editor in 1.87 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.909 seconds
+Domain Reload Profiling: 1427ms
+	BeginReloadAssembly (196ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (226ms)
+		LoadAssemblies (322ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (910ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (451ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (260ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2027 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (370.9 KB). Loaded Objects now: 2584.
+Memory consumption went from 127.1 MB to 126.7 MB.
+Total: 4.067300 ms (FindLiveObjects: 0.195400 ms CreateObjectMapping: 0.102200 ms MarkObjects: 3.500400 ms  DeleteObjects: 0.267300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1088.159920 seconds.
+  path: Assets/Prefabs/Lights And Mirrors/ReceptorLuzAzul.prefab
+  artifactKey: Guid(b3a24752f46a1c94cac63fcbbbfbfaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lights And Mirrors/ReceptorLuzAzul.prefab using Guid(b3a24752f46a1c94cac63fcbbbfbfaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6beac803091e598fbed07650175b304') in 0.179527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Prefabs/Lights And Mirrors/ReceptorLuzBlanca.prefab
+  artifactKey: Guid(eb5840423e348ed43a456a66a1ba6015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lights And Mirrors/ReceptorLuzBlanca.prefab using Guid(eb5840423e348ed43a456a66a1ba6015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ac6c4d154a97982fabd29a90fe42a9') in 0.038153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/Lights And Mirrors/ReceptorLuzRoja.prefab
+  artifactKey: Guid(026a2df268669e64495e79deb52fe2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lights And Mirrors/ReceptorLuzRoja.prefab using Guid(026a2df268669e64495e79deb52fe2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ebed175531408fbe7eab91d45609a4d') in 0.025009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefabs/Lights And Mirrors/Espejo.prefab
+  artifactKey: Guid(43f82d6eec640ea41a06c0f9c7765780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lights And Mirrors/Espejo.prefab using Guid(43f82d6eec640ea41a06c0f9c7765780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66484b649ab655ed447244810d74476') in 0.038689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 83
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefabs/Lights And Mirrors/EspejoDoble.prefab
+  artifactKey: Guid(b789b3358c7055943acbf0b90b5bf3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lights And Mirrors/EspejoDoble.prefab using Guid(b789b3358c7055943acbf0b90b5bf3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a895cec073f0507b0fd443b2cf21b4') in 0.033705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 102
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Prefabs/Lights And Mirrors/Cunna.prefab
+  artifactKey: Guid(f0e470fc7ad548b40a4df7726649ef8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lights And Mirrors/Cunna.prefab using Guid(f0e470fc7ad548b40a4df7726649ef8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c06a2cfe89638f03ff1df8c9d15be7b') in 0.038873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Lights And Mirrors/ReceptorLuzAmarilla.prefab
+  artifactKey: Guid(452a0d66c0bd3874ea008e4dc792dbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lights And Mirrors/ReceptorLuzAmarilla.prefab using Guid(452a0d66c0bd3874ea008e4dc792dbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0296c51de5c8e65ba504a51f27e4b72e') in 0.025483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 71.097926 seconds.
+  path: Assets/Prefabs/Lights And Mirrors/ReceptorLuzRoja.prefab
+  artifactKey: Guid(026a2df268669e64495e79deb52fe2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lights And Mirrors/ReceptorLuzRoja.prefab using Guid(026a2df268669e64495e79deb52fe2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cd6fd07f4f353da34d240eb2777112') in 0.037723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 141.368095 seconds.
+  path: Assets/Prefabs/Lights And Mirrors/ReceptorLuzRoja.prefab
+  artifactKey: Guid(026a2df268669e64495e79deb52fe2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lights And Mirrors/ReceptorLuzRoja.prefab using Guid(026a2df268669e64495e79deb52fe2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74bca899bb84e6a0ab4d99cf7f378f8b') in 0.044284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 9.097049 seconds.
+  path: Assets/Prefabs/Lights And Mirrors/ReceptorLuzAmarilla.prefab
+  artifactKey: Guid(452a0d66c0bd3874ea008e4dc792dbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lights And Mirrors/ReceptorLuzAmarilla.prefab using Guid(452a0d66c0bd3874ea008e4dc792dbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd776124579f654c89e89e7046822525c') in 0.020422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 10.575300 seconds.
+  path: Assets/Prefabs/Lights And Mirrors/ReceptorLuzAmarilla.prefab
+  artifactKey: Guid(452a0d66c0bd3874ea008e4dc792dbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lights And Mirrors/ReceptorLuzAmarilla.prefab using Guid(452a0d66c0bd3874ea008e4dc792dbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f04606132e981409c493ca8443ea5ab') in 0.041418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 9.635493 seconds.
+  path: Assets/Prefabs/Lights And Mirrors/ReceptorLuzAzul.prefab
+  artifactKey: Guid(b3a24752f46a1c94cac63fcbbbfbfaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lights And Mirrors/ReceptorLuzAzul.prefab using Guid(b3a24752f46a1c94cac63fcbbbfbfaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ccde21e91fe1851229aa1be077d954') in 0.053459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 9.511456 seconds.
+  path: Assets/Prefabs/Lights And Mirrors/ReceptorLuzAzul.prefab
+  artifactKey: Guid(b3a24752f46a1c94cac63fcbbbfbfaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lights And Mirrors/ReceptorLuzAzul.prefab using Guid(b3a24752f46a1c94cac63fcbbbfbfaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29249f154d9f3a6ec890db2fd31f97d8') in 0.042570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 8.107582 seconds.
+  path: Assets/Prefabs/Lights And Mirrors/ReceptorLuzBlanca.prefab
+  artifactKey: Guid(eb5840423e348ed43a456a66a1ba6015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lights And Mirrors/ReceptorLuzBlanca.prefab using Guid(eb5840423e348ed43a456a66a1ba6015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5124667127adc1b72e289f234d16dbde') in 0.038966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 8.580824 seconds.
+  path: Assets/Prefabs/Lights And Mirrors/ReceptorLuzBlanca.prefab
+  artifactKey: Guid(eb5840423e348ed43a456a66a1ba6015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lights And Mirrors/ReceptorLuzBlanca.prefab using Guid(eb5840423e348ed43a456a66a1ba6015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417035ef3ca81457b1c6c5e7c6a66c4b') in 0.044049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001DC4EB02CC0 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC95AC8020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9B51E010 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC4EBE3040 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9B8C9D40 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9B8C9D40 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC95F44020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC4EC27E10 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC95842010 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC92B7CC70 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC93016010 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC95842010 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9301CA20 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC945234D0 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC95842010 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC95588010 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC92CA5420 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC945234D0 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9B569820 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC945F6030 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9278E020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC945F6030 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9558FC20 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9558FC20 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9558FC20 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC92FD6F20 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.887 seconds
+Refreshing native plugins compatible for Editor in 2.68 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.007 seconds
+Domain Reload Profiling: 4892ms
+	BeginReloadAssembly (194ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (568ms)
+		LoadAssemblies (635ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (46ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (4008ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1185ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (253ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (159ms)
+			ProcessInitializeOnLoadAttributes (668ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 3.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2026 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (370.9 KB). Loaded Objects now: 2594.
+Memory consumption went from 129.1 MB to 128.7 MB.
+Total: 5.351200 ms (FindLiveObjects: 0.311000 ms CreateObjectMapping: 0.089400 ms MarkObjects: 4.526800 ms  DeleteObjects: 0.421400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 30.628741 seconds.
+  path: Assets/Prefabs/Lights And Mirrors/Espejo.prefab
+  artifactKey: Guid(43f82d6eec640ea41a06c0f9c7765780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lights And Mirrors/Espejo.prefab using Guid(43f82d6eec640ea41a06c0f9c7765780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c3e45f5cf9702890cd7a3e1ef74d5a') in 0.187149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 83
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/Lights And Mirrors/EspejoDoble.prefab
+  artifactKey: Guid(b789b3358c7055943acbf0b90b5bf3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lights And Mirrors/EspejoDoble.prefab using Guid(b789b3358c7055943acbf0b90b5bf3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad52e1688d71c0fb69c564ecaeabb57') in 0.030860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 102
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/Lights And Mirrors/Cunna.prefab
+  artifactKey: Guid(f0e470fc7ad548b40a4df7726649ef8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lights And Mirrors/Cunna.prefab using Guid(f0e470fc7ad548b40a4df7726649ef8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43619ab8d954d257262b67fac794f3c7') in 0.022586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001DC9BF9C050 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9BBF9030 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9B51E010 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC940F5020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9BBA3010 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9BBA3010 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC95EF03F0 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9BA62170 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC93189020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC92B7CC70 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9BC07730 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC93189020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC4EDFA080 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9C184E90 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC93189020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9BFE5950 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC96089340 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC95588010 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9B569820 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9623F030 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC92C7F010 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC945F6030 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9558CA90 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9301C020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9301C020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9B8CDFE0 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.634 seconds
+Refreshing native plugins compatible for Editor in 2.06 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.020 seconds
+Domain Reload Profiling: 1651ms
+	BeginReloadAssembly (208ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (304ms)
+		LoadAssemblies (403ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1021ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (555ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (342ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2026 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (370.9 KB). Loaded Objects now: 2597.
+Memory consumption went from 131.1 MB to 130.7 MB.
+Total: 2.937100 ms (FindLiveObjects: 0.125300 ms CreateObjectMapping: 0.035800 ms MarkObjects: 2.553200 ms  DeleteObjects: 0.221400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 54.239998 seconds.
+  path: Assets/Prefabs/Lights And Mirrors/ReceptorLuzAzul.prefab
+  artifactKey: Guid(b3a24752f46a1c94cac63fcbbbfbfaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lights And Mirrors/ReceptorLuzAzul.prefab using Guid(b3a24752f46a1c94cac63fcbbbfbfaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63df936b7bd03d359e2dd64e335d1987') in 0.079860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Lights And Mirrors/ReceptorLuzBlanca.prefab
+  artifactKey: Guid(eb5840423e348ed43a456a66a1ba6015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lights And Mirrors/ReceptorLuzBlanca.prefab using Guid(eb5840423e348ed43a456a66a1ba6015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a00b06646f0047a33b209303a50a4da') in 0.035467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Lights And Mirrors/ReceptorLuzRoja.prefab
+  artifactKey: Guid(026a2df268669e64495e79deb52fe2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lights And Mirrors/ReceptorLuzRoja.prefab using Guid(026a2df268669e64495e79deb52fe2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0cbb98524ac1cbef0fc744c5ffa1c6') in 0.014602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefabs/Lights And Mirrors/ReceptorLuzAmarilla.prefab
+  artifactKey: Guid(452a0d66c0bd3874ea008e4dc792dbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lights And Mirrors/ReceptorLuzAmarilla.prefab using Guid(452a0d66c0bd3874ea008e4dc792dbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304fdf4df454f782c93fde3a01c13e6a') in 0.015667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001DC9BA62170 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC4EDFA080 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9B51E010 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC4EBE3040 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9C1EF020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC93016010 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC92C7F010 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9C1EF020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC93189020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DCFC508020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC4EC1EF40 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC93189020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC4EC25950 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC95D42420 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC96004020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC4EBE3040 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9BFE3CC0 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9B8C9D40 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9B569820 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DCFC508020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9278E020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC945F6030 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC4E45D230 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC4E463240 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC4E463240 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC95ACC030 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.277 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.474 seconds
+Domain Reload Profiling: 750ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (110ms)
+		LoadAssemblies (157ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (475ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (258ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (149ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2026 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (346.8 KB). Loaded Objects now: 2600.
+Memory consumption went from 133.0 MB to 132.6 MB.
+Total: 5.218900 ms (FindLiveObjects: 0.214800 ms CreateObjectMapping: 0.075900 ms MarkObjects: 4.475900 ms  DeleteObjects: 0.450100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 87.872971 seconds.
+  path: Assets/Prefabs/Lights And Mirrors/ReceptorLuzBlanca.prefab
+  artifactKey: Guid(eb5840423e348ed43a456a66a1ba6015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lights And Mirrors/ReceptorLuzBlanca.prefab using Guid(eb5840423e348ed43a456a66a1ba6015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d485939245a153b52c792d4239b28cc') in 0.240776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time since last request: 29.612425 seconds.
+  path: Assets/Prefabs/Lights And Mirrors/ReceptorLuzBlanca.prefab
+  artifactKey: Guid(eb5840423e348ed43a456a66a1ba6015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lights And Mirrors/ReceptorLuzBlanca.prefab using Guid(eb5840423e348ed43a456a66a1ba6015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657b936b92f60d02b80c89f902fc899e') in 0.065177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 8.555544 seconds.
+  path: Assets/Prefabs/Lights And Mirrors/ReceptorLuzRoja.prefab
+  artifactKey: Guid(026a2df268669e64495e79deb52fe2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lights And Mirrors/ReceptorLuzRoja.prefab using Guid(026a2df268669e64495e79deb52fe2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428925d0ecb503721418b7399ce5cf77') in 0.026134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time since last request: 22.360767 seconds.
+  path: Assets/Prefabs/Lights And Mirrors/ReceptorLuzRoja.prefab
+  artifactKey: Guid(026a2df268669e64495e79deb52fe2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lights And Mirrors/ReceptorLuzRoja.prefab using Guid(026a2df268669e64495e79deb52fe2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d91516882c456e5136bc202436612b') in 0.067274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 4.574343 seconds.
+  path: Assets/Prefabs/Lights And Mirrors/ReceptorLuzAzul.prefab
+  artifactKey: Guid(b3a24752f46a1c94cac63fcbbbfbfaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lights And Mirrors/ReceptorLuzAzul.prefab using Guid(b3a24752f46a1c94cac63fcbbbfbfaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbb6c20c924fabd1019d2c2f556b214') in 0.028178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time since last request: 33.307870 seconds.
+  path: Assets/Prefabs/Lights And Mirrors/ReceptorLuzAzul.prefab
+  artifactKey: Guid(b3a24752f46a1c94cac63fcbbbfbfaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lights And Mirrors/ReceptorLuzAzul.prefab using Guid(b3a24752f46a1c94cac63fcbbbfbfaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f703fa9b72364d202419db61aad9cbd') in 0.066067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 6.068822 seconds.
+  path: Assets/Prefabs/Lights And Mirrors/ReceptorLuzAmarilla.prefab
+  artifactKey: Guid(452a0d66c0bd3874ea008e4dc792dbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lights And Mirrors/ReceptorLuzAmarilla.prefab using Guid(452a0d66c0bd3874ea008e4dc792dbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f937e253a0ab776f81986026e7cc1a') in 0.050814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001DC94DFF8B0 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC92682010 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9B51E010 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC92F79020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC4E47AAA0 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9BAA3CA0 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC92C7F010 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC4EDD2050 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9623F030 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DCFC508020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC949BD020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC95842010 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC94466E80 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC927C31C0 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DCFCD9C010 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9BF7C030 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9BDEBC80 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC95ACC030 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9B569820 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DCFC508020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC941EBA50 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC945F6030 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9292ECE0 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9B8F8CA0 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9B8F8CA0 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9BAA3CA0 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.288 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.529 seconds
+Domain Reload Profiling: 816ms
+	BeginReloadAssembly (110ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (126ms)
+		LoadAssemblies (174ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (530ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (263ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (146ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2026 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (338.7 KB). Loaded Objects now: 2603.
+Memory consumption went from 134.9 MB to 134.6 MB.
+Total: 2.610400 ms (FindLiveObjects: 0.202400 ms CreateObjectMapping: 0.049000 ms MarkObjects: 2.113400 ms  DeleteObjects: 0.243700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001DC94483050 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9BDB0120 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9B51E010 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC92F79020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC92E88A20 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC94CCB010 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC95EF03F0 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9301FDB0 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC95842010 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC92B7CC70 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC93357020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DCFCE30030 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC4E45D230 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC4EDD2050 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC96058020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9BC82B70 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9C1F1020 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC94732010 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9B569820 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC945F6030 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DCFC771340 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC945F6030 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9446EFE0 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9599C010 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9599C010 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC9B8ED2B0 doesn't match image C:\Users\elena\Desktop\DSHconj\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.357 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.507 seconds
+Domain Reload Profiling: 862ms
+	BeginReloadAssembly (177ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (119ms)
+		LoadAssemblies (181ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (507ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (293ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (164ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2027 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (339.0 KB). Loaded Objects now: 2606.
+Memory consumption went from 137.1 MB to 136.8 MB.
+Total: 2.166900 ms (FindLiveObjects: 0.134700 ms CreateObjectMapping: 0.041100 ms MarkObjects: 1.741100 ms  DeleteObjects: 0.248800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
