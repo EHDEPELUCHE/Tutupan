@@ -10,11 +10,14 @@ public class Receptores : MonoBehaviour
         active = false;
     }
     
-    public void Encender() {
-       // Debug.Log("ENCENDIDOOO");
-        if(!active) SuperarNivel.receptoresActivos++;
-        active = true;
-        
+    public void Encender(Material m) {
+        Transform padre = this.transform.parent;
+        //Debug.Log("Material " +  m.name.Substring(5,5) + "obj " + padre.gameObject.name.Substring(11));
+        if(m.name.Substring(5,4) == padre.gameObject.name.Substring(11,4)){
+            if(!active) SuperarNivel.receptoresActivos++;
+            active = true;
+        }
+          
     }
     
     public void Apagar() {

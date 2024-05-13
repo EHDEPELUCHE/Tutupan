@@ -7,7 +7,7 @@ public class ReflejoEspejo : MonoBehaviour
     private LineRenderer lr1, lr2;
     public bool aux = false;
     private GameObject origen;
-    GameObject tempReflector1, tempReflector2, tempReceptor1, tempReceptor2;
+    GameObject tempReflector1, tempReflector2, tempReceptor1, tempReceptor2, tempPrisma1, tempPrisma2;
     
     private void Start() {
         // Obtén la referencia al Line Renderer
@@ -30,16 +30,37 @@ public class ReflejoEspejo : MonoBehaviour
                 if (hit.collider.CompareTag("Reflector")) {
                     if (tempReflector1) tempReflector1.GetComponent<ReflejoEspejo>().NoChoca();
                     if (tempReceptor1) tempReceptor1.GetComponent<Receptores>().Apagar();
+                    if (tempPrisma1){ tempPrisma1.GetComponent<Prisma>().apagarLBlanco();
+                                        tempPrisma1.GetComponent<Prisma>().apagarLRojo();
+                                        tempPrisma1.GetComponent<Prisma>().apagarLAzul();
+                                        tempPrisma1.GetComponent<Prisma>().apagarLAmarillo();}
                     tempReflector1 = hit.collider.gameObject;
                     tempReflector1.GetComponent<ReflejoEspejo>().Choca(lr1.material, this.gameObject);
                 }else if (hit.collider.CompareTag("Receptor")) {
                    // Debug.Log("Toco receptor");
                     if (tempReflector1) tempReflector1.GetComponent<ReflejoEspejo>().NoChoca();
                     if (tempReceptor1) tempReceptor1.GetComponent<Receptores>().Apagar();
+                    if (tempPrisma1){ tempPrisma1.GetComponent<Prisma>().apagarLBlanco();
+                                        tempPrisma1.GetComponent<Prisma>().apagarLRojo();
+                                        tempPrisma1.GetComponent<Prisma>().apagarLAzul();
+                                        tempPrisma1.GetComponent<Prisma>().apagarLAmarillo();}
                     tempReceptor1 = hit.collider.gameObject;
-                    tempReceptor1.GetComponent<Receptores>().Encender();
+                    tempReceptor1.GetComponent<Receptores>().Encender(lr1.material);
+                }else if(hit.collider.CompareTag("LadoBlanco") || hit.collider.CompareTag("LadoAzul")
+                     || hit.collider.CompareTag("LadoRojo") || hit.collider.CompareTag("LadoAmarillo")){
+                    if (tempReflector1) tempReflector1.GetComponent<ReflejoEspejo>().NoChoca();
+                    if (tempReceptor1) tempReceptor1.GetComponent<Receptores>().Apagar();
+                    if (tempPrisma1){ tempPrisma1.GetComponent<Prisma>().apagarLBlanco();
+                                        tempPrisma1.GetComponent<Prisma>().apagarLRojo();
+                                        tempPrisma1.GetComponent<Prisma>().apagarLAzul();
+                                        tempPrisma1.GetComponent<Prisma>().apagarLAmarillo();}
+                    tempPrisma1 = hit.collider.gameObject;
+                    tempPrisma1.GetComponent<Prisma>().encenderLBlanco(lr1.material);
+                    tempPrisma1.GetComponent<Prisma>().encenderLRojo(lr1.material);
+                    tempPrisma1.GetComponent<Prisma>().encenderLAzul(lr1.material);
+                    tempPrisma1.GetComponent<Prisma>().encenderLAmarillo(lr1.material);
                 }
-                else if (tempReflector1 != null || tempReceptor1 != null) {
+                else if (tempReflector1 != null || tempReceptor1 != null || tempPrisma1 != null) {
                     if (tempReflector1 != null) {
                         tempReflector1.GetComponent<ReflejoEspejo>().NoChoca();
                         tempReflector1 = null;
@@ -48,6 +69,13 @@ public class ReflejoEspejo : MonoBehaviour
                         tempReceptor1.GetComponent<Receptores>().Apagar();
                         tempReceptor1 = null;
                     }
+                    if (tempPrisma1 != null) {
+                        tempPrisma1.GetComponent<Prisma>().apagarLBlanco();
+                                        tempPrisma1.GetComponent<Prisma>().apagarLRojo();
+                                        tempPrisma1.GetComponent<Prisma>().apagarLAzul();
+                                        tempPrisma1.GetComponent<Prisma>().apagarLAmarillo();
+                                    tempPrisma1 = null;}
+
                 }
                 lr1.SetPosition(1, hit.point);
             }
@@ -69,14 +97,32 @@ public class ReflejoEspejo : MonoBehaviour
                     if (tempReflector2) tempReflector2.GetComponent<ReflejoEspejo>().NoChoca();
                     if (tempReceptor2) tempReceptor2.GetComponent<Receptores>().Apagar();
                     tempReceptor2 = hit.collider.gameObject;
-                    tempReceptor2.GetComponent<Receptores>().Encender();
+                    tempReceptor2.GetComponent<Receptores>().Encender(lr2.material);
+                }else if(hit.collider.CompareTag("LadoBlanco") || hit.collider.CompareTag("LadoAzul")
+                     || hit.collider.CompareTag("LadoRojo") || hit.collider.CompareTag("LadoAmarillo")){
+                    if (tempReflector2) tempReflector2.GetComponent<ReflejoEspejo>().NoChoca();
+                    if (tempReceptor2) tempReceptor2.GetComponent<Receptores>().Apagar();
+                    if (tempPrisma2){ tempPrisma2.GetComponent<Prisma>().apagarLBlanco();
+                                        tempPrisma2.GetComponent<Prisma>().apagarLRojo();
+                                        tempPrisma2.GetComponent<Prisma>().apagarLAzul();
+                                        tempPrisma2.GetComponent<Prisma>().apagarLAmarillo();}
+                    tempPrisma2 = hit.collider.gameObject;
+                    tempPrisma2.GetComponent<Prisma>().encenderLBlanco(lr2.material);
+                    tempPrisma2.GetComponent<Prisma>().encenderLRojo(lr2.material);
+                    tempPrisma2.GetComponent<Prisma>().encenderLAzul(lr2.material);
+                    tempPrisma2.GetComponent<Prisma>().encenderLAmarillo(lr2.material);
                 }
-                else if (tempReflector2 != null || tempReceptor2 != null) {
+                else if (tempReflector2 != null || tempReceptor2 != null || tempPrisma2 != null) {
                     if (tempReflector2 != null) {
                         tempReflector2.GetComponent<ReflejoEspejo>().NoChoca();
                         tempReflector2 = null;
                     }
                     if (tempReceptor2 != null) tempReceptor2.GetComponent<Receptores>().Apagar();
+                    if (tempPrisma2){ tempPrisma2.GetComponent<Prisma>().apagarLBlanco();
+                                        tempPrisma2.GetComponent<Prisma>().apagarLRojo();
+                                        tempPrisma2.GetComponent<Prisma>().apagarLAzul();
+                                        tempPrisma2.GetComponent<Prisma>().apagarLAmarillo();
+                                        tempPrisma2 = null;}
                 }
                 lr2.SetPosition(1, hit.point);
             }
@@ -101,6 +147,17 @@ public class ReflejoEspejo : MonoBehaviour
                 tempReceptor2.GetComponent<Receptores>().Apagar();
                 tempReceptor2 = null;
             }
+            if (tempPrisma1 != null) {
+                        tempPrisma1.GetComponent<Prisma>().apagarLBlanco();
+                                        tempPrisma1.GetComponent<Prisma>().apagarLRojo();
+                                        tempPrisma1.GetComponent<Prisma>().apagarLAzul();
+                                        tempPrisma1.GetComponent<Prisma>().apagarLAmarillo();
+                                    tempPrisma1 = null;}
+            if (tempPrisma2){ tempPrisma2.GetComponent<Prisma>().apagarLBlanco();
+                                        tempPrisma2.GetComponent<Prisma>().apagarLRojo();
+                                        tempPrisma2.GetComponent<Prisma>().apagarLAzul();
+                                        tempPrisma2.GetComponent<Prisma>().apagarLAmarillo();
+                                        tempPrisma2 = null;}
         }
     }
 

@@ -7,7 +7,7 @@ public class LaserSource : MonoBehaviour
     [SerializeField] Transform laserStartPoint;
     Vector3 direction;
     LineRenderer lr;
-    GameObject tempReflector;
+    GameObject tempReflector, tempPrisma;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,15 +30,59 @@ public class LaserSource : MonoBehaviour
                 Vector3 temp = Vector3.Reflect(direction, hit.normal);
                 hit.collider.gameObject.GetComponent<ReflejoEspejo>().Choca(lr.material, this.gameObject);
                 //hit.collider.gameObject.GetComponent<ReflejoEspejo>().NoChoca();
-            }else if(tempReflector != null){
-                tempReflector.GetComponent<ReflejoEspejo>().NoChoca();
-                tempReflector = null;
+            }else if(hit.collider.CompareTag("LadoBlanco")){
+                if(tempReflector){
+                    tempReflector.GetComponent<ReflejoEspejo>().NoChoca();
+                }
+                if(tempPrisma){
+                    tempPrisma.GetComponent<Prisma>().apagarLBlanco();
+                                        tempPrisma.GetComponent<Prisma>().apagarLRojo();
+                                        tempPrisma.GetComponent<Prisma>().apagarLAzul();
+                                        tempPrisma.GetComponent<Prisma>().apagarLAmarillo();}
+                tempPrisma = hit.collider.gameObject;
+                tempPrisma.GetComponent<Prisma>().encenderLBlanco(lr.material);
+                 
+                }else if( hit.collider.CompareTag("LadoRojo") || hit.collider.CompareTag("LadoAmarillo") || hit.collider.CompareTag("LadoAzul")){
+                    if(tempReflector){
+                        tempReflector.GetComponent<ReflejoEspejo>().NoChoca();
+                    }
+                    if(tempPrisma){
+                        tempPrisma.GetComponent<Prisma>().apagarLBlanco();
+                                            tempPrisma.GetComponent<Prisma>().apagarLRojo();
+                                            tempPrisma.GetComponent<Prisma>().apagarLAzul();
+                                            tempPrisma.GetComponent<Prisma>().apagarLAmarillo();}
+                    tempPrisma = hit.collider.gameObject;
+                   
+                        tempPrisma.GetComponent<Prisma>().encenderLRojo(lr.material);
+                        tempPrisma.GetComponent<Prisma>().encenderLAzul(lr.material);
+                        tempPrisma.GetComponent<Prisma>().encenderLAmarillo(lr.material);
+                }   
+            else if(tempReflector != null || tempPrisma != null){
+                if(tempReflector){
+                    tempReflector.GetComponent<ReflejoEspejo>().NoChoca();
+                    tempReflector = null;
+                }
+                if(tempPrisma){
+                    tempPrisma.GetComponent<Prisma>().apagarLBlanco();
+                    tempPrisma.GetComponent<Prisma>().apagarLRojo();
+                    tempPrisma.GetComponent<Prisma>().apagarLAzul();
+                    tempPrisma.GetComponent<Prisma>().apagarLAmarillo();
+                    tempPrisma = null;
+                }
+                
             }
             lr.SetPosition(1, hit.point);
         }else{
             if(tempReflector != null){
                 tempReflector.GetComponent<ReflejoEspejo>().NoChoca();
                 tempReflector = null;
+            }
+            if(tempPrisma){
+                tempPrisma.GetComponent<Prisma>().apagarLBlanco();
+                tempPrisma.GetComponent<Prisma>().apagarLRojo();
+                tempPrisma.GetComponent<Prisma>().apagarLAzul();
+                tempPrisma.GetComponent<Prisma>().apagarLAmarillo();
+                tempPrisma = null;
             }
             lr.SetPosition(1, direction * 200);
         }
