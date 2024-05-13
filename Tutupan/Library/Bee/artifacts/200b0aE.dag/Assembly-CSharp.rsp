@@ -373,6 +373,7 @@
 "Assets/Scripts/LaserReflector.cs"
 "Assets/Scripts/LaserSource.cs"
 "Assets/Scripts/Lights and Mirrors/Prisma.cs"
+"Assets/Scripts/Lights and Mirrors/PrismaSuperior.cs"
 "Assets/Scripts/Lights and Mirrors/Receptores.cs"
 "Assets/Scripts/Lights and Mirrors/ReflejoEspejo.cs"
 "Assets/Scripts/Lights and Mirrors/Rotacion.cs"
