@@ -19,16 +19,39 @@ public class Casilla : MonoBehaviour
             int i = NumCasilla / 12 ;
             switch(obj.name){
                 case "Espejo":
-                    sobremi = Instantiate(obj, new Vector3(i , 0.65f, j ), Quaternion.identity);
+                    if(CrearCasillas.maxEspejo > 0){
+                        sobremi = Instantiate(obj, new Vector3(i , 0.65f, j ), Quaternion.identity);
+                        CrearCasillas.maxEspejo--;
+                        PlayerPrefs.SetInt("EspejosComprados", CrearCasillas.maxEspejo);
+                         CrearCasillas.textoespejo.text =  CrearCasillas.maxEspejo.ToString();
+                        
+                    }   
                 break;
                 case "EspejoDoble":
-                    sobremi = Instantiate(obj, new Vector3(i , 0.5f, j), Quaternion.identity);
+                    if(CrearCasillas.maxEspejodoble > 0){
+                        sobremi = Instantiate(obj, new Vector3(i , 0.5f, j), Quaternion.identity);
+                        CrearCasillas.maxEspejodoble--;
+                        PlayerPrefs.SetInt("EspejosDoblesComprados", CrearCasillas.maxEspejodoble);
+                         CrearCasillas.textoespejodoble.text =  CrearCasillas.maxEspejodoble.ToString();
+                    }
+                    
                 break;
                 case "Cunna":
-                    sobremi = Instantiate(obj, new Vector3(i, 0.65f, j), Quaternion.identity);
+                    if(CrearCasillas.maxCunna > 0){
+                        sobremi = Instantiate(obj, new Vector3(i, 0.65f, j), Quaternion.identity);
+                        CrearCasillas.maxCunna--;
+                        PlayerPrefs.SetInt("PrismasComprados", CrearCasillas.maxCunna);
+                        CrearCasillas.textocunna.text =  CrearCasillas.maxCunna.ToString();
+                    }
                 break;
                 case "Prisma":
-                    sobremi = Instantiate(obj, new Vector3(i, 0.55f, j), Quaternion.identity);
+                    if(CrearCasillas.maxprisma > 0){
+                        sobremi = Instantiate(obj, new Vector3(i, 0.55f, j), Quaternion.identity);
+                        CrearCasillas.maxprisma--;
+                        PlayerPrefs.SetInt("PrismasComprados", CrearCasillas.maxprisma );
+                        CrearCasillas.textoprisma.text = CrearCasillas.maxprisma.ToString();
+                    }
+                    
                 break;
                 default:
                     Debug.Log("No he puesto nada " + obj.name);
