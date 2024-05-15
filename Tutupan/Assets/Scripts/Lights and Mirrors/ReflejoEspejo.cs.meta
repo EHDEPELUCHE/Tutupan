@@ -3,7 +3,13 @@ guid: 1fe9b28e53ff53b4fba99f50a41fb309
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - Laser1: {instanceID: 0}
+  - Laser2: {instanceID: 0}
+  - rojo: {fileID: 2100000, guid: 8351609b44d0a984c99b34cdd9dbbb85, type: 2}
+  - azul: {fileID: 2100000, guid: 55de760e0b9d4ef46ab7e1eee754eee0, type: 2}
+  - blanco: {fileID: 2100000, guid: 916cc19619d4a3a4ab5f751045043a88, type: 2}
+  - amarillo: {fileID: 2100000, guid: 21282828d378c5d41b647257a86fee07, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

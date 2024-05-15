@@ -8,6 +8,7 @@ public class ReflejoEspejo : MonoBehaviour
     public bool aux = false;
     private GameObject origen;
     GameObject tempReflector1, tempReflector2, tempReceptor1, tempReceptor2, tempPrisma1, tempPrisma2;
+    public Material rojo, azul, blanco ,amarillo;
 
     private void Start()
     {
@@ -69,7 +70,7 @@ public class ReflejoEspejo : MonoBehaviour
                     {
                         if (hit.collider.CompareTag("LadoBlanco"))
                         {
-                            tempPrisma1.GetComponent<Prisma>().apagarLBlanco();
+                            //tempPrisma1.GetComponent<Prisma>().apagarLBlanco();
                             tempPrisma1.GetComponent<Prisma>().apagarLRojo();
                             tempPrisma1.GetComponent<Prisma>().apagarLAzul();
                             tempPrisma1.GetComponent<Prisma>().apagarLAmarillo();
@@ -77,14 +78,16 @@ public class ReflejoEspejo : MonoBehaviour
                         else tempPrisma1.GetComponent<Prisma>().apagarLBlanco();
                     }
                     tempPrisma1 = hit.collider.gameObject;
-                    if (hit.collider.CompareTag("LadoBlanco"))
-                        tempPrisma1.GetComponent<Prisma>().encenderLBlanco(lr1.material);
+                    if (hit.collider.CompareTag("LadoBlanco")){//Debug.Log("Detecta blanco");
+                        tempPrisma1.GetComponent<Prisma>().encenderLBlanco(lr1.material);}
                     if (hit.collider.CompareTag("LadoRojo"))
                         tempPrisma1.GetComponent<Prisma>().encenderLRojo(lr1.material);
                     if (hit.collider.CompareTag("LadoAzul"))
                         tempPrisma1.GetComponent<Prisma>().encenderLAzul(lr1.material);
                     if (hit.collider.CompareTag("LadoAmarillo"))
                         tempPrisma1.GetComponent<Prisma>().encenderLAmarillo(lr1.material);
+
+                    lr1.SetPosition(1, hit.point);
                 }
                 else if (tempReflector1 != null || tempReceptor1 != null || tempPrisma1 != null)
                 {
@@ -115,6 +118,13 @@ public class ReflejoEspejo : MonoBehaviour
                     {
                         if (tempReflector2) tempReflector2.GetComponent<ReflejoEspejo>().NoChoca();
                         if (tempReceptor2) tempReceptor2.GetComponent<Receptores>().Apagar();
+                          if (tempPrisma2)
+                        {
+                                tempPrisma2.GetComponent<Prisma>().apagarLBlanco();
+                                tempPrisma2.GetComponent<Prisma>().apagarLRojo();
+                                tempPrisma2.GetComponent<Prisma>().apagarLAzul();
+                                tempPrisma2.GetComponent<Prisma>().apagarLAmarillo();
+                            }
                         tempReflector2 = hit.collider.gameObject;
                         /*if (tempReflector2 != origen){
                             tempReflector2.GetComponent<ReflejoEspejo>().Choca(lr2.material, this.gameObject);
@@ -129,6 +139,13 @@ public class ReflejoEspejo : MonoBehaviour
                         //Debug.Log("Toco receptor");
                         if (tempReflector2) tempReflector2.GetComponent<ReflejoEspejo>().NoChoca();
                         if (tempReceptor2) tempReceptor2.GetComponent<Receptores>().Apagar();
+                        if (tempPrisma2)
+                        {
+                                tempPrisma2.GetComponent<Prisma>().apagarLBlanco();
+                                tempPrisma2.GetComponent<Prisma>().apagarLRojo();
+                                tempPrisma2.GetComponent<Prisma>().apagarLAzul();
+                                tempPrisma2.GetComponent<Prisma>().apagarLAmarillo();
+                            }
                         tempReceptor2 = hit.collider.gameObject;
                         tempReceptor2.GetComponent<Receptores>().Encender(lr2.material);
                     }
@@ -141,7 +158,7 @@ public class ReflejoEspejo : MonoBehaviour
                         {
                             if (hit.collider.CompareTag("LadoBlanco"))
                             {
-                                tempPrisma2.GetComponent<Prisma>().apagarLBlanco();
+                                //tempPrisma2.GetComponent<Prisma>().apagarLBlanco();
                                 tempPrisma2.GetComponent<Prisma>().apagarLRojo();
                                 tempPrisma2.GetComponent<Prisma>().apagarLAzul();
                                 tempPrisma2.GetComponent<Prisma>().apagarLAmarillo();
@@ -149,14 +166,15 @@ public class ReflejoEspejo : MonoBehaviour
                             else tempPrisma2.GetComponent<Prisma>().apagarLBlanco();
                         }
                         tempPrisma2 = hit.collider.gameObject;
-                        if (hit.collider.CompareTag("LadoBlanco"))
-                            tempPrisma2.GetComponent<Prisma>().encenderLBlanco(lr2.material);
+                        if (hit.collider.CompareTag("LadoBlanco")){//Debug.Log("detecta blanco l2");
+                            tempPrisma2.GetComponent<Prisma>().encenderLBlanco(lr2.material);}
                         if (hit.collider.CompareTag("LadoRojo"))
                             tempPrisma2.GetComponent<Prisma>().encenderLRojo(lr2.material);
                         if (hit.collider.CompareTag("LadoAzul"))
                             tempPrisma2.GetComponent<Prisma>().encenderLAzul(lr2.material);
                         if (hit.collider.CompareTag("LadoAmarillo"))
                             tempPrisma2.GetComponent<Prisma>().encenderLAmarillo(lr2.material);
+                        lr2.SetPosition(1, hit.point);
                     }
                     else if (tempReflector2 != null || tempReceptor2 != null || tempPrisma2 != null)
                     {
@@ -226,10 +244,12 @@ public class ReflejoEspejo : MonoBehaviour
     public void Choca(Material m, GameObject or)
     {
         aux = true;
-        Debug.Log("material recibido: " + m);
-        lr1.material = m;
-        lr2.material = m;
-        origen = or;
+        if (m != null){
+            Debug.Log ("Llega m valiendo " + m);
+            lr2.material = m;
+            lr1.material = m;
+        } 
+        
     }
 
     public void NoChoca() { aux = false; }

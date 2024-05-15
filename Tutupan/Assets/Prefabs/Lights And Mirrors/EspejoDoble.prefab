@@ -53,7 +53,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 55de760e0b9d4ef46ab7e1eee754eee0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -189,7 +189,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 55de760e0b9d4ef46ab7e1eee754eee0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -325,7 +325,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 55de760e0b9d4ef46ab7e1eee754eee0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -530,7 +530,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 55de760e0b9d4ef46ab7e1eee754eee0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -685,6 +685,10 @@ MonoBehaviour:
   Laser1: {fileID: 9049549050861503934}
   Laser2: {fileID: 6332432961932628748}
   aux: 0
+  rojo: {fileID: 2100000, guid: 8351609b44d0a984c99b34cdd9dbbb85, type: 2}
+  azul: {fileID: 2100000, guid: 55de760e0b9d4ef46ab7e1eee754eee0, type: 2}
+  blanco: {fileID: 2100000, guid: 916cc19619d4a3a4ab5f751045043a88, type: 2}
+  amarillo: {fileID: 2100000, guid: 21282828d378c5d41b647257a86fee07, type: 2}
 --- !u!54 &2577397302240761323
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -784,6 +788,10 @@ MonoBehaviour:
   Laser1: {fileID: 2613179596707336759}
   Laser2: {fileID: 3282677038912024356}
   aux: 0
+  rojo: {fileID: 2100000, guid: 8351609b44d0a984c99b34cdd9dbbb85, type: 2}
+  azul: {fileID: 2100000, guid: 55de760e0b9d4ef46ab7e1eee754eee0, type: 2}
+  blanco: {fileID: 2100000, guid: 916cc19619d4a3a4ab5f751045043a88, type: 2}
+  amarillo: {fileID: 2100000, guid: 21282828d378c5d41b647257a86fee07, type: 2}
 --- !u!54 &7923520223408869175
 Rigidbody:
   m_ObjectHideFlags: 0

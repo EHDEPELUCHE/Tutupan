@@ -202,7 +202,9 @@ public class Prisma : MonoBehaviour
         }
     }
     public void encenderLBlanco(Material m){
-        if (m.name == "LaserBlanca (Instance)"){
+        //Debug.Log("Recibo "+ m.name.Substring(0, 11));
+        if (m.name.Substring(0, 11) == "LaserBlanca"){
+           // Debug.Log("enciende blanco");
             LadoBlanco = true;
         }else{
             LadoBlanco = false;
@@ -212,7 +214,7 @@ public class Prisma : MonoBehaviour
         LadoBlanco = false;
     }
     public void encenderLAzul(Material m){
-        if(m.name == "LaserAzul (Instance)"){
+        if(m.name.Substring(0, 9) == "LaserAzul"){
             PrismaSuperior.LadoAzul = true;
         }else{
              PrismaSuperior.LadoAzul = false;
@@ -223,7 +225,7 @@ public class Prisma : MonoBehaviour
          PrismaSuperior.LadoAzul = false;
     }
     public void encenderLRojo(Material m){
-        if(m.name == "LaserRoja (Instance)"){
+        if(m.name.Substring(0, 9) == "LaserRoja"){
             PrismaSuperior.LadoRojo = true;
         }else{
             PrismaSuperior.LadoRojo = false;
@@ -234,7 +236,7 @@ public class Prisma : MonoBehaviour
          PrismaSuperior.LadoRojo = false;
     }
     public void encenderLAmarillo(Material m){
-        if(m.name == "LaserAmarilla (Instance)"){
+        if(m.name.Substring(0, 13) == "LaserAmarilla"){
             PrismaSuperior.LadoAmarillo = true;
         }else{
              PrismaSuperior.LadoAmarillo = false;

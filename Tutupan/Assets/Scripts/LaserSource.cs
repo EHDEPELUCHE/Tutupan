@@ -8,6 +8,7 @@ public class LaserSource : MonoBehaviour
     Vector3 direction;
     LineRenderer lr;
     GameObject tempReflector, tempPrisma;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -26,8 +27,14 @@ public class LaserSource : MonoBehaviour
                 if(tempReflector){
                     tempReflector.GetComponent<ReflejoEspejo>().NoChoca();
                 }
+                if(tempPrisma){
+                    tempPrisma.GetComponent<Prisma>().apagarLBlanco();
+                    tempPrisma.GetComponent<Prisma>().apagarLRojo();
+                    tempPrisma.GetComponent<Prisma>().apagarLAzul();
+                    tempPrisma.GetComponent<Prisma>().apagarLAmarillo();}
+                    
                 tempReflector = hit.collider.gameObject;
-                Debug.Log("Material mandado: " + lr.material);
+                //Debug.Log("Material mandado: " + lr.material);
                 hit.collider.gameObject.GetComponent<ReflejoEspejo>().Choca(lr.material, this.gameObject);
                 //hit.collider.gameObject.GetComponent<ReflejoEspejo>().NoChoca();
             }else if(hit.collider.CompareTag("LadoBlanco")){
