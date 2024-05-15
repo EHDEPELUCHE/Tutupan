@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Casilla : MonoBehaviour
 {
     public int NumCasilla;
+     public UnityEvent eventocolocacion;
     static public GameObject obj;
     public bool bMovible = true;
     public bool bColocar = false;
@@ -21,6 +23,8 @@ public class Casilla : MonoBehaviour
                 case "Espejo":
                     if(CrearCasillas.maxEspejo > 0){
                         sobremi = Instantiate(obj, new Vector3(i , 0.65f, j ), Quaternion.identity);
+                        VozNivelGenerico.coloca = true;
+                        Debug.Log("Vuelvo del evento");
                         CrearCasillas.maxEspejo--;
                         PlayerPrefs.SetInt("EspejosComprados", CrearCasillas.maxEspejo);
                          CrearCasillas.textoespejo.text =  CrearCasillas.maxEspejo.ToString();
@@ -30,6 +34,7 @@ public class Casilla : MonoBehaviour
                 case "EspejoDoble":
                     if(CrearCasillas.maxEspejodoble > 0){
                         sobremi = Instantiate(obj, new Vector3(i , 0.5f, j), Quaternion.identity);
+                        VozNivelGenerico.coloca = true;
                         CrearCasillas.maxEspejodoble--;
                         PlayerPrefs.SetInt("EspejosDoblesComprados", CrearCasillas.maxEspejodoble);
                          CrearCasillas.textoespejodoble.text =  CrearCasillas.maxEspejodoble.ToString();
@@ -39,6 +44,7 @@ public class Casilla : MonoBehaviour
                 case "Cunna":
                     if(CrearCasillas.maxCunna > 0){
                         sobremi = Instantiate(obj, new Vector3(i, 0.65f, j), Quaternion.identity);
+                        VozNivelGenerico.coloca = true;
                         CrearCasillas.maxCunna--;
                         PlayerPrefs.SetInt("PrismasComprados", CrearCasillas.maxCunna);
                         CrearCasillas.textocunna.text =  CrearCasillas.maxCunna.ToString();
@@ -47,6 +53,7 @@ public class Casilla : MonoBehaviour
                 case "Prisma":
                     if(CrearCasillas.maxprisma > 0){
                         sobremi = Instantiate(obj, new Vector3(i, 0.55f, j), Quaternion.identity);
+                        VozNivelGenerico.coloca = true;
                         CrearCasillas.maxprisma--;
                         PlayerPrefs.SetInt("PrismasComprados", CrearCasillas.maxprisma );
                         CrearCasillas.textoprisma.text = CrearCasillas.maxprisma.ToString();
@@ -86,7 +93,7 @@ public class Casilla : MonoBehaviour
     public void eventitou() {
         //obj = GetComponent<BotonesNiveles>().Auxiliar;
         obj = BotonesNiveles.Auxiliar;
-        Debug.Log("Se asigna el auxiliar a obj: " + obj.name);
+        //Debug.Log("Se asigna el auxiliar a obj: " + obj.name);
       
     }
 }

@@ -30,6 +30,7 @@ public class SuperarNivel : MonoBehaviour
             //Debug.Log("Receptores totales: " + receptoresTotales);
             BotonesJuego.SetActive(false);
             Fin.SetActive(true);
+            VozNivelGenerico.termina = true;
             if (maxNivelSuperado < nivelAct)
                 PlayerPrefs.SetInt("maxNivelSuperado", nivelAct);
         }
