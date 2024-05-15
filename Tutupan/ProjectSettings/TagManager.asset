@@ -23,6 +23,7 @@ TagManager:
   - textoespdoble
   - textocunna
   - textoprisma
+  - Emisor
   layers:
   - Default
   - TransparentFX

@@ -66,8 +66,9 @@ public class ControladorBotonesContinuarAventura : MonoBehaviour
 
     public void CambiarVistaAtras(){
         Debug.Log("pulsado");
-        niveles1a12.SetActive(true);
         niveles12a25.SetActive(false);
+        niveles1a12.SetActive(true);
+        
     }
   
     public void Atras(){

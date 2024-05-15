@@ -32,7 +32,27 @@ public class ReflejoEspejo : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(Laser1.position, direction1, out hit, Mathf.Infinity))
             {
-                if (hit.collider.CompareTag("Reflector"))
+                if (hit.collider.CompareTag("Emisor")){
+                    lr1.enabled = false;
+                    if (tempReflector1 != null)
+                    {
+                        tempReflector1.GetComponent<ReflejoEspejo>().NoChoca();
+                        tempReflector1 = null;
+                    }
+                    if (tempReceptor1 != null)
+                    {
+                        tempReceptor1.GetComponent<Receptores>().Apagar();
+                        tempReceptor1 = null;
+                    }
+                    if (tempPrisma1 != null)
+                    {
+                        tempPrisma1.GetComponent<Prisma>().apagarLBlanco();
+                        tempPrisma1.GetComponent<Prisma>().apagarLRojo();
+                        tempPrisma1.GetComponent<Prisma>().apagarLAzul();
+                        tempPrisma1.GetComponent<Prisma>().apagarLAmarillo();
+                        tempPrisma1 = null;
+                    }
+                }else if (hit.collider.CompareTag("Reflector"))
                 {
                     if (tempReflector1) tempReflector1.GetComponent<ReflejoEspejo>().NoChoca();
                     if (tempReceptor1) tempReceptor1.GetComponent<Receptores>().Apagar();
@@ -45,6 +65,7 @@ public class ReflejoEspejo : MonoBehaviour
                     }
                     tempReflector1 = hit.collider.gameObject;
                     tempReflector1.GetComponent<ReflejoEspejo>().Choca(lr1.material, this.gameObject);
+                    lr1.SetPosition(1, hit.point);
                 }
                 else if (hit.collider.CompareTag("Receptor"))
                 {
@@ -60,6 +81,7 @@ public class ReflejoEspejo : MonoBehaviour
                     }
                     tempReceptor1 = hit.collider.gameObject;
                     tempReceptor1.GetComponent<Receptores>().Encender(lr1.material);
+                    lr1.SetPosition(1, hit.point);
                 }
                 else if (hit.collider.CompareTag("LadoBlanco") || hit.collider.CompareTag("LadoAzul")
                      || hit.collider.CompareTag("LadoRojo") || hit.collider.CompareTag("LadoAmarillo"))
@@ -114,7 +136,23 @@ public class ReflejoEspejo : MonoBehaviour
                 else lr1.SetPosition(1, direction1 * 200);
                 if (Physics.Raycast(Laser2.position, direction2, out hit, Mathf.Infinity))
                 {
-                    if (hit.collider.CompareTag("Reflector"))
+                    if(hit.collider.CompareTag("Emisor")){
+                        lr2.enabled = false;
+                        if (tempReflector2 != null)
+                        {
+                            tempReflector2.GetComponent<ReflejoEspejo>().NoChoca();
+                            tempReflector2 = null;
+                        }
+                        if (tempReceptor2 != null) tempReceptor2.GetComponent<Receptores>().Apagar();
+                        if (tempPrisma2)
+                        {
+                            tempPrisma2.GetComponent<Prisma>().apagarLBlanco();
+                            tempPrisma2.GetComponent<Prisma>().apagarLRojo();
+                            tempPrisma2.GetComponent<Prisma>().apagarLAzul();
+                            tempPrisma2.GetComponent<Prisma>().apagarLAmarillo();
+                            tempPrisma2 = null;
+                        }
+                    }else if (hit.collider.CompareTag("Reflector"))
                     {
                         if (tempReflector2) tempReflector2.GetComponent<ReflejoEspejo>().NoChoca();
                         if (tempReceptor2) tempReceptor2.GetComponent<Receptores>().Apagar();
@@ -133,6 +171,7 @@ public class ReflejoEspejo : MonoBehaviour
                             lr2.enabled = false;
                         }*/
                         tempReflector2.GetComponent<ReflejoEspejo>().Choca(lr2.material, this.gameObject);
+                        lr2.SetPosition(1, hit.point);
                     }
                     else if (hit.collider.CompareTag("Receptor"))
                     {
@@ -148,6 +187,7 @@ public class ReflejoEspejo : MonoBehaviour
                             }
                         tempReceptor2 = hit.collider.gameObject;
                         tempReceptor2.GetComponent<Receptores>().Encender(lr2.material);
+                        lr2.SetPosition(1, hit.point);
                     }
                     else if (hit.collider.CompareTag("LadoBlanco") || hit.collider.CompareTag("LadoAzul")
                          || hit.collider.CompareTag("LadoRojo") || hit.collider.CompareTag("LadoAmarillo"))
@@ -241,11 +281,53 @@ public class ReflejoEspejo : MonoBehaviour
         }
     }
 
+ 
+     void OnDestroy()
+    {
+        lr1.enabled = false;
+        lr2.enabled = false;
+        if (tempReflector1 != null)
+        {
+            tempReflector1.GetComponent<ReflejoEspejo>().NoChoca();
+            tempReflector1 = null;
+        }
+        if (tempReflector2 != null)
+        {
+            tempReflector2.GetComponent<ReflejoEspejo>().NoChoca();
+            tempReflector2 = null;
+        }
+        if (tempReceptor1 != null)
+        {
+            tempReceptor1.GetComponent<Receptores>().Apagar();
+            tempReceptor1 = null;
+        }
+        if (tempReceptor2 != null)
+        {
+            tempReceptor2.GetComponent<Receptores>().Apagar();
+            tempReceptor2 = null;
+        }
+        if (tempPrisma1 != null)
+        {
+            tempPrisma1.GetComponent<Prisma>().apagarLBlanco();
+            tempPrisma1.GetComponent<Prisma>().apagarLRojo();
+            tempPrisma1.GetComponent<Prisma>().apagarLAzul();
+            tempPrisma1.GetComponent<Prisma>().apagarLAmarillo();
+            tempPrisma1 = null;
+        }
+        if (tempPrisma2)
+        {
+            tempPrisma2.GetComponent<Prisma>().apagarLBlanco();
+            tempPrisma2.GetComponent<Prisma>().apagarLRojo();
+            tempPrisma2.GetComponent<Prisma>().apagarLAzul();
+            tempPrisma2.GetComponent<Prisma>().apagarLAmarillo();
+            tempPrisma2 = null;
+        }
+    }
     public void Choca(Material m, GameObject or)
     {
         aux = true;
         if (m != null){
-            Debug.Log ("Llega m valiendo " + m);
+            //Debug.Log ("Llega m valiendo " + m);
             lr2.material = m;
             lr1.material = m;
         } 

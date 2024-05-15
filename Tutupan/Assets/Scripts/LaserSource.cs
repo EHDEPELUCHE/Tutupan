@@ -94,4 +94,19 @@ public class LaserSource : MonoBehaviour
             lr.SetPosition(1, direction * 200);
         }
     }
+
+    public void OnDestroy(){
+         if(tempReflector != null){
+                tempReflector.GetComponent<ReflejoEspejo>().NoChoca();
+                tempReflector = null;
+            }
+            if(tempPrisma){
+                tempPrisma.GetComponent<Prisma>().apagarLBlanco();
+                tempPrisma.GetComponent<Prisma>().apagarLRojo();
+                tempPrisma.GetComponent<Prisma>().apagarLAzul();
+                tempPrisma.GetComponent<Prisma>().apagarLAmarillo();
+                tempPrisma = null;
+            }
+            lr.SetPosition(1, direction * 200);
+    }
 }

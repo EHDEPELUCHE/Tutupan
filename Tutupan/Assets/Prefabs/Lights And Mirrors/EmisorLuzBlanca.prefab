@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 5067430411461951048}
   m_Layer: 0
   m_Name: EmisorLuzBlanca
-  m_TagString: Untagged
+  m_TagString: Emisor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -191,6 +191,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 248505772566644198}
     m_Modifications:
+    - target: {fileID: 1822554104835844686, guid: 7f4214e28a5091540872d53cd009e495, type: 3}
+      propertyPath: m_TagString
+      value: Emisor
+      objectReference: {fileID: 0}
     - target: {fileID: 2538195505801517049, guid: 7f4214e28a5091540872d53cd009e495, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.8740001

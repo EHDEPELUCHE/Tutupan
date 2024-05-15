@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3475273599466454315}
   m_Layer: 0
   m_Name: EmisorLuzRoja
-  m_TagString: Untagged
+  m_TagString: Emisor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -191,6 +191,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1912594714866443058}
     m_Modifications:
+    - target: {fileID: 2275737603772917711, guid: fcd025d36d6818f4ab5cf6ba667a6ec8, type: 3}
+      propertyPath: m_TagString
+      value: Emisor
+      objectReference: {fileID: 0}
     - target: {fileID: 2731278534063643256, guid: fcd025d36d6818f4ab5cf6ba667a6ec8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.87524056

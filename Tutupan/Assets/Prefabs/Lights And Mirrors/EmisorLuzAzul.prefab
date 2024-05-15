@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 8521134865900291226}
   m_Layer: 0
   m_Name: EmisorLuzAzul
-  m_TagString: Untagged
+  m_TagString: Emisor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -234,6 +234,10 @@ PrefabInstance:
     - target: {fileID: 6630555326781827226, guid: ecbd0b676eb0f6048820889da18cde8c, type: 3}
       propertyPath: m_Name
       value: EmisorLuzAzul
+      objectReference: {fileID: 0}
+    - target: {fileID: 7871692142143770519, guid: ecbd0b676eb0f6048820889da18cde8c, type: 3}
+      propertyPath: m_TagString
+      value: Emisor
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
