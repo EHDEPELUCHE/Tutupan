@@ -27,6 +27,7 @@ public class LaserSource : MonoBehaviour
                     tempReflector.GetComponent<ReflejoEspejo>().NoChoca();
                 }
                 tempReflector = hit.collider.gameObject;
+                Debug.Log("Material mandado: " + lr.material);
                 hit.collider.gameObject.GetComponent<ReflejoEspejo>().Choca(lr.material, this.gameObject);
                 //hit.collider.gameObject.GetComponent<ReflejoEspejo>().NoChoca();
             }else if(hit.collider.CompareTag("LadoBlanco")){
