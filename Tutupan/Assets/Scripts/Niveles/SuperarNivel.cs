@@ -33,6 +33,9 @@ public class SuperarNivel : MonoBehaviour
             VozNivelGenerico.termina = true;
             if (maxNivelSuperado < nivelAct)
                 PlayerPrefs.SetInt("maxNivelSuperado", nivelAct);
+        }else{
+            VozNivelGenerico.termina = false;
+            VozNivelGenerico.unavez = false;
         }
         /*
         int aux = 0;

@@ -6,7 +6,6 @@ using UnityEngine.Events;
 public class Casilla : MonoBehaviour
 {
     public int NumCasilla;
-     public UnityEvent eventocolocacion;
     static public GameObject obj;
     public bool bMovible = true;
     public bool bColocar = false;
