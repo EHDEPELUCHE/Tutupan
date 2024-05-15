@@ -101,21 +101,23 @@ public class CrearCasillas : MonoBehaviour
                     case "4":
                         switch(cont) {
                             case 8:
-                                Instantiate(receptorLuzAmarilla, new Vector3(i, 0.1f, j), Quaternion.identity);
+                                Instantiate(receptorLuzRoja, new Vector3(i, 0.1f, j), Quaternion.identity);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                                 maxEspejodoble+=1;
+                                maxEspejo+=1;
                             break; 
                             case 64:
-                                Instantiate(receptorLuzAzul, new Vector3(i, 0.1f, j), Quaternion.identity);
+                                Instantiate(creadorLuzAzul, new Vector3(i, 0.4f, j), Rotaciones.ARRIBA); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 71:
-                                Instantiate(creadorLuzAmarilla, new Vector3(i, 0.4f, j), Rotaciones.ABAJO); 
+                                Instantiate(creadorLuzRoja, new Vector3(i, 0.4f, j), Rotaciones.ABAJO); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 104:
-                                Instantiate(creadorLuzAzul, new Vector3(i, 0.4f, j), Rotaciones.IZQUIERDA); 
+                                Instantiate(receptorLuzAzul, new Vector3(i, 0.1f, j), Quaternion.identity);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
+                                
                             break;
                         }
                         textoespejo.text = maxEspejo.ToString();

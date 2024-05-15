@@ -47,13 +47,7 @@ public class LaserSource : MonoBehaviour
                     }
                     
                     if(tempPrisma){
-                        tempPrisma.GetComponent<Prisma>().apagarLBlanco();
-                       /* if(PrismaSuperior.LadoRojo)
-                            tempPrisma.GetComponent<Prisma>().apagarLRojo();
-                        if(PrismaSuperior.LadoAzul)
-                            tempPrisma.GetComponent<Prisma>().apagarLAzul();
-                        if(PrismaSuperior.LadoAmarillo)
-                            tempPrisma.GetComponent<Prisma>().apagarLAmarillo();*/}
+                        tempPrisma.GetComponent<Prisma>().apagarLBlanco();}
                     
                     tempPrisma = hit.collider.gameObject;
                     if(hit.collider.CompareTag("LadoRojo"))
