@@ -40,7 +40,7 @@ public class ControladorCompras : MonoBehaviour
         tCunnas.text = "Price: " + PrecioBaseCunna + "\n Inventory: " + CunnasCompradas;
         tEspejos.text = "Price: " + PrecioBaseEspejo + "\n Inventory: " + EspejosComprados;
         tEspejosDobles.text = "Price: " + PrecioBaseEspejoDoble + "\n Inventory: " + EspejosDoblesComprados;
-        tPrismas.text = "Price: " + PrecioBasePrisma + "\n Inventory: " + PrismasComprados;
+        tPrismas.text = "Price: ∅";// + PrecioBasePrisma + "\n Inventory: " + PrismasComprados;
         tPuntos.text = "Points: " + Puntos;
     }
 

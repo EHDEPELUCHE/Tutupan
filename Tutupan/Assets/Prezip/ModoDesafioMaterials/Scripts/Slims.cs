@@ -36,6 +36,7 @@ public class Fruits : MonoBehaviour
     {
         if (collider.tag == "Ray")
         {
+            DesafioModeManager.golpeaSlime = true;
             desafioModeManager.UpdateTheScore(points);
             Destroy(gameObject);
             InstantiateJuice();
