@@ -350,11 +350,11 @@ public class CrearCasillas : MonoBehaviour
                             casillaAux.GetComponent<Casilla>().bMovible = false;
                         break;
                         case 71:
-                            Instantiate(creadorLuzAmarilla, new Vector3(i, 0.1f, j),Rotaciones.ABAJO);
+                            Instantiate(creadorLuzAmarilla, new Vector3(i, 0.4f, j),Rotaciones.ABAJO);
                             casillaAux.GetComponent<Casilla>().bMovible = false;
                         break;
                         case 116:
-                            Instantiate(creadorLuzAzul, new Vector3(i, 0.1f, j), Rotaciones.IZQUIERDA);
+                            Instantiate(creadorLuzAzul, new Vector3(i, 0.4f, j), Rotaciones.IZQUIERDA);
                             casillaAux.GetComponent<Casilla>().bMovible = false;
                         break;
                         }

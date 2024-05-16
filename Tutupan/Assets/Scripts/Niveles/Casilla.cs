@@ -51,7 +51,7 @@ public class Casilla : MonoBehaviour
                 break;
                 case "Prisma":
                     if(CrearCasillas.maxprisma > 0){
-                        sobremi = Instantiate(obj, new Vector3(i, 0.55f, j), Quaternion.identity);
+                        sobremi = Instantiate(obj, new Vector3(i, 0.8f, j), Quaternion.identity);
                         VozNivelGenerico.coloca = true;
                         CrearCasillas.maxprisma--;
                         PlayerPrefs.SetInt("PrismasComprados", CrearCasillas.maxprisma );

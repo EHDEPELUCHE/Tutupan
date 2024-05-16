@@ -386,6 +386,7 @@
 "Assets/Scripts/Niveles/SuperarNivel.cs"
 "Assets/Scripts/Niveles/VozNivel1.cs"
 "Assets/Scripts/Niveles/VozNivelGenerico.cs"
+"Assets/Scripts/Niveles/VozNivPrisma.cs"
 "Assets/Scripts/ScriptableObjects/VisemeGroups.cs"
 "Assets/Scripts/TiendaTutupan.cs"
 "Assets/Unity-Standard-Assets-master/2D/Scripts/Camera2DFollow.cs"

@@ -2229,7 +2229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 2080270704}
-  bien: {fileID: 0}
+  bien: {fileID: 8300000, guid: f14efad7e8cc59c41b14123e438f4843, type: 3}
 --- !u!82 &757969947
 AudioSource:
   m_ObjectHideFlags: 0
