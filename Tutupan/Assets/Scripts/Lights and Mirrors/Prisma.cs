@@ -7,6 +7,7 @@ public class Prisma : MonoBehaviour
     public bool LadoBlanco = false;
     public bool LadoAzul  = false;
     public static bool Siguerecibiendo = false;
+    public static bool SiguerecibiendoRef = false;
     public bool LadoRojo  = false;
     public bool LadoAmarillo  = false;
     Vector3 directionBlanco, directionAzul, directionRojo, directionAmarillo;
@@ -31,7 +32,7 @@ public class Prisma : MonoBehaviour
 
     void Update()
     {
-        if (LadoBlanco || Siguerecibiendo){
+        if (LadoBlanco || Siguerecibiendo || SiguerecibiendoRef){
             Debug.Log("Se intenta encender");
             lrAzul.enabled = true;
             lrRojo.enabled = true;
@@ -156,7 +157,7 @@ public class Prisma : MonoBehaviour
             } else {
                 lrAmarillo.SetPosition(1, directionRojo * 200);
             }
-        } else {
+        } else if(!LadoBlanco){
             Debug.Log("apagando laseres");
             lrAzul.enabled = false;
             lrRojo.enabled = false;
