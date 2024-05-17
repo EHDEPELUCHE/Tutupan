@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.19f1 (244b723c30a6) revision 2378610'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'es' Physical Memory: 16083 MB
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'es' Physical Memory: 16121 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/elena/Desktop/DSHconj/Tutupan/Tutupan
+C:/Users/FX506/Desktop/Asignaturas/DSH/ProyectosDSH/Tutupan/Tutupan
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49825
-Successfully changed project path to: C:/Users/elena/Desktop/DSHconj/Tutupan/Tutupan
-C:/Users/elena/Desktop/DSHconj/Tutupan/Tutupan
+52705
+Successfully changed project path to: C:/Users/FX506/Desktop/Asignaturas/DSH/ProyectosDSH/Tutupan/Tutupan
+C:/Users/FX506/Desktop/Asignaturas/DSH/ProyectosDSH/Tutupan/Tutupan
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,72 +49,72 @@ C:/Users/elena/Desktop/DSHconj/Tutupan/Tutupan
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15424] Host "[IP] 192.168.0.1 [Port] 0 [Flags] 2 [Guid] 2886121869 [EditorId] 2886121869 [Version] 1048832 [Id] WindowsEditor(7,elena) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [24676] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1799692756 [EditorId] 1799692756 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-TSDLB3US) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [15424] Host "[IP] 192.168.0.1 [Port] 0 [Flags] 2 [Guid] 2886121869 [EditorId] 2886121869 [Version] 1048832 [Id] WindowsEditor(7,elena) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24676] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1799692756 [EditorId] 1799692756 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-TSDLB3US) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 2110.99 ms, found 1 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 2.66 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.19f1 (244b723c30a6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/elena/Desktop/DSHconj/Tutupan/Tutupan/Assets
+[Subsystems] Discovering subsystems at path C:/Users/FX506/Desktop/Asignaturas/DSH/ProyectosDSH/Tutupan/Tutupan/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x46a8)
-    Vendor:   Intel
-    VRAM:     8041 MB
-    Driver:   30.0.101.2079
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   31.0.15.5244
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 1.396215 seconds.
-- Loaded All Assemblies, in 20.129 seconds
+Registered in 0.011167 seconds.
+- Loaded All Assemblies, in  0.372 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 768 ms
+Android Extension - Scanning For ADB Devices 410 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.742 seconds
-Domain Reload Profiling: 21870ms
-	BeginReloadAssembly (13558ms)
+- Finished resetting the current domain, in  0.782 seconds
+Domain Reload Profiling: 1152ms
+	BeginReloadAssembly (125ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (1034ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (1445ms)
-	LoadAllAssembliesAndSetupDomain (4080ms)
-		LoadAssemblies (13557ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (144ms)
+		LoadAssemblies (124ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (4078ms)
-			TypeCache.Refresh (4074ms)
-				TypeCache.ScanAssembly (3522ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (1742ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (126ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (782ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1630ms)
+		SetupLoadedEditorAssemblies (727ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1344ms)
+			InitializePlatformSupportModulesInManaged (574ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (5ms)
-			ProcessInitializeOnLoadAttributes (208ms)
-			ProcessInitializeOnLoadMethodAttributes (70ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (105ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -122,54 +122,106 @@ Domain Reload Profiling: 21870ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in 19.347 seconds
-Refreshing native plugins compatible for Editor in 1.23 ms, found 1 plugins.
+Symbol file data-000002B85EEC9420 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C0C0CCE0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85EDA0010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C0B20CC0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85EDC1A20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85EDD4230 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85EDED0C0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85EDED0C0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85EDED0C0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85EDF1DD0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C0EA3430 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85EDF1DD0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85EDF1DD0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85EDFF620 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85ECB5030 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85ECD6040 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85ECF6E50 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85ECF6E50 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C0651C40 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85ED38690 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85E9C5430 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85ED486A0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85ED486A0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85ED486A0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85ED544B0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85ED58DB0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.428 seconds
+Refreshing native plugins compatible for Editor in 1.34 ms, found 1 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.199 seconds
-Domain Reload Profiling: 20544ms
-	BeginReloadAssembly (245ms)
+- Finished resetting the current domain, in  0.383 seconds
+Domain Reload Profiling: 808ms
+	BeginReloadAssembly (121ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (55ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (18978ms)
-		LoadAssemblies (18118ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (234ms)
+		LoadAssemblies (209ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1007ms)
-			TypeCache.Refresh (947ms)
-				TypeCache.ScanAssembly (922ms)
-			ScanForSourceGeneratedMonoScriptInfo (46ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1200ms)
+		AnalyzeDomain (95ms)
+			TypeCache.Refresh (79ms)
+				TypeCache.ScanAssembly (68ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (384ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (770ms)
+		SetupLoadedEditorAssemblies (244ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (83ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (125ms)
-			ProcessInitializeOnLoadAttributes (470ms)
-			ProcessInitializeOnLoadMethodAttributes (70ms)
-			AfterProcessingInitializeOnLoad (17ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (142ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (23ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 4.69 ms, found 1 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.46 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (373.2 KB). Loaded Objects now: 2584.
-Memory consumption went from 135.6 MB to 135.2 MB.
-Total: 8.440800 ms (FindLiveObjects: 0.272300 ms CreateObjectMapping: 0.136600 ms MarkObjects: 7.345600 ms  DeleteObjects: 0.684400 ms)
+Unloading 25 unused Assets / (365.7 KB). Loaded Objects now: 2584.
+Memory consumption went from 135.4 MB to 135.1 MB.
+Total: 2.668300 ms (FindLiveObjects: 0.171300 ms CreateObjectMapping: 0.043900 ms MarkObjects: 2.219400 ms  DeleteObjects: 0.222500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -187,265 +239,1099 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 830.972016 seconds.
-  path: Assets/Imagenes/UI
-  artifactKey: Guid(d9e63b87c0a49dc44a7f61d957c423f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/UI using Guid(d9e63b87c0a49dc44a7f61d957c423f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e27872518be87173ef81d0df6e936bc') in 0.003789 seconds
+  Time since last request: 1926.116665 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(59d751435ab7aa64aa52f13f9d2e4fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(59d751435ab7aa64aa52f13f9d2e4fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366663d6835c4d93cdaf9968505e985c') in 0.002631 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Imagenes/UI/BanderitaProgreso.png
-  artifactKey: Guid(b0ec91a0ced97d04db3e700e28657ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/UI/BanderitaProgreso.png using Guid(b0ec91a0ced97d04db3e700e28657ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d543993cd8980c6019b3318a22acb5') in 0.189464 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Imagenes/UI/navigate_next_FILL0_wght400_GRAD0_opsz24.png
-  artifactKey: Guid(46b81200650b80d439a87d50460a8542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/UI/navigate_next_FILL0_wght400_GRAD0_opsz24.png using Guid(46b81200650b80d439a87d50460a8542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae19c8faff229bb767b6570f32f7bfd9') in 0.036061 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Imagenes/UI/TUtupanLogo.png
-  artifactKey: Guid(7c0f92d2959ac0a4b801503134cc3572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/UI/TUtupanLogo.png using Guid(7c0f92d2959ac0a4b801503134cc3572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd932c41d8629e3c6bb72c80d9079bcf6') in 0.057717 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 35.159435 seconds.
-  path: Assets/Imagenes/UI/TUtupanLogo.png
-  artifactKey: Guid(7c0f92d2959ac0a4b801503134cc3572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/UI/TUtupanLogo.png using Guid(7c0f92d2959ac0a4b801503134cc3572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341d9499be11918ab7b798487e204fe6') in 0.050466 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 5.568504 seconds.
-  path: Assets/Prefabs/UniVRM Import/UniVRM Import/RopaVerde/TutupanRopaverde.Textures/TutupanRopaverde.Textures/Thumbnail.png
-  artifactKey: Guid(d3fb9075c0160f64c9d35ab531164a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UniVRM Import/UniVRM Import/RopaVerde/TutupanRopaverde.Textures/TutupanRopaverde.Textures/Thumbnail.png using Guid(d3fb9075c0160f64c9d35ab531164a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d5f33703acbdc3d39dfa591b387d81') in 0.056645 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/Unity-Standard-Assets-master/CrossPlatformInput/Sprites/TouchpadSprite.png
-  artifactKey: Guid(a0c6e8ad4eea5f447b6c12875c4b1e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity-Standard-Assets-master/CrossPlatformInput/Sprites/TouchpadSprite.png using Guid(a0c6e8ad4eea5f447b6c12875c4b1e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72127e96793eca8cd46ba1f8483c6197') in 0.040378 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/Unity-Standard-Assets-master/Environment/Water (Basic)/Textures/WaterBasicDaytimeGradient.psd
-  artifactKey: Guid(19bb2a7ef4c09da4fb7b0d0a217ae34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity-Standard-Assets-master/Environment/Water (Basic)/Textures/WaterBasicDaytimeGradient.psd using Guid(19bb2a7ef4c09da4fb7b0d0a217ae34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039498a22addd5f6624f4abd59d0b1a0') in 0.020604 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/Toon Furniture/Textures/Vase_1 Normal.png
-  artifactKey: Guid(2804daafba0068349a13da3db34191ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Furniture/Textures/Vase_1 Normal.png using Guid(2804daafba0068349a13da3db34191ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2953130a2ebd2e0f8cbef13276dd0167') in 0.041595 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Unity-Standard-Assets-master/Environment/Water/Water/Textures/WaterProNighttimeGradient.psd
-  artifactKey: Guid(9a14046916f3fd2459b2449b614775a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity-Standard-Assets-master/Environment/Water/Water/Textures/WaterProNighttimeGradient.psd using Guid(9a14046916f3fd2459b2449b614775a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6c7bb7dd96c0b9c4b1dc27da87927f') in 0.032031 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Unity-Standard-Assets-master/Environment/Water/Water/Textures/WaterProDaytimeGradient.psd
-  artifactKey: Guid(859d667641f57724f900378030caad9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity-Standard-Assets-master/Environment/Water/Water/Textures/WaterProDaytimeGradient.psd using Guid(859d667641f57724f900378030caad9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5bc077cc77ee63b823590003be0cf13') in 0.014982 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000665 seconds.
-  path: Assets/Toon Furniture/Textures/Vase_1_2.png
-  artifactKey: Guid(d502b12872fbbda49b3965437a0ed3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Furniture/Textures/Vase_1_2.png using Guid(d502b12872fbbda49b3965437a0ed3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e684213cac306a1aa29edb29759b9c') in 0.039350 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Unity-Standard-Assets-master/Environment/Water (Basic)/Textures/WaterBasicNighttimeGradient.psd
-  artifactKey: Guid(57e4aa9df9d455d4eb98eeb2348bf7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity-Standard-Assets-master/Environment/Water (Basic)/Textures/WaterBasicNighttimeGradient.psd using Guid(57e4aa9df9d455d4eb98eeb2348bf7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b2d961ee5bcd7eef48cab454406eae') in 0.014759 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000646 seconds.
-  path: Assets/Toon Furniture/Textures/Toilet_1_1.png
-  artifactKey: Guid(df3e260b88bad9949a73fbc96953613e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Furniture/Textures/Toilet_1_1.png using Guid(df3e260b88bad9949a73fbc96953613e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00107553009afee8ba8167b518aed3f6') in 0.038265 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Unity-Standard-Assets-master/Environment/Water (Basic)/Textures/WaterBasicNormals.jpg
-  artifactKey: Guid(8cf0cf19a8df05445a0f9c7b0bd4f7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity-Standard-Assets-master/Environment/Water (Basic)/Textures/WaterBasicNormals.jpg using Guid(8cf0cf19a8df05445a0f9c7b0bd4f7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ebd19452cdef64a44862b695f8510d') in 0.039047 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Toon Furniture/Textures/Vase_1.png
-  artifactKey: Guid(537b3103daeaecd4ca6da7c1e456f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Furniture/Textures/Vase_1.png using Guid(537b3103daeaecd4ca6da7c1e456f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc52079aa116296417e21bbe2df80ff1') in 0.034726 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Unity-Standard-Assets-master/Environment/Water/Water/Textures/WaterFresnel.psd
-  artifactKey: Guid(32a1a19249781ba4482278e688eacffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity-Standard-Assets-master/Environment/Water/Water/Textures/WaterFresnel.psd using Guid(32a1a19249781ba4482278e688eacffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb40ae3d16099bef586d52632ee5f7b5') in 0.031671 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000526 seconds.
-  path: Assets/Prezip/ModoDesafioMaterials/Juices/WatermelonJuice.png
-  artifactKey: Guid(c6a328fd8ad2a084cbbdb50697e817fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prezip/ModoDesafioMaterials/Juices/WatermelonJuice.png using Guid(c6a328fd8ad2a084cbbdb50697e817fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468d465637b049c45eee4e9ebf8f8185') in 0.042709 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000444 seconds.
-  path: Assets/Prefabs/UniVRM Import/UniVRM Import/SinZapatos/TutupanSinzapatos.Textures/Thumbnail.png
-  artifactKey: Guid(4c448ca31f9b4fa439ed15ecbc545f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UniVRM Import/UniVRM Import/SinZapatos/TutupanSinzapatos.Textures/Thumbnail.png using Guid(4c448ca31f9b4fa439ed15ecbc545f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3cc3b4639f5249de003ea207020086') in 0.073196 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Unity-Standard-Assets-master/Effects/ToonShading/Textures/ToonLit.psd
-  artifactKey: Guid(405d78a292ae26a4f99899bed1cfe81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity-Standard-Assets-master/Effects/ToonShading/Textures/ToonLit.psd using Guid(405d78a292ae26a4f99899bed1cfe81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68da82259051824b41d90f0e9cc3d22a') in 0.064670 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Toon Furniture/Textures/Vase_2.png
-  artifactKey: Guid(5c84bcc002782f0478393a00e8409389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Furniture/Textures/Vase_2.png using Guid(5c84bcc002782f0478393a00e8409389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53fecb4d1f36977fd6eebcc44a6bc9dc') in 0.038536 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/Toon Furniture/Textures/Toilet_1_3.png
-  artifactKey: Guid(3f94121de63d50d45aa0d4ef86862d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Furniture/Textures/Toilet_1_3.png using Guid(3f94121de63d50d45aa0d4ef86862d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd014e9a5327148bdadca65f8df75adfd') in 0.037945 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Toon Furniture/Textures/Toilet_1_2.png
-  artifactKey: Guid(87a2003b20e686c45b57df079e0930a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Furniture/Textures/Toilet_1_2.png using Guid(87a2003b20e686c45b57df079e0930a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde153531eba0cb6ae5a8179d3eb6d6c') in 0.043157 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Toon Furniture/Textures/Toilet_1_Normal.png
-  artifactKey: Guid(4788905feeaff9a4ebd452c854ca2dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Furniture/Textures/Toilet_1_Normal.png using Guid(4788905feeaff9a4ebd452c854ca2dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8143618a9700549b5bab2de531611f9d') in 0.046082 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Unity-Standard-Assets-master/Effects/ToonShading/Textures/UtilToonGradient.png
-  artifactKey: Guid(52e3005e7e6149f40847d709ce8ed362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity-Standard-Assets-master/Effects/ToonShading/Textures/UtilToonGradient.png using Guid(52e3005e7e6149f40847d709ce8ed362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab72eeda07301e892ccabb9bbeb01190') in 0.026900 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Unity-Standard-Assets-master/Environment/Water/Water/Textures/WaterBump.jpg
-  artifactKey: Guid(73545c482d457a740bd055d84b816e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity-Standard-Assets-master/Environment/Water/Water/Textures/WaterBump.jpg using Guid(73545c482d457a740bd055d84b816e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a51172fde1e7e18b8e2e8fabfe0b9f') in 0.050561 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 28.966752 seconds.
-  path: Assets/Imagenes/UI/TUtupanLogo.png
-  artifactKey: Guid(7c0f92d2959ac0a4b801503134cc3572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/UI/TUtupanLogo.png using Guid(7c0f92d2959ac0a4b801503134cc3572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41bf8f815900a7de1c4e821034c31b7') in 0.050594 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 7.967256 seconds.
-  path: Assets/Unity-Standard-Assets-master/Fonts/OpenSans/OpenSansBold.ttf
-  artifactKey: Guid(911d5462036d41e459c5ed4364a8d767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity-Standard-Assets-master/Fonts/OpenSans/OpenSansBold.ttf using Guid(911d5462036d41e459c5ed4364a8d767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90811968467827c2cfe535cdbed749cd') in 0.072267 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Unity-Standard-Assets-master/Fonts/OpenSans/OpenSansRegular.ttf
-  artifactKey: Guid(27003da32374cb647ba16783fcec8356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity-Standard-Assets-master/Fonts/OpenSans/OpenSansRegular.ttf using Guid(27003da32374cb647ba16783fcec8356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c4d654e6d8d969fb4f6d315f3c8781') in 0.021167 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000440 seconds.
-  path: Assets/Imagenes/Icons/manufacturing_FILL0_wght400_GRAD0_opsz24.png
-  artifactKey: Guid(241b52a5d9f4a224a8fd0213b4beab6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/Icons/manufacturing_FILL0_wght400_GRAD0_opsz24.png using Guid(241b52a5d9f4a224a8fd0213b4beab6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13528c55f73c3f85eb9f99a26f0fd7bb') in 0.040596 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000619 seconds.
-  path: Assets/Unity-Standard-Assets-master/Prototyping/Textures/SwatchTurquoiseAlbedo.png
-  artifactKey: Guid(afd3c522080cba44fafb7fb43c0af3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity-Standard-Assets-master/Prototyping/Textures/SwatchTurquoiseAlbedo.png using Guid(afd3c522080cba44fafb7fb43c0af3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19982e8afb98ad26cbd7d144e955b722') in 0.034358 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Unity-Standard-Assets-master/Fonts/OpenSans/OpenSansLight.ttf
-  artifactKey: Guid(62652b62fbe8c0d4082f72067deee432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity-Standard-Assets-master/Fonts/OpenSans/OpenSansLight.ttf using Guid(62652b62fbe8c0d4082f72067deee432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f96a77d23c85e52eb9d23729b40c80') in 0.027350 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 53.340160 seconds.
-  path: Assets/Scenes/ContinuarAventura.unity
-  artifactKey: Guid(5e77b33df13c95b4f94c6c0b739bc979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ContinuarAventura.unity using Guid(5e77b33df13c95b4f94c6c0b739bc979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3635150e6c33f9b693bbf203e7efe2') in 0.001565 seconds
+  Time since last request: 2.637167 seconds.
+  path: Assets/Scripts/Niveles/CrearCasillas.cs
+  artifactKey: Guid(29073f69650827642a3c80bcd96dbf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Niveles/CrearCasillas.cs using Guid(29073f69650827642a3c80bcd96dbf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93cbb402a332097f6014be11256f716b') in 0.000546 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000002B6C1EE96E0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C0D5A870 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6CA845350 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C957E650 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C957E650 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85EE838B0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C2313010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85EEC8D90 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C18BFC30 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9063E20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C227D2C0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9063E20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C0B2BE40 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C227D2C0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C18BFC30 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C1B6A020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9063E20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C1B6A020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85EEC8D90 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C0CFB250 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85ECB5030 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C0CFB250 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C1B6EB70 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C0D0B260 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C0D0B260 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C8D56A40 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.327 seconds
+Refreshing native plugins compatible for Editor in 1.76 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.219 seconds
+Domain Reload Profiling: 7543ms
+	BeginReloadAssembly (224ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (1027ms)
+		LoadAssemblies (1107ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (6219ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (522ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (325ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (370.6 KB). Loaded Objects now: 2587.
+Memory consumption went from 126.3 MB to 126.0 MB.
+Total: 3.555700 ms (FindLiveObjects: 0.171100 ms CreateObjectMapping: 0.036600 ms MarkObjects: 3.058200 ms  DeleteObjects: 0.288900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3616.518663 seconds.
+  path: Assets/Scripts/Niveles/CrearCasillas.cs
+  artifactKey: Guid(29073f69650827642a3c80bcd96dbf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Niveles/CrearCasillas.cs using Guid(29073f69650827642a3c80bcd96dbf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a22603b00b696eecb8972761a8704fb') in 0.015994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000002B6CA653C20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C17B58D0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6CA845350 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C0FAA020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C8FBCEE0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9D6CAE0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C8DE4010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C990E050 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9F65A00 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85EE7A010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C990E050 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C19A2030 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9C2AA40 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9917490 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85E7CF010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B83B1AA020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C1EF4F20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9595F70 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9595F70 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85EEBA010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9F30E50 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85EEBA010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C16C54C0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6CA0B29B0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6CA0B29B0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9A11C20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.442 seconds
+Refreshing native plugins compatible for Editor in 1.75 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.705 seconds
+Domain Reload Profiling: 1144ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (199ms)
+		LoadAssemblies (269ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (706ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (348ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (197ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 1.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (362.2 KB). Loaded Objects now: 2590.
+Memory consumption went from 128.2 MB to 127.9 MB.
+Total: 3.236800 ms (FindLiveObjects: 0.251400 ms CreateObjectMapping: 0.100200 ms MarkObjects: 2.509700 ms  DeleteObjects: 0.374300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 884.701754 seconds.
+  path: Assets/Scripts/Niveles/CrearCasillas.cs
+  artifactKey: Guid(29073f69650827642a3c80bcd96dbf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Niveles/CrearCasillas.cs using Guid(29073f69650827642a3c80bcd96dbf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dde1fe09fd84431a412bbd415ffb408') in 0.006855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.347666 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(60ce31ef27113294f9f7e4e27e6c6af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(60ce31ef27113294f9f7e4e27e6c6af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff59362ca79f368da1c4a2327eb42215') in 0.000702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.434734 seconds.
+  path: Assets/Scenes/Niveles
+  artifactKey: Guid(3dc65b7821650cd4fae5fe348574724c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Niveles using Guid(3dc65b7821650cd4fae5fe348574724c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0aa04eb1f31204bdb15678b337f06c3') in 0.000596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.326387 seconds.
+  path: Assets/Scenes/Niveles/Nivel1.unity
+  artifactKey: Guid(a28c95da787227a4b8a2d6e053612ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Niveles/Nivel1.unity using Guid(a28c95da787227a4b8a2d6e053612ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01cd5b55dcdec4a6f64f13711593723e') in 0.000655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.485804 seconds.
+  path: Assets/Scenes/Niveles/Nivel13.unity
+  artifactKey: Guid(3edf22a00b6aadd47b83f2497ca3de90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Niveles/Nivel13.unity using Guid(3edf22a00b6aadd47b83f2497ca3de90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec9949f283502f67756634eb72e8785') in 0.000845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.973869 seconds.
+  path: Assets/Scenes/Niveles/Nivel2.unity
+  artifactKey: Guid(a15af06090fd76042812d584a5003590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Niveles/Nivel2.unity using Guid(a15af06090fd76042812d584a5003590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c7c3cd3d0fe2aab62ff40921be14ee') in 0.000640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.276873 seconds.
+  path: Assets/Scenes/Niveles/Nivel2 1.unity
+  artifactKey: Guid(0ffd2616793861a4cafadc13520473eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Niveles/Nivel2 1.unity using Guid(0ffd2616793861a4cafadc13520473eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a210253075217ccac6edf927882386ce') in 0.000686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.544905 seconds.
+  path: Assets/Scenes/Niveles/Nivel2 2.unity
+  artifactKey: Guid(9e5147695cae0084db5e05637c413bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Niveles/Nivel2 2.unity using Guid(9e5147695cae0084db5e05637c413bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18714d40f2e6f6801e6c300ad30a6358') in 0.000634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.498942 seconds.
+  path: Assets/Scenes/Niveles/Nivel2 3.unity
+  artifactKey: Guid(f9928b16204c7e04d8a80f788af96a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Niveles/Nivel2 3.unity using Guid(f9928b16204c7e04d8a80f788af96a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c50578530b897faf4279852780cfc3') in 0.000933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.457220 seconds.
+  path: Assets/Scenes/Niveles/Nivel2 4.unity
+  artifactKey: Guid(cf0ee04a170233140bbb8d5229ca46ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Niveles/Nivel2 4.unity using Guid(cf0ee04a170233140bbb8d5229ca46ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c288b37ea6bc50ef107f12600d3a4083') in 0.000781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.450359 seconds.
+  path: Assets/Scenes/Niveles/Nivel2 5.unity
+  artifactKey: Guid(73d8a602daba14847afbf4014cd8b908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Niveles/Nivel2 5.unity using Guid(73d8a602daba14847afbf4014cd8b908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6515ff1cd25ff5310f7ee1d36649e38') in 0.000523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.471628 seconds.
+  path: Assets/Scenes/Niveles/Nivel2 6.unity
+  artifactKey: Guid(d59c799a2c5eda7448f0e4b6e39f00d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Niveles/Nivel2 6.unity using Guid(d59c799a2c5eda7448f0e4b6e39f00d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30661d5e5e84b88b47ac79b71b9a0f06') in 0.000707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.451912 seconds.
+  path: Assets/Scenes/Niveles/Nivel2 7.unity
+  artifactKey: Guid(4fe0eda1549bce74da5d95594feac9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Niveles/Nivel2 7.unity using Guid(4fe0eda1549bce74da5d95594feac9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b0389cbe27d0c9d4cddf4da24d216f') in 0.000668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.404574 seconds.
+  path: Assets/Scenes/Niveles/Nivel2 8.unity
+  artifactKey: Guid(41a93819ab74b444b804c3c55b5ad4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Niveles/Nivel2 8.unity using Guid(41a93819ab74b444b804c3c55b5ad4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f54b8d12954edfa4571caa4c927d287') in 0.000635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.451906 seconds.
+  path: Assets/Scenes/Niveles/Nivel2 9.unity
+  artifactKey: Guid(ad34a691ab307664190a124bb6d28206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Niveles/Nivel2 9.unity using Guid(ad34a691ab307664190a124bb6d28206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188e8047de752e87a2d38d5c88b7c29b') in 0.000546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.483079 seconds.
+  path: Assets/Scenes/Niveles/Nivel2 10.unity
+  artifactKey: Guid(93bdf5562271205408cad07a6a2b6148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Niveles/Nivel2 10.unity using Guid(93bdf5562271205408cad07a6a2b6148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba62e64004178238418c307cf04b47d4') in 0.001022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.406696 seconds.
+  path: Assets/Scenes/Niveles/Nivel2 11.unity
+  artifactKey: Guid(27983fa8be911634e9492574a8e32856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Niveles/Nivel2 11.unity using Guid(27983fa8be911634e9492574a8e32856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abdf070f07bbbf4c4f8fe1e566028841') in 0.000515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.558281 seconds.
+  path: Assets/Scenes/Niveles/Nivel2 12.unity
+  artifactKey: Guid(ed25ef120382d124f87da63bb6e30d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Niveles/Nivel2 12.unity using Guid(ed25ef120382d124f87da63bb6e30d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d2a0a24fcaba6a2281261b4fcc11c1') in 0.000898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.889640 seconds.
+  path: Assets/Scenes/Niveles/Nivel14.unity
+  artifactKey: Guid(0ffd2616793861a4cafadc13520473eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Niveles/Nivel14.unity using Guid(0ffd2616793861a4cafadc13520473eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c56f1aaecb5ec93be8649e9809b00c9') in 0.000577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.147485 seconds.
+  path: Assets/Scenes/Niveles/Nivel15.unity
+  artifactKey: Guid(9e5147695cae0084db5e05637c413bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Niveles/Nivel15.unity using Guid(9e5147695cae0084db5e05637c413bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57431554fc037f20cac9dc862e21b007') in 0.000598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.278784 seconds.
+  path: Assets/Scenes/Niveles/Nivel16.unity
+  artifactKey: Guid(f9928b16204c7e04d8a80f788af96a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Niveles/Nivel16.unity using Guid(f9928b16204c7e04d8a80f788af96a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ea94c77773978e38e53eaff99f7df5') in 0.000548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.464195 seconds.
+  path: Assets/Scenes/Niveles/Nivel217.unity
+  artifactKey: Guid(cf0ee04a170233140bbb8d5229ca46ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Niveles/Nivel217.unity using Guid(cf0ee04a170233140bbb8d5229ca46ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e8493072e50482c2bde17992de303a') in 0.000704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.821868 seconds.
+  path: Assets/Scenes/Niveles/Nivel17.unity
+  artifactKey: Guid(cf0ee04a170233140bbb8d5229ca46ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Niveles/Nivel17.unity using Guid(cf0ee04a170233140bbb8d5229ca46ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f65df7e9ad6f47d6a8700ac8b5d4224') in 0.000591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.116296 seconds.
+  path: Assets/Scenes/Niveles/Nivel18.unity
+  artifactKey: Guid(73d8a602daba14847afbf4014cd8b908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Niveles/Nivel18.unity using Guid(73d8a602daba14847afbf4014cd8b908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5cb2b5643f36306f0b962d8f0b96378') in 0.000531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.389921 seconds.
+  path: Assets/Scenes/Niveles/Nivel19.unity
+  artifactKey: Guid(d59c799a2c5eda7448f0e4b6e39f00d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Niveles/Nivel19.unity using Guid(d59c799a2c5eda7448f0e4b6e39f00d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747d5982e43f807b72a57f6b1d9a9ab7') in 0.000611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.422323 seconds.
+  path: Assets/Scenes/Niveles/Nivel20.unity
+  artifactKey: Guid(4fe0eda1549bce74da5d95594feac9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Niveles/Nivel20.unity using Guid(4fe0eda1549bce74da5d95594feac9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5a17378977666fd503bc8af56f8cf4') in 0.000545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.236879 seconds.
+  path: Assets/Scenes/Niveles/Nivel21.unity
+  artifactKey: Guid(41a93819ab74b444b804c3c55b5ad4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Niveles/Nivel21.unity using Guid(41a93819ab74b444b804c3c55b5ad4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8307b6561cfec7956798f4bde91a7a4e') in 0.000683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.603791 seconds.
+  path: Assets/Scenes/Niveles/Nivel22.unity
+  artifactKey: Guid(ad34a691ab307664190a124bb6d28206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Niveles/Nivel22.unity using Guid(ad34a691ab307664190a124bb6d28206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c54739e8cbd1fad92dc95419d2fabe74') in 0.000670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.758318 seconds.
+  path: Assets/Scenes/Niveles/Nivel23.unity
+  artifactKey: Guid(93bdf5562271205408cad07a6a2b6148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Niveles/Nivel23.unity using Guid(93bdf5562271205408cad07a6a2b6148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e2e0a67edea8239c47f0785aa7ce8b') in 0.000568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.226914 seconds.
+  path: Assets/Scenes/Niveles/Nivel24.unity
+  artifactKey: Guid(27983fa8be911634e9492574a8e32856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Niveles/Nivel24.unity using Guid(27983fa8be911634e9492574a8e32856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ddac486dbee7e05ddedc579bc9e81ff') in 0.000565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.073613 seconds.
+  path: Assets/Scenes/Niveles/Nivel25.unity
+  artifactKey: Guid(ed25ef120382d124f87da63bb6e30d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Niveles/Nivel25.unity using Guid(ed25ef120382d124f87da63bb6e30d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88248fc61f0809d55615a54d373b9449') in 0.000567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000002B85E83BBA0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C08237B0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B8C0B92660 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C935C010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85E7318E0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9D6CAE0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C8DE4010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9C818F0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C957C270 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B8C0CCFE90 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C039F5D0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9E08010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C1A29010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C039F5D0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9E08010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C1778CD0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85EE07630 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C8E48010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9C818F0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C1E67A70 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C1EB48D0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9F65A00 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B8C1249010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9077620 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C8E48010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B8C1201430 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.338 seconds
+Refreshing native plugins compatible for Editor in 1.55 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.622 seconds
+Domain Reload Profiling: 957ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (141ms)
+		LoadAssemblies (200ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (622ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (292ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (175ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (338.2 KB). Loaded Objects now: 2593.
+Memory consumption went from 130.2 MB to 129.8 MB.
+Total: 3.641400 ms (FindLiveObjects: 0.239500 ms CreateObjectMapping: 0.053500 ms MarkObjects: 2.795400 ms  DeleteObjects: 0.551200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000002B6C9A11C20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6CA732090 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B8C0B92660 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9C33E60 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B8C0BF3E30 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9D6CAE0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85E8E5030 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B8C1201430 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B83B275010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85E9FA010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C1C4B010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B83B275010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C1879F40 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6CA564020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B83B275010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B8C0FF9AD0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B8C12A57E0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6CA0B29B0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C2148D30 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85E9FA010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C1EB48D0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9F65A00 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C1870E40 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C1879F40 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C1879F40 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6CA564020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.336 seconds
+Refreshing native plugins compatible for Editor in 1.35 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.573 seconds
+Domain Reload Profiling: 907ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (139ms)
+		LoadAssemblies (199ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (574ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (258ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (152ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2030 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (370.6 KB). Loaded Objects now: 2596.
+Memory consumption went from 132.4 MB to 132.0 MB.
+Total: 2.933700 ms (FindLiveObjects: 0.185500 ms CreateObjectMapping: 0.044700 ms MarkObjects: 2.417200 ms  DeleteObjects: 0.285500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000002B8C1201430 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6CA732090 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B8C0B92660 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B8C0FF9AD0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B8C0BF3E30 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9D6CAE0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C0B93010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9A11C20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B83B275010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9F65A00 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C1C4B010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85E79D010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C8E8C080 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6CA564020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85E79D010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85EA29020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B8C2E3A020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85DF140A0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C2148D30 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9F65A00 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C0BE5030 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9F65A00 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85DF140A0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C8E8C080 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C8E8C080 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6CA564020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.348 seconds
+Refreshing native plugins compatible for Editor in 1.41 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.616 seconds
+Domain Reload Profiling: 961ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (209ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (617ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (291ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (176ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2030 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (338.2 KB). Loaded Objects now: 2599.
+Memory consumption went from 134.3 MB to 133.9 MB.
+Total: 2.954900 ms (FindLiveObjects: 0.187100 ms CreateObjectMapping: 0.049800 ms MarkObjects: 2.482000 ms  DeleteObjects: 0.235000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000002B8C1201430 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6CA732090 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B8C3E24010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B85ECE6BE0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B8C0BF3E30 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9D6CAE0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C1FBB010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9A11C20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B83B275010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9F65A00 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C17A57D0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C18BFC30 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C1A29010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6CA564020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C18BFC30 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9C33E60 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C09E3020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9917490 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C2148D30 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9F65A00 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9D921D0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9F65A00 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9917490 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9917490 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9917490 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6CA564020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.352 seconds
+Refreshing native plugins compatible for Editor in 1.48 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.587 seconds
+Domain Reload Profiling: 936ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (211ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (588ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (286ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (163ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2030 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (362.4 KB). Loaded Objects now: 2602.
+Memory consumption went from 136.2 MB to 135.9 MB.
+Total: 2.962800 ms (FindLiveObjects: 0.215700 ms CreateObjectMapping: 0.059300 ms MarkObjects: 2.434100 ms  DeleteObjects: 0.252600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000002B8C1201430 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6CA732090 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B8C0B92660 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C07CE010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B8C0BF3E30 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9D6CAE0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B8C0330030 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9A11C20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B83B275010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9F65A00 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C8E8C080 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B8C3C90970 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C1A29010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C17A57D0 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B8C3C90970 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B8C245A020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6CA3A2010 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9917490 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9A11C20 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9F65A00 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B8C2D2E450 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9F65A00 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9917490 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9917490 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6C9917490 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002B6CA564020 doesn't match image C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.342 seconds
+Refreshing native plugins compatible for Editor in 1.43 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.594 seconds
+Domain Reload Profiling: 933ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (150ms)
+		LoadAssemblies (209ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (594ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (293ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (177ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2030 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (370.7 KB). Loaded Objects now: 2605.
+Memory consumption went from 138.2 MB to 137.8 MB.
+Total: 2.815100 ms (FindLiveObjects: 0.221900 ms CreateObjectMapping: 0.051300 ms MarkObjects: 2.279500 ms  DeleteObjects: 0.261400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
