@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9639e17dffc656345a70282f7f216672, type: 2}
+  - {fileID: 2100000, guid: 3142c10523cbda144a3bbf164a08e93b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -120,21 +120,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NumCasilla: 0
-  eventocolocacion:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 3171731492488205361, guid: 784a572f48188004a865ea0cd4ee2c23, type: 3}
-        m_TargetAssemblyTypeName: VozNivelGenerico, Assembly-CSharp
-        m_MethodName: eventocolocacion
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   bMovible: 1
   bColocar: 0
 --- !u!114 &7164639815023712334

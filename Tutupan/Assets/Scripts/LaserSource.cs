@@ -36,25 +36,16 @@ public class LaserSource : MonoBehaviour
                 tempReflector = hit.collider.gameObject;
                 //Debug.Log("Material mandado: " + lr.material);
                 hit.collider.gameObject.GetComponent<ReflejoEspejo>().Choca(lr.material, this.gameObject);
+                Prisma.Siguerecibiendo = false;
                 //hit.collider.gameObject.GetComponent<ReflejoEspejo>().NoChoca();
-            }else if(hit.collider.CompareTag("LadoBlanco")){
-                if(tempReflector){
-                    tempReflector.GetComponent<ReflejoEspejo>().NoChoca();
-                }
-                if(tempPrisma){
-                    tempPrisma.GetComponent<Prisma>().apagarLBlanco();
-                    tempPrisma.GetComponent<Prisma>().apagarLRojo();
-                    tempPrisma.GetComponent<Prisma>().apagarLAzul();
-                    tempPrisma.GetComponent<Prisma>().apagarLAmarillo();}
-                    tempPrisma = hit.collider.gameObject;
-                    tempPrisma.GetComponent<Prisma>().encenderLBlanco(lr.material);
-                }else if( hit.collider.CompareTag("LadoRojo") || hit.collider.CompareTag("LadoAmarillo") || hit.collider.CompareTag("LadoAzul")){
+            }else if( hit.collider.CompareTag("LadoRojo") || hit.collider.CompareTag("LadoAmarillo") || hit.collider.CompareTag("LadoAzul")){
                     if(tempReflector){
                         tempReflector.GetComponent<ReflejoEspejo>().NoChoca();
                     }
                     
                     if(tempPrisma){
-                        tempPrisma.GetComponent<Prisma>().apagarLBlanco();}
+                        tempPrisma.GetComponent<Prisma>().apagarLBlanco();
+                    }
                     
                     tempPrisma = hit.collider.gameObject;
                     if(hit.collider.CompareTag("LadoRojo"))
@@ -63,19 +54,31 @@ public class LaserSource : MonoBehaviour
                         tempPrisma.GetComponent<Prisma>().encenderLAzul(lr.material);
                     if(hit.collider.CompareTag("LadoAmarillo"))
                         tempPrisma.GetComponent<Prisma>().encenderLAmarillo(lr.material);
-                }   
-            else if(tempReflector != null || tempPrisma != null){
-                if(tempReflector){
-                    tempReflector.GetComponent<ReflejoEspejo>().NoChoca();
-                    tempReflector = null;
-                }
-                if(tempPrisma){
-                    tempPrisma.GetComponent<Prisma>().apagarLBlanco();
-                    tempPrisma.GetComponent<Prisma>().apagarLRojo();
-                    tempPrisma.GetComponent<Prisma>().apagarLAzul();
-                    tempPrisma.GetComponent<Prisma>().apagarLAmarillo();
-                    tempPrisma = null;
-                }
+                }else if(hit.collider.CompareTag("LadoBlanco")){
+                    if(tempReflector){
+                        tempReflector.GetComponent<ReflejoEspejo>().NoChoca();
+                    }
+                    if(tempPrisma){
+                        tempPrisma.GetComponent<Prisma>().apagarLRojo();
+                        tempPrisma.GetComponent<Prisma>().apagarLAzul();
+                        tempPrisma.GetComponent<Prisma>().apagarLAmarillo();}
+                        tempPrisma = hit.collider.gameObject;
+                        tempPrisma.GetComponent<Prisma>().encenderLBlanco(lr.material);
+                        Prisma.Siguerecibiendo = true;
+                    }
+                else if(tempReflector != null || tempPrisma != null){
+                    if(tempReflector){
+                        tempReflector.GetComponent<ReflejoEspejo>().NoChoca();
+                        tempReflector = null;
+                    }
+                    if(tempPrisma){
+                        tempPrisma.GetComponent<Prisma>().apagarLBlanco();
+                        tempPrisma.GetComponent<Prisma>().apagarLRojo();
+                        tempPrisma.GetComponent<Prisma>().apagarLAzul();
+                        tempPrisma.GetComponent<Prisma>().apagarLAmarillo();
+                        Prisma.Siguerecibiendo = false;
+                        tempPrisma = null;
+                    }
                 
             }
             lr.SetPosition(1, hit.point);
