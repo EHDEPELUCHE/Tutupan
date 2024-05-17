@@ -73,18 +73,18 @@ public class Casilla : MonoBehaviour
     void OnMouseDown() {
         if (obj != null && !modoBorrado) {
             bColocar = true;
-            print(NumCasilla.ToString() + 
+            /*print(NumCasilla.ToString() + 
             " Valor de bColocar: " + bColocar +
             " Valor de bMovible: " + bMovible +
             " Valor de modoBorrado: " + modoBorrado + 
-            " Valor de obj: " + obj.name);
+            " Valor de obj: " + obj.name);*/
         }
         if (modoBorrado && sobremi == null) {
             modoBorrado = false;
             bMovible = true;
             bColocar = true;
             //obj = null;
-            Debug.Log("Borrado");
+           // Debug.Log("Borrado");
         }
     }
 

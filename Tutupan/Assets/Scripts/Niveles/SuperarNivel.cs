@@ -37,12 +37,9 @@ public class SuperarNivel : MonoBehaviour
             VozNivelGenerico.termina = false;
             VozNivelGenerico.unavez = false;
         }
-        /*
-        int aux = 0;
-        if (receptores != null)
-            foreach (GameObject receptor in receptores)
-                if(receptor.active) aux++;
-        if (aux != receptoresActivos) receptoresActivos = aux;*/
+        if(CrearCasillas.maxprisma > 1){
+            CrearCasillas.maxprisma = 1;
+        }
     }
 
     public void Continuar(){

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -131,6 +131,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 555139738}
     m_Modifications:
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 893356908}
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PulsarNivel
+      objectReference: {fileID: 0}
     - target: {fileID: 4158885076867588618, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -551,6 +559,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 555139738}
     m_Modifications:
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 893356908}
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PulsarNivel
+      objectReference: {fileID: 0}
     - target: {fileID: 4158885076867588618, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -665,6 +681,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1325155645}
     m_Modifications:
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 893356908}
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PulsarNivel
+      objectReference: {fileID: 0}
     - target: {fileID: 4158885076867588618, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -779,6 +803,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1325155645}
     m_Modifications:
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 893356908}
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PulsarNivel
+      objectReference: {fileID: 0}
     - target: {fileID: 4158885076867588618, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1181,6 +1213,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 555139738}
     m_Modifications:
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 893356908}
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PulsarNivel
+      objectReference: {fileID: 0}
     - target: {fileID: 4158885076867588618, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1318,7 +1358,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.339
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1583,6 +1623,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 555139738}
     m_Modifications:
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 893356908}
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PulsarNivel
+      objectReference: {fileID: 0}
     - target: {fileID: 4158885076867588618, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1685,6 +1733,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1325155645}
     m_Modifications:
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 893356908}
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PulsarNivel
+      objectReference: {fileID: 0}
     - target: {fileID: 4158885076867588618, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2433,6 +2489,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1325155645}
     m_Modifications:
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 893356908}
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PulsarNivel
+      objectReference: {fileID: 0}
     - target: {fileID: 4158885076867588618, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2547,6 +2611,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1325155645}
     m_Modifications:
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 893356908}
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PulsarNivel
+      objectReference: {fileID: 0}
     - target: {fileID: 4158885076867588618, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2916,6 +2988,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 555139738}
     m_Modifications:
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 893356908}
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PulsarNivel
+      objectReference: {fileID: 0}
     - target: {fileID: 4158885076867588618, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3324,6 +3404,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 555139738}
     m_Modifications:
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 893356908}
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PulsarNivel
+      objectReference: {fileID: 0}
     - target: {fileID: 4158885076867588618, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3438,6 +3526,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 555139738}
     m_Modifications:
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 893356908}
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PulsarNivel
+      objectReference: {fileID: 0}
     - target: {fileID: 4158885076867588618, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3858,6 +3954,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1325155645}
     m_Modifications:
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 893356908}
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PulsarNivel
+      objectReference: {fileID: 0}
     - target: {fileID: 4158885076867588618, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4438,6 +4542,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 555139738}
     m_Modifications:
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 893356908}
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PulsarNivel
+      objectReference: {fileID: 0}
     - target: {fileID: 4158885076867588618, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4656,6 +4768,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1325155645}
     m_Modifications:
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 893356908}
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PulsarNivel
+      objectReference: {fileID: 0}
     - target: {fileID: 4158885076867588618, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4770,6 +4890,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 555139738}
     m_Modifications:
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 893356908}
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PulsarNivel
+      objectReference: {fileID: 0}
     - target: {fileID: 4158885076867588618, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4889,6 +5017,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 555139738}
     m_Modifications:
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 893356908}
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PulsarNivel
+      objectReference: {fileID: 0}
     - target: {fileID: 4158885076867588618, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -5607,6 +5743,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 555139738}
     m_Modifications:
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 893356908}
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PulsarNivel
+      objectReference: {fileID: 0}
     - target: {fileID: 4158885076867588618, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -5947,6 +6091,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1325155645}
     m_Modifications:
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 893356908}
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PulsarNivel
+      objectReference: {fileID: 0}
     - target: {fileID: 4158885076867588618, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -6604,6 +6756,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 555139738}
     m_Modifications:
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 893356908}
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PulsarNivel
+      objectReference: {fileID: 0}
     - target: {fileID: 4158885076867588618, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -6718,6 +6878,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 555139738}
     m_Modifications:
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 893356908}
+    - target: {fileID: 1042998905920555607, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PulsarNivel
+      objectReference: {fileID: 0}
     - target: {fileID: 4158885076867588618, guid: b603e639b9520e34f9e1cbc005b5a8be, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
