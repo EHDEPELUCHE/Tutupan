@@ -237,7 +237,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7871692142143770519, guid: ecbd0b676eb0f6048820889da18cde8c, type: 3}
       propertyPath: m_TagString
-      value: Bloqueo
+      value: Emisor
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -24,7 +24,7 @@ public class LaserSource : MonoBehaviour
         RaycastHit hit;
         if(Physics.Raycast(laserStartPoint.position, direction, out hit, Mathf.Infinity)){
             if(hit.collider.CompareTag("Reflector")){
-                if(tempReflector){
+                if(tempReflector && tempReflector != hit.collider.gameObject){
                     tempReflector.GetComponent<ReflejoEspejo>().NoChoca();
                 }
                 if(tempPrisma){

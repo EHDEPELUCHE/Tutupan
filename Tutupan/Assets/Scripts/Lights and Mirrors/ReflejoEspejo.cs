@@ -56,7 +56,7 @@ public class ReflejoEspejo : MonoBehaviour
                     }
                 }else if (hit.collider.CompareTag("Reflector"))
                 {
-                    if (tempReflector1) tempReflector1.GetComponent<ReflejoEspejo>().NoChoca();
+                    if (tempReflector1 && tempReflector1 != hit.collider.gameObject) tempReflector1.GetComponent<ReflejoEspejo>().NoChoca();
                     if (tempReceptor1) tempReceptor1.GetComponent<Receptores>().Apagar();
                     if (tempPrisma1)
                     {
@@ -75,7 +75,7 @@ public class ReflejoEspejo : MonoBehaviour
                 {
                     // Debug.Log("Toco receptor");
                     if (tempReflector1) tempReflector1.GetComponent<ReflejoEspejo>().NoChoca();
-                    if (tempReceptor1) tempReceptor1.GetComponent<Receptores>().Apagar();
+                    if (tempReceptor1 && tempReceptor1 != hit.collider.gameObject) tempReceptor1.GetComponent<Receptores>().Apagar();
                     if (tempPrisma1)
                     {
                         //Debug.Log("Lo apaga el receptor");
@@ -94,7 +94,7 @@ public class ReflejoEspejo : MonoBehaviour
                 {
                     if (tempReflector1) tempReflector1.GetComponent<ReflejoEspejo>().NoChoca();
                     if (tempReceptor1) tempReceptor1.GetComponent<Receptores>().Apagar();
-                    if (tempPrisma1)
+                    if (tempPrisma1 && tempPrisma1 != hit.collider.gameObject)
                     {
                         if (hit.collider.CompareTag("LadoBlanco") && tempPrisma1 != hit.collider.gameObject && tempPrisma2 != hit.collider.gameObject)
                         {
@@ -111,13 +111,25 @@ public class ReflejoEspejo : MonoBehaviour
                     
                     tempPrisma1 = hit.collider.gameObject;
                     if (hit.collider.CompareTag("LadoBlanco")){//Debug.Log("Detecta blanco");
-                        tempPrisma1.GetComponent<Prisma>().encenderLBlanco(lr1.material);}
-                    if (hit.collider.CompareTag("LadoRojo"))
+                        tempPrisma1.GetComponent<Prisma>().encenderLBlanco(lr1.material);
+                        if(lr1.material.name.Substring(0, 11) == "LaserBlanca")
+                            Prisma.Siguerecibiendo = true;
+                    }
+                    if (hit.collider.CompareTag("LadoRojo")){
                         tempPrisma1.GetComponent<Prisma>().encenderLRojo(lr1.material);
-                    if (hit.collider.CompareTag("LadoAzul"))
+                        if(lr1.material.name.Substring(0, 11) != "LaserBlanca")
+                            Prisma.Siguerecibiendo = false;
+                    }
+                    if (hit.collider.CompareTag("LadoAzul")){}
                         tempPrisma1.GetComponent<Prisma>().encenderLAzul(lr1.material);
-                    if (hit.collider.CompareTag("LadoAmarillo"))
+                        if(lr1.material.name.Substring(0, 11) != "LaserBlanca")
+                            Prisma.Siguerecibiendo = false;
+                    if (hit.collider.CompareTag("LadoAmarillo")){
                         tempPrisma1.GetComponent<Prisma>().encenderLAmarillo(lr1.material);
+                        if(lr1.material.name.Substring(0, 11) != "LaserBlanca")
+                            Prisma.Siguerecibiendo = false;
+                    }
+                        
 
                     lr1.SetPosition(1, hit.point);
                 }else if(hit.collider.CompareTag("Bloqueo")){
@@ -188,7 +200,7 @@ public class ReflejoEspejo : MonoBehaviour
                         }
                     }else if (hit.collider.CompareTag("Reflector"))
                     {
-                        if (tempReflector2) tempReflector2.GetComponent<ReflejoEspejo>().NoChoca();
+                        if (tempReflector2 && tempReflector2 != hit.collider.gameObject) tempReflector2.GetComponent<ReflejoEspejo>().NoChoca();
                         if (tempReceptor2) tempReceptor2.GetComponent<Receptores>().Apagar();
                           if (tempPrisma2)
                         {
@@ -211,12 +223,10 @@ public class ReflejoEspejo : MonoBehaviour
                     }
                     else if (hit.collider.CompareTag("Receptor"))
                     {
-                        //Debug.Log("Toco receptor");
                         if (tempReflector2) tempReflector2.GetComponent<ReflejoEspejo>().NoChoca();
-                        if (tempReceptor2) tempReceptor2.GetComponent<Receptores>().Apagar();
+                        if (tempReceptor2 && tempReceptor2 != hit.collider.gameObject) tempReceptor2.GetComponent<Receptores>().Apagar();
                         if (tempPrisma2)
                         {
-                            //Debug.Log("Lo apaga el receptor 2");
                                 tempPrisma2.GetComponent<Prisma>().apagarLBlanco();
                                 tempPrisma2.GetComponent<Prisma>().apagarLRojo();
                                 tempPrisma2.GetComponent<Prisma>().apagarLAzul();
@@ -232,7 +242,7 @@ public class ReflejoEspejo : MonoBehaviour
                     {
                         if (tempReflector2) tempReflector2.GetComponent<ReflejoEspejo>().NoChoca();
                         if (tempReceptor2) tempReceptor2.GetComponent<Receptores>().Apagar();
-                        if (tempPrisma2 )
+                        if (tempPrisma2 && tempPrisma2 != hit.collider.gameObject)
                         {
                             if (hit.collider.CompareTag("LadoBlanco") && tempPrisma1 != hit.collider.gameObject && tempPrisma2 != hit.collider.gameObject)
                             {
@@ -242,18 +252,31 @@ public class ReflejoEspejo : MonoBehaviour
                                 Prisma.SiguerecibiendoRef = true;
                             }
                            else if(tempPrisma2 != hit.collider.gameObject && tempPrisma1 != hit.collider.gameObject){ 
-                            tempPrisma2.GetComponent<Prisma>().apagarLBlanco(); Prisma.SiguerecibiendoRef = false;}
+                            tempPrisma2.GetComponent<Prisma>().apagarLBlanco(); 
+                            Prisma.SiguerecibiendoRef = false;}
                         }
                         //Prisma.SiguerecibiendoRef = true;
                         tempPrisma2 = hit.collider.gameObject;
                         if (hit.collider.CompareTag("LadoBlanco")){//Debug.Log("detecta blanco l2");
-                            tempPrisma2.GetComponent<Prisma>().encenderLBlanco(lr2.material);}
-                        if (hit.collider.CompareTag("LadoRojo"))
+                            tempPrisma2.GetComponent<Prisma>().encenderLBlanco(lr2.material);
+                            if(lr2.material.name.Substring(0, 11) == "LaserBlanca")
+                                Prisma.Siguerecibiendo = true;
+                         }
+                        if (hit.collider.CompareTag("LadoRojo")){
                             tempPrisma2.GetComponent<Prisma>().encenderLRojo(lr2.material);
-                        if (hit.collider.CompareTag("LadoAzul"))
+                             if(lr2.material.name.Substring(0, 11) != "LaserBlanca")
+                                Prisma.Siguerecibiendo = true;
+                        }
+                        if (hit.collider.CompareTag("LadoAzul")){
                             tempPrisma2.GetComponent<Prisma>().encenderLAzul(lr2.material);
-                        if (hit.collider.CompareTag("LadoAmarillo"))
+                            if(lr2.material.name.Substring(0, 11) != "LaserBlanca")
+                                Prisma.Siguerecibiendo = true;
+                        }
+                        if (hit.collider.CompareTag("LadoAmarillo")){
                             tempPrisma2.GetComponent<Prisma>().encenderLAmarillo(lr2.material);
+                            if(lr2.material.name.Substring(0, 11) != "LaserBlanca")
+                                Prisma.Siguerecibiendo = true;
+                        }
                         lr2.SetPosition(1, hit.point);
                     }else if(hit.collider.CompareTag("Bloqueo")){
                         lr2.SetPosition(1, hit.point);

@@ -193,7 +193,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2275737603772917711, guid: fcd025d36d6818f4ab5cf6ba667a6ec8, type: 3}
       propertyPath: m_TagString
-      value: Bloqueo
+      value: Emisor
       objectReference: {fileID: 0}
     - target: {fileID: 2731278534063643256, guid: fcd025d36d6818f4ab5cf6ba667a6ec8, type: 3}
       propertyPath: m_LocalPosition.x
