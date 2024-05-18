@@ -6,7 +6,7 @@ public class LaserSource : MonoBehaviour
 {
     [SerializeField] Transform laserStartPoint;
     Vector3 direction;
-    LineRenderer lr;
+    private LineRenderer lr;
     GameObject tempReflector, tempPrisma;
     
     // Start is called before the first frame update
@@ -37,7 +37,7 @@ public class LaserSource : MonoBehaviour
                     
                 tempReflector = hit.collider.gameObject;
                 //Debug.Log("Material mandado: " + lr.material);
-                hit.collider.gameObject.GetComponent<ReflejoEspejo>().Choca(lr.material, this.gameObject);
+                hit.collider.gameObject.GetComponent<ReflejoEspejo>().Choca( lr.material, this.gameObject);
                 Prisma.Siguerecibiendo = false;
                 //hit.collider.gameObject.GetComponent<ReflejoEspejo>().NoChoca();
             }else if( hit.collider.CompareTag("LadoRojo") || hit.collider.CompareTag("LadoAmarillo") || hit.collider.CompareTag("LadoAzul")){
@@ -68,7 +68,20 @@ public class LaserSource : MonoBehaviour
                         tempPrisma = hit.collider.gameObject;
                         tempPrisma.GetComponent<Prisma>().encenderLBlanco(lr.material);
                         Prisma.Siguerecibiendo = true;
+                }else if(hit.collider.CompareTag("Bloqueo")){
+                    if(tempReflector){
+                        tempReflector.GetComponent<ReflejoEspejo>().NoChoca();
+                        tempReflector = null;
                     }
+                    if(tempPrisma){
+                        tempPrisma.GetComponent<Prisma>().apagarLBlanco();
+                        tempPrisma.GetComponent<Prisma>().apagarLRojo();
+                        tempPrisma.GetComponent<Prisma>().apagarLAzul();
+                        tempPrisma.GetComponent<Prisma>().apagarLAmarillo();
+                        Prisma.Siguerecibiendo = false;
+                        tempPrisma = null;
+                    }
+                }
                 else if(tempReflector != null || tempPrisma != null){
                     if(tempReflector){
                         tempReflector.GetComponent<ReflejoEspejo>().NoChoca();
@@ -113,6 +126,6 @@ public class LaserSource : MonoBehaviour
                 tempPrisma.GetComponent<Prisma>().apagarLAmarillo();
                 tempPrisma = null;
             }
-            lr.SetPosition(1, direction * 200);
+            //lr.SetPosition(1, direction * 200);
     }
 }

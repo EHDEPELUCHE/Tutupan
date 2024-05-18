@@ -33,7 +33,7 @@ public class Prisma : MonoBehaviour
     void Update()
     {
         if (LadoBlanco || Siguerecibiendo || SiguerecibiendoRef){
-            Debug.Log("Se intenta encender");
+            //Debug.Log("Se intenta encender");
             lrAzul.enabled = true;
             lrRojo.enabled = true;
             lrAmarillo.enabled = true;
@@ -158,7 +158,7 @@ public class Prisma : MonoBehaviour
                 lrAmarillo.SetPosition(1, directionRojo * 200);
             }
         } else if(!LadoBlanco){
-            Debug.Log("apagando laseres");
+            //Debug.Log("apagando laseres");
             lrAzul.enabled = false;
             lrRojo.enabled = false;
             lrAmarillo.enabled = false;
@@ -198,7 +198,7 @@ public class Prisma : MonoBehaviour
         }
     }
     public void apagarLBlanco(){
-        Debug.Log("Apagan el blanco");
+        //Debug.Log("Apagan el blanco");
         LadoBlanco = false;
     }
     public void encenderLAzul(Material m){

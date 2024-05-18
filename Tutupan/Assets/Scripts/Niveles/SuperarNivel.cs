@@ -7,6 +7,7 @@ public class SuperarNivel : MonoBehaviour
 {
     public GameObject BotonesJuego;
     public GameObject Fin;
+    public bool terminado = false;
     private GameObject[] receptores;
     private int receptoresTotales, maxNivelSuperado, nivelAct;
     public static int receptoresActivos = 0;
@@ -15,6 +16,7 @@ public class SuperarNivel : MonoBehaviour
     void Start() {
         BotonesJuego.SetActive(true);
         Fin.SetActive(false);
+        terminado = false;
         receptoresActivos = 0;
         receptores = GameObject.FindGameObjectsWithTag("Receptor");  
         receptoresTotales = receptores.Length;
@@ -26,14 +28,16 @@ public class SuperarNivel : MonoBehaviour
     // Update is called once per frame
     void Update() {
         //Debug.Log ("Receptores activos: " + receptoresActivos);
-        if (receptores != null && receptoresTotales == receptoresActivos) {
+        if (receptores != null && receptoresTotales == receptoresActivos && !terminado) {
             //Debug.Log("Receptores totales: " + receptoresTotales);
             BotonesJuego.SetActive(false);
             Fin.SetActive(true);
+            terminado = true;
             VozNivelGenerico.termina = true;
             if (maxNivelSuperado < nivelAct)
                 PlayerPrefs.SetInt("maxNivelSuperado", nivelAct);
         }else{
+           // Debug.Log("Esto los desactiva");
             VozNivelGenerico.termina = false;
             VozNivelGenerico.unavez = false;
         }

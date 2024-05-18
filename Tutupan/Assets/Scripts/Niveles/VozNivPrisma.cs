@@ -8,9 +8,9 @@ public class VozNivPrisma : MonoBehaviour
     public Animator animator;
     private AudioSource audioSource;
     private float tiempoEspera = 60f;
-     public static bool coloca = false;
-    public static bool termina = false;
-    public static bool unavez = false;
+    // public static bool coloca = false;
+    //public static bool termina = false;
+    //public static bool unavez = false;
     public AudioClip keepgoing, subarashi, goodmove, awesome, welldone;
     // Start is called before the first frame update
     void Start()
@@ -25,13 +25,13 @@ public class VozNivPrisma : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-                if(Time.time > tiempoEspera && !audioSource.isPlaying){
+        if(Time.time > tiempoEspera && !audioSource.isPlaying){
             tiempoEspera += Time.time;
             animator.Play("0000000022", 1, 0);
             audioSource.Play(0);
         }
-        if(coloca && !audioSource.isPlaying){
-            coloca = false;
+        if(VozNivelGenerico.coloca && !audioSource.isPlaying){
+            VozNivelGenerico.coloca = false;
             float aleatorio = Random.Range(0.0f, 1.0f);
                 Debug.Log("Sale el num " + aleatorio);
                 if(aleatorio <= 0.3f){
@@ -49,11 +49,15 @@ public class VozNivPrisma : MonoBehaviour
                 }
                 
         }else{
-            coloca = false;
+            VozNivelGenerico.coloca = false;
         }
-        if(termina && !audioSource.isPlaying && !unavez){
+        if(VozNivelGenerico.termina  && !VozNivelGenerico.unavez){
             //termina = false;
-            unavez = true;
+            if(audioSource.isPlaying){
+                audioSource.Stop();
+            }
+            //De
+            VozNivelGenerico.unavez = true;
             float aleatorio = Random.Range(0.0f, 1.0f);
             if(aleatorio <= 0.5f){
                     tiempoEspera += Time.time;

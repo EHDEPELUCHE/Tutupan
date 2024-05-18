@@ -477,6 +477,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8496935502351500534, guid: a56a459d9c0a3c24c8825901b67ade65, type: 3}
+      propertyPath: m_TagString
+      value: Bloqueo
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3542447313727770047, guid: a56a459d9c0a3c24c8825901b67ade65, type: 3}
     - {fileID: 4266014756099912069, guid: a56a459d9c0a3c24c8825901b67ade65, type: 3}
@@ -518,7 +522,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0

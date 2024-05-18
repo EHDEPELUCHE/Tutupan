@@ -25,7 +25,10 @@ public class VozNivel1 : MonoBehaviour
             animator.Play("0000000016", 1, 0);
             audioSource.Play(0);
         }
-        if(VozNivelGenerico.termina && !audioSource.isPlaying && !VozNivelGenerico.unavez){
+        if(VozNivelGenerico.termina && !VozNivelGenerico.unavez){
+            if(audioSource.isPlaying){
+                audioSource.Stop();
+            }
             VozNivelGenerico.unavez = true;
             audioSource.PlayOneShot(bien);
             animator.Play("0000000021", 1, 0);

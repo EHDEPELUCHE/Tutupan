@@ -31,7 +31,7 @@ public class VozNivelGenerico : MonoBehaviour
         if(coloca && !audioSource.isPlaying){
             coloca = false;
             float aleatorio = Random.Range(0.0f, 1.0f);
-                Debug.Log("Sale el num " + aleatorio);
+                //Debug.Log("Sale el num " + aleatorio);
                 if(aleatorio <= 0.3f){
                     tiempoEspera += Time.time;
                     audioSource.PlayOneShot(keepgoing);
@@ -49,8 +49,11 @@ public class VozNivelGenerico : MonoBehaviour
         }else{
             coloca = false;
         }
-        if(termina && !audioSource.isPlaying && !unavez){
-            //termina = false;
+        if(termina  && !unavez){
+            if(audioSource.isPlaying){
+                audioSource.Stop();
+            }
+            //Debug.Log("Habla fin");
             unavez = true;
             float aleatorio = Random.Range(0.0f, 1.0f);
             if(aleatorio <= 0.5f){
@@ -64,33 +67,5 @@ public class VozNivelGenerico : MonoBehaviour
                 }
         }
     }
-/*
-    public void eventocolocacion() {
-        Debug.Log("Evento recibido");
-        float aleatorio = Random.Range(0.0f, 1.0f);
-        Debug.Log("Sale el num " + aleatorio);
-         if(aleatorio <= 0.33f){
-            tiempoEspera += Time.time;
-            Debug.Log("Antes auido");
-            audioSource.PlayOneShot(keepgoing);
-            Debug.Log("Antes anim");
-            animator.Play("0000000017", 1, 0);
-            Debug.Log("Despues");
-         }else if(aleatorio > 0.33f && aleatorio < 0.66f){
-            tiempoEspera += Time.time;
-            Debug.Log("Antes auido");
-            audioSource.PlayOneShot(subarashi);
-            Debug.Log("Antes anim");
-            animator.Play("0000000018", 1, 0);
-            Debug.Log("Despues");
-         }else{
-            tiempoEspera += Time.time;
-            Debug.Log("Antes auido");
-            audioSource.PlayOneShot(goodmove);
-            Debug.Log("Antes anim");
-            animator.Play("0000000019", 1, 0);
-            Debug.Log("Despues");
-         }
-      
-    }*/
+
 }

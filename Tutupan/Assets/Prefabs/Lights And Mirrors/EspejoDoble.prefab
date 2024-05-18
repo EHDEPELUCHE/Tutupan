@@ -839,6 +839,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4701639505971904516, guid: e78d3aa3de91ce3438ea4cc3cf7a0389, type: 3}
+      propertyPath: m_TagString
+      value: Bloqueo
+      objectReference: {fileID: 0}
     - target: {fileID: 7267476491124156955, guid: e78d3aa3de91ce3438ea4cc3cf7a0389, type: 3}
       propertyPath: m_TagString
       value: Untagged

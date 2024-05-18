@@ -46,7 +46,7 @@ public class ReflejoEspejo : MonoBehaviour
                     }
                     if (tempPrisma1 != null)
                     {
-                        Debug.Log("Se apaga por el emisor 1");
+                       // Debug.Log("Se apaga por el emisor 1");
                         tempPrisma1.GetComponent<Prisma>().apagarLBlanco();
                         tempPrisma1.GetComponent<Prisma>().apagarLRojo();
                         tempPrisma1.GetComponent<Prisma>().apagarLAzul();
@@ -60,7 +60,7 @@ public class ReflejoEspejo : MonoBehaviour
                     if (tempReceptor1) tempReceptor1.GetComponent<Receptores>().Apagar();
                     if (tempPrisma1)
                     {
-                        Debug.Log("Se apaga por el reflector 1");
+                       // Debug.Log("Se apaga por el reflector 1");
                         tempPrisma1.GetComponent<Prisma>().apagarLBlanco();
                         tempPrisma1.GetComponent<Prisma>().apagarLRojo();
                         tempPrisma1.GetComponent<Prisma>().apagarLAzul();
@@ -78,7 +78,7 @@ public class ReflejoEspejo : MonoBehaviour
                     if (tempReceptor1) tempReceptor1.GetComponent<Receptores>().Apagar();
                     if (tempPrisma1)
                     {
-                        Debug.Log("Lo apaga el receptor");
+                        //Debug.Log("Lo apaga el receptor");
                         tempPrisma1.GetComponent<Prisma>().apagarLBlanco();
                         tempPrisma1.GetComponent<Prisma>().apagarLRojo();
                         tempPrisma1.GetComponent<Prisma>().apagarLAzul();
@@ -103,7 +103,9 @@ public class ReflejoEspejo : MonoBehaviour
                             tempPrisma1.GetComponent<Prisma>().apagarLAmarillo();
                             Prisma.SiguerecibiendoRef = true;
                         }
-                        else {tempPrisma1.GetComponent<Prisma>().apagarLBlanco(); Prisma.SiguerecibiendoRef = false;}
+                        else if(tempPrisma2 != hit.collider.gameObject && tempPrisma1 != hit.collider.gameObject){
+                            tempPrisma1.GetComponent<Prisma>().apagarLBlanco(); 
+                            Prisma.SiguerecibiendoRef = false;}
                     }
                     
                     tempPrisma1 = hit.collider.gameObject;
@@ -116,6 +118,27 @@ public class ReflejoEspejo : MonoBehaviour
                     if (hit.collider.CompareTag("LadoAmarillo"))
                         tempPrisma1.GetComponent<Prisma>().encenderLAmarillo(lr1.material);
 
+                    lr1.SetPosition(1, hit.point);
+                }else if(hit.collider.CompareTag("Bloqueo")){
+                     if (tempReflector1 != null)
+                    {
+                        tempReflector1.GetComponent<ReflejoEspejo>().NoChoca();
+                        tempReflector1 = null;
+                    }
+                    if (tempReceptor1 != null)
+                    {
+                        tempReceptor1.GetComponent<Receptores>().Apagar();
+                        tempReceptor1 = null;
+                    }
+                    if (tempPrisma1 != null)
+                    {
+                        tempPrisma1.GetComponent<Prisma>().apagarLBlanco();
+                        tempPrisma1.GetComponent<Prisma>().apagarLRojo();
+                        tempPrisma1.GetComponent<Prisma>().apagarLAzul();
+                        tempPrisma1.GetComponent<Prisma>().apagarLAmarillo();
+                        tempPrisma1 = null;
+                        Prisma.SiguerecibiendoRef = false;
+                    }
                     lr1.SetPosition(1, hit.point);
                 }
                 else if (tempReflector1 != null || tempReceptor1 != null || tempPrisma1 != null)
@@ -132,7 +155,6 @@ public class ReflejoEspejo : MonoBehaviour
                     }
                     if (tempPrisma1 != null)
                     {
-                        Debug.Log("Se apaga porque no lo detecta 1");
                         tempPrisma1.GetComponent<Prisma>().apagarLBlanco();
                         tempPrisma1.GetComponent<Prisma>().apagarLRojo();
                         tempPrisma1.GetComponent<Prisma>().apagarLAzul();
@@ -155,7 +177,7 @@ public class ReflejoEspejo : MonoBehaviour
                         if (tempReceptor2 != null) tempReceptor2.GetComponent<Receptores>().Apagar();
                         if (tempPrisma2)
                         {
-                            Debug.Log("Se apaga por el em 2");
+                            //Debug.Log("Se apaga por el em 2");
                             tempPrisma2.GetComponent<Prisma>().apagarLBlanco();
                             tempPrisma2.GetComponent<Prisma>().apagarLRojo();
                             tempPrisma2.GetComponent<Prisma>().apagarLAzul();
@@ -169,7 +191,7 @@ public class ReflejoEspejo : MonoBehaviour
                         if (tempReceptor2) tempReceptor2.GetComponent<Receptores>().Apagar();
                           if (tempPrisma2)
                         {
-                            Debug.Log("Se apa por el reflector 2");
+                            //Debug.Log("Se apa por el reflector 2");
                                 tempPrisma2.GetComponent<Prisma>().apagarLBlanco();
                                 tempPrisma2.GetComponent<Prisma>().apagarLRojo();
                                 tempPrisma2.GetComponent<Prisma>().apagarLAzul();
@@ -193,7 +215,7 @@ public class ReflejoEspejo : MonoBehaviour
                         if (tempReceptor2) tempReceptor2.GetComponent<Receptores>().Apagar();
                         if (tempPrisma2)
                         {
-                            Debug.Log("Lo apaga el receptor 2");
+                            //Debug.Log("Lo apaga el receptor 2");
                                 tempPrisma2.GetComponent<Prisma>().apagarLBlanco();
                                 tempPrisma2.GetComponent<Prisma>().apagarLRojo();
                                 tempPrisma2.GetComponent<Prisma>().apagarLAzul();
@@ -218,7 +240,7 @@ public class ReflejoEspejo : MonoBehaviour
                                 tempPrisma2.GetComponent<Prisma>().apagarLAmarillo();
                                 Prisma.SiguerecibiendoRef = true;
                             }
-                           else { Debug.Log("El prisma 2");
+                           else if(tempPrisma2 != hit.collider.gameObject && tempPrisma1 != hit.collider.gameObject){ 
                             tempPrisma2.GetComponent<Prisma>().apagarLBlanco(); Prisma.SiguerecibiendoRef = false;}
                         }
                         //Prisma.SiguerecibiendoRef = true;
@@ -232,6 +254,24 @@ public class ReflejoEspejo : MonoBehaviour
                         if (hit.collider.CompareTag("LadoAmarillo"))
                             tempPrisma2.GetComponent<Prisma>().encenderLAmarillo(lr2.material);
                         lr2.SetPosition(1, hit.point);
+                    }else if(hit.collider.CompareTag("Bloqueo")){
+                        lr2.SetPosition(1, hit.point);
+                        if (tempReflector2 != null)
+                        {
+                            tempReflector2.GetComponent<ReflejoEspejo>().NoChoca();
+                            tempReflector2 = null;
+                        }
+                        if (tempReceptor2 != null) tempReceptor2.GetComponent<Receptores>().Apagar();
+                        if (tempPrisma2)
+                        {
+                            //Debug.Log("El laser 2 no lo detc");
+                            tempPrisma2.GetComponent<Prisma>().apagarLBlanco();
+                            tempPrisma2.GetComponent<Prisma>().apagarLRojo();
+                            tempPrisma2.GetComponent<Prisma>().apagarLAzul();
+                            tempPrisma2.GetComponent<Prisma>().apagarLAmarillo();
+                            Prisma.SiguerecibiendoRef = false;
+                            tempPrisma2 = null;
+                        }
                     }
                     else if (tempReflector2 != null || tempReceptor2 != null || tempPrisma2 != null)
                     {
@@ -299,6 +339,47 @@ public class ReflejoEspejo : MonoBehaviour
                     tempPrisma2 = null;
                 }
             }
+        }else{
+             lr1.enabled = false;
+                lr2.enabled = false;
+                if (tempReflector1 != null)
+                {
+                    tempReflector1.GetComponent<ReflejoEspejo>().NoChoca();
+                    tempReflector1 = null;
+                }
+                if (tempReflector2 != null)
+                {
+                    tempReflector2.GetComponent<ReflejoEspejo>().NoChoca();
+                    tempReflector2 = null;
+                }
+                if (tempReceptor1 != null)
+                {
+                    tempReceptor1.GetComponent<Receptores>().Apagar();
+                    tempReceptor1 = null;
+                }
+                if (tempReceptor2 != null)
+                {
+                    tempReceptor2.GetComponent<Receptores>().Apagar();
+                    tempReceptor2 = null;
+                }
+                if (tempPrisma1 != null)
+                {
+                    tempPrisma1.GetComponent<Prisma>().apagarLBlanco();
+                    tempPrisma1.GetComponent<Prisma>().apagarLRojo();
+                    tempPrisma1.GetComponent<Prisma>().apagarLAzul();
+                    tempPrisma1.GetComponent<Prisma>().apagarLAmarillo();
+                    Prisma.SiguerecibiendoRef = false;
+                    tempPrisma1 = null;
+                }
+                if (tempPrisma2)
+                {
+                    tempPrisma2.GetComponent<Prisma>().apagarLBlanco();
+                    tempPrisma2.GetComponent<Prisma>().apagarLRojo();
+                    tempPrisma2.GetComponent<Prisma>().apagarLAzul();
+                    tempPrisma2.GetComponent<Prisma>().apagarLAmarillo();
+                    Prisma.SiguerecibiendoRef = false;
+                    tempPrisma2 = null;
+                }
         }
     }
 
@@ -355,5 +436,48 @@ public class ReflejoEspejo : MonoBehaviour
         
     }
 
-    public void NoChoca() { aux = false; }
+    public void NoChoca() { 
+        aux = false; /*
+        lr1.enabled = false;
+        lr2.enabled = false;
+        if (tempReflector1 != null)
+        {
+            tempReflector1.GetComponent<ReflejoEspejo>().NoChoca();
+            tempReflector1 = null;
+        }
+        if (tempReflector2 != null)
+        {
+            tempReflector2.GetComponent<ReflejoEspejo>().NoChoca();
+            tempReflector2 = null;
+        }
+        if (tempReceptor1 != null)
+        {
+            tempReceptor1.GetComponent<Receptores>().Apagar();
+            tempReceptor1 = null;
+        }
+        if (tempReceptor2 != null)
+        {
+            tempReceptor2.GetComponent<Receptores>().Apagar();
+            tempReceptor2 = null;
+        }
+        if (tempPrisma1 != null)
+        {
+            tempPrisma1.GetComponent<Prisma>().apagarLBlanco();
+            tempPrisma1.GetComponent<Prisma>().apagarLRojo();
+            tempPrisma1.GetComponent<Prisma>().apagarLAzul();
+            tempPrisma1.GetComponent<Prisma>().apagarLAmarillo();
+            Prisma.SiguerecibiendoRef = false;
+            tempPrisma1 = null;
+        }
+        if (tempPrisma2)
+        {
+            tempPrisma2.GetComponent<Prisma>().apagarLBlanco();
+            tempPrisma2.GetComponent<Prisma>().apagarLRojo();
+            tempPrisma2.GetComponent<Prisma>().apagarLAzul();
+            tempPrisma2.GetComponent<Prisma>().apagarLAmarillo();
+            Prisma.SiguerecibiendoRef = false;
+            tempPrisma2 = null;
+        }*/
+    }
+        
 }

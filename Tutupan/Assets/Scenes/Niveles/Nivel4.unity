@@ -3939,8 +3939,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2115851129}
-  - component: {fileID: 2115851128}
   - component: {fileID: 2115851130}
+  - component: {fileID: 2115851131}
   m_Layer: 0
   m_Name: VozNivel
   m_TagString: Untagged
@@ -3948,24 +3948,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2115851128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2115851127}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c35c9a91d94a6f4eadb4b91820defce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 2080270704}
-  keepgoing: {fileID: 8300000, guid: b72e6ef0c0637fd4d94d57679ef05df0, type: 3}
-  subarashi: {fileID: 8300000, guid: cca3cca125af9004fb657d01578c7561, type: 3}
-  goodmove: {fileID: 8300000, guid: 79318a94fd2e2e243b50b16d1a6002e0, type: 3}
-  awesome: {fileID: 8300000, guid: f57cec1b86f294e41942dcc9a6383ac1, type: 3}
-  welldone: {fileID: 8300000, guid: f14efad7e8cc59c41b14123e438f4843, type: 3}
 --- !u!4 &2115851129
 Transform:
   m_ObjectHideFlags: 0
@@ -3991,7 +3973,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8ffdaf8c0224b77498d74ee0baef33f3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: c38a43393119f5a4d9743e76bface0bb, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -4077,6 +4059,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2115851131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115851127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d8ca29b44811b74aab8cfade96c377d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 2080270704}
+  keepgoing: {fileID: 8300000, guid: b72e6ef0c0637fd4d94d57679ef05df0, type: 3}
+  subarashi: {fileID: 8300000, guid: cca3cca125af9004fb657d01578c7561, type: 3}
+  goodmove: {fileID: 8300000, guid: 79318a94fd2e2e243b50b16d1a6002e0, type: 3}
+  awesome: {fileID: 8300000, guid: f57cec1b86f294e41942dcc9a6383ac1, type: 3}
+  welldone: {fileID: 8300000, guid: f14efad7e8cc59c41b14123e438f4843, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

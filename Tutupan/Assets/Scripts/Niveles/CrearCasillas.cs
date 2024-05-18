@@ -133,7 +133,7 @@ public class CrearCasillas : MonoBehaviour
                                 Instantiate(receptorLuzAzul, new Vector3(i, 0.1f, j), Quaternion.identity);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
-                            case 17:
+                            case 29:
                                 Instantiate(creadorLuzAzul, new Vector3(i, 0.4f, j), Rotaciones.ARRIBA); 
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                                 maxCunna += 1;
@@ -368,15 +368,16 @@ public class CrearCasillas : MonoBehaviour
                                 maxEspejo += 1;
                             break;
                             case 54:
-                                Instantiate(receptorLuzAmarilla, new Vector3(i, 0.1f, j), Quaternion.identity);
+                                Instantiate(receptorLuzAzul, new Vector3(i, 0.1f, j), Quaternion.identity);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
+                                
                             break;
                             case 58:
                                 Instantiate(receptorLuzRoja, new Vector3(i, 0.1f, j), Quaternion.identity);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 141:
-                                Instantiate(receptorLuzAzul, new Vector3(i, 0.1f, j), Quaternion.identity);
+                                Instantiate(receptorLuzAmarilla, new Vector3(i, 0.1f, j), Quaternion.identity);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                             break;
                             case 115: case 117: case 126: case 127: case 129: case 139:
@@ -477,6 +478,8 @@ public class CrearCasillas : MonoBehaviour
                             case 18:
                                 Instantiate(creadorLuzRoja, new Vector3(i, 0.4f, j), Rotaciones.DERECHA);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
+                                maxEspejodoble += 3;
+                                maxEspejo += 2;
                             break;
                             case 38:
                                 Instantiate(receptorLuzAzul, new Vector3(i, 0.1f, j), Quaternion.identity);
@@ -609,9 +612,9 @@ public class CrearCasillas : MonoBehaviour
                         switch (cont)
                         {
                             case 12:
-                                Instantiate(receptorLuzAzul, new Vector3(i, 0.1f, j), Quaternion.identity);
+                                Instantiate(receptorLuzBlanco, new Vector3(i, 0.1f, j), Quaternion.identity);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
-                                maxCunna += 3;
+                                maxEspejo += 3;
                                 maxCunna += 1;
                                 maxprisma += 1;
                             break;

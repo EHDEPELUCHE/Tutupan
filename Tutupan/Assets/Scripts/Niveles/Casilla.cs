@@ -23,7 +23,7 @@ public class Casilla : MonoBehaviour
                     if(CrearCasillas.maxEspejo > 0){
                         sobremi = Instantiate(obj, new Vector3(i , 0.65f, j ), Quaternion.identity);
                         VozNivelGenerico.coloca = true;
-                        Debug.Log("Vuelvo del evento");
+                       // Debug.Log("Vuelvo del evento");
                         CrearCasillas.maxEspejo--;
                         PlayerPrefs.SetInt("EspejosComprados", CrearCasillas.maxEspejo);
                          CrearCasillas.textoespejo.text =  CrearCasillas.maxEspejo.ToString();
