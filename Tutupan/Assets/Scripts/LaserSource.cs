@@ -33,11 +33,11 @@ public class LaserSource : MonoBehaviour
                     tempPrisma.GetComponent<Prisma>().apagarLAzul();
                     tempPrisma.GetComponent<Prisma>().apagarLAmarillo();
                     Prisma.Siguerecibiendo = false;
-                    }
+                }
                     
                 tempReflector = hit.collider.gameObject;
                 //Debug.Log("Material mandado: " + lr.material);
-                hit.collider.gameObject.GetComponent<ReflejoEspejo>().Choca( lr.material, this.gameObject);
+                hit.collider.gameObject.GetComponent<ReflejoEspejo>().Choca(lr.material);
                 Prisma.Siguerecibiendo = false;
                 //hit.collider.gameObject.GetComponent<ReflejoEspejo>().NoChoca();
             }else if( hit.collider.CompareTag("LadoRojo") || hit.collider.CompareTag("LadoAmarillo") || hit.collider.CompareTag("LadoAzul")){
@@ -47,9 +47,12 @@ public class LaserSource : MonoBehaviour
                     
                     if(tempPrisma){
                         tempPrisma.GetComponent<Prisma>().apagarLBlanco();
+                        Prisma.Siguerecibiendo = false;
                     }
-                    Prisma.Siguerecibiendo = false;
+                    
                     tempPrisma = hit.collider.gameObject;
+                    tempPrisma.GetComponent<Prisma>().apagarLBlanco();
+                    Prisma.Siguerecibiendo = false;
                     if(hit.collider.CompareTag("LadoRojo"))
                         tempPrisma.GetComponent<Prisma>().encenderLRojo(lr.material);
                     if(hit.collider.CompareTag("LadoAzul"))
@@ -67,7 +70,8 @@ public class LaserSource : MonoBehaviour
                         tempPrisma.GetComponent<Prisma>().apagarLAmarillo();}
                         tempPrisma = hit.collider.gameObject;
                         tempPrisma.GetComponent<Prisma>().encenderLBlanco(lr.material);
-                        Prisma.Siguerecibiendo = true;
+                        if(lr.material.name.Substring(0, 11) == "LaserBlanca")
+                            Prisma.Siguerecibiendo = true;
                 }else if(hit.collider.CompareTag("Bloqueo")){
                     if(tempReflector){
                         tempReflector.GetComponent<ReflejoEspejo>().NoChoca();
@@ -108,6 +112,7 @@ public class LaserSource : MonoBehaviour
                 tempPrisma.GetComponent<Prisma>().apagarLRojo();
                 tempPrisma.GetComponent<Prisma>().apagarLAzul();
                 tempPrisma.GetComponent<Prisma>().apagarLAmarillo();
+                Prisma.Siguerecibiendo = false;
                 tempPrisma = null;
             }
             lr.SetPosition(1, direction * 200);
@@ -124,6 +129,7 @@ public class LaserSource : MonoBehaviour
                 tempPrisma.GetComponent<Prisma>().apagarLRojo();
                 tempPrisma.GetComponent<Prisma>().apagarLAzul();
                 tempPrisma.GetComponent<Prisma>().apagarLAmarillo();
+                Prisma.Siguerecibiendo = false;
                 tempPrisma = null;
             }
             //lr.SetPosition(1, direction * 200);

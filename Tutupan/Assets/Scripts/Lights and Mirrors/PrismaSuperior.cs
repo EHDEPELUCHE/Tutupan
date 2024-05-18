@@ -38,20 +38,31 @@ public class PrismaSuperior : MonoBehaviour
                         tempReceptorBlanco = null;
                     }
                 }else if (hit.collider.CompareTag("Reflector")) {
-                    Debug.Log("choca con un reflector");
+                    //Debug.Log("choca con un reflector");
                     if (tempReflectorBlanco) tempReflectorBlanco.GetComponent<ReflejoEspejo>().NoChoca();
                     if (tempReceptorBlanco) tempReceptorBlanco.GetComponent<Receptores>().Apagar();
                     tempReflectorBlanco = hit.collider.gameObject;
-                    tempReflectorBlanco.GetComponent<ReflejoEspejo>().Choca(lrBlanco.material, this.gameObject);
+                    tempReflectorBlanco.GetComponent<ReflejoEspejo>().Choca(lrBlanco.material);
                     lrBlanco.SetPosition(1, hit.point);
                 } else if (hit.collider.CompareTag("Receptor")) {
-                     Debug.Log("choca con un receptor");
+                     //Debug.Log("choca con un receptor");
                     if (tempReflectorBlanco) tempReflectorBlanco.GetComponent<ReflejoEspejo>().NoChoca();
                     if (tempReceptorBlanco) tempReceptorBlanco.GetComponent<Receptores>().Apagar();
                     tempReceptorBlanco = hit.collider.gameObject;
                     tempReceptorBlanco.GetComponent<Receptores>().Encender(lrBlanco.material);
                     lrBlanco.SetPosition(1, hit.point);
-                } else if (tempReflectorBlanco != null || tempReceptorBlanco != null) {
+                } else if (hit.collider.CompareTag("Bloqueo")){
+                    if (tempReflectorBlanco != null) {
+                        tempReflectorBlanco.GetComponent<ReflejoEspejo>().NoChoca();
+                        tempReflectorBlanco = null;
+                    }
+                    if (tempReceptorBlanco != null) {
+                        tempReceptorBlanco.GetComponent<Receptores>().Apagar();
+                        tempReceptorBlanco = null;
+                    }
+                    lrBlanco.SetPosition(1, hit.point);
+                }
+                else if (tempReflectorBlanco != null || tempReceptorBlanco != null) {
                    // Debug.Log("No choca con un Reflector ni un Receptor Blanco, pero con algo choca.");
                     if (tempReflectorBlanco != null) {
                         tempReflectorBlanco.GetComponent<ReflejoEspejo>().NoChoca();
@@ -71,9 +82,6 @@ public class PrismaSuperior : MonoBehaviour
                 Debug.Log("Fin posicion");
             }   
         }else {
-            /*if (LadoAmarillo) Debug.Log("Solo lado amarillo");
-            if (LadoAzul) Debug.Log("Solo lado Azul");
-            if (LadoRojo) Debug.Log("Solo lado Rojo");*/
             lrBlanco.enabled = false;
             if (tempReflectorBlanco != null) {
                 tempReflectorBlanco.GetComponent<ReflejoEspejo>().NoChoca();

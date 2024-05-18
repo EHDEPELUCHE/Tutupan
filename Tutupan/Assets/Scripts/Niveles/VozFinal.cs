@@ -7,7 +7,7 @@ public class VozFinal : MonoBehaviour
     public Animator animator;
     private AudioSource audioSource;
     private float tiempoEspera = 60f;
-    public AudioClip keepgoing, subarashi, goodmove, awesome, welldone;
+    public AudioClip keepgoing, subarashi, goodmove, End;
     // Start is called before the first frame update
     void Start()
     {
@@ -53,16 +53,11 @@ public class VozFinal : MonoBehaviour
                 audioSource.Stop();
             }
             VozNivelGenerico.unavez = true;
-            float aleatorio = Random.Range(0.0f, 1.0f);
-            if(aleatorio <= 0.5f){
-                    tiempoEspera += Time.time;
-                    audioSource.PlayOneShot(awesome);
-                    animator.Play("0000000020", 1, 0);
-                }else {
-                    tiempoEspera += Time.time;
-                    audioSource.PlayOneShot(welldone);
-                    animator.Play("0000000021", 1, 0);
-                }
+            
+            tiempoEspera += Time.time;
+            audioSource.PlayOneShot(End);
+            animator.Play("0000000026", 1, 0);
+        
         }
     }
 }
