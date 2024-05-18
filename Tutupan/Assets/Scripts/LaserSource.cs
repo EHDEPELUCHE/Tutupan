@@ -19,7 +19,7 @@ public class LaserSource : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         RaycastHit hit;
         if(Physics.Raycast(laserStartPoint.position, direction, out hit, Mathf.Infinity)){

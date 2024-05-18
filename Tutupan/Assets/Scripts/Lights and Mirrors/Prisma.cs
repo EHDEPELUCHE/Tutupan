@@ -32,7 +32,7 @@ public class Prisma : MonoBehaviour
 
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (LadoBlanco || Siguerecibiendo || SiguerecibiendoRef){
            /* if(LadoBlanco) Debug.Log("Está encendido el lado blanco");

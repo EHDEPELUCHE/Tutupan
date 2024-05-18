@@ -18,7 +18,7 @@ public class PrismaSuperior : MonoBehaviour
         lrBlanco.positionCount = 2;
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if(LadoAzul && LadoRojo && LadoAmarillo){
            
