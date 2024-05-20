@@ -1,6 +1,6 @@
 <lint-module
     format="1"
-    dir="C:\Users\elena\Desktop\Tutupan\Tutupan\Library\Bee\Android\Prj\Mono2x\Gradle\launcher"
+    dir="C:\Users\FX506\Desktop\Asignaturas\DSH\ProyectosDSH\Tutupan\Tutupan\Library\Bee\Android\Prj\Mono2x\Gradle\launcher"
     name=":launcher"
     type="APP"
     maven="Gradle:launcher:"
