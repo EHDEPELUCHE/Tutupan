@@ -370,8 +370,6 @@
 "Assets/Scripts/AudioTester.cs"
 "Assets/Scripts/ControladorBotonesContinuarAventura.cs"
 "Assets/Scripts/ControladorCompras.cs"
-"Assets/Scripts/CreateAnimationCurse/CreateAnimationCurve.cs"
-"Assets/Scripts/CreateAnimationCurse/GenerateLipsync.cs"
 "Assets/Scripts/CreateAnimationCurse/ReadRadish.cs"
 "Assets/Scripts/LaserSource.cs"
 "Assets/Scripts/Lights and Mirrors/Prisma.cs"
