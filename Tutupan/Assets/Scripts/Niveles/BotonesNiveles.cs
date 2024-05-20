@@ -42,6 +42,13 @@ public class BotonesNiveles : MonoBehaviour
         Rotacion.modoBorrado = true;
     }
     public void Atras(){
+        if(!VozNivelGenerico.termina){
+            PlayerPrefs.SetInt("EspejosComprados", CrearCasillas.antesmaxEspejo);
+            PlayerPrefs.SetInt("EspejosDoblesComprados", CrearCasillas.antesmaxEspejodoble);
+            PlayerPrefs.SetInt("PrismasComprados", CrearCasillas.antesmaxCunna);
+            PlayerPrefs.SetInt("PrismasComprados", CrearCasillas.antesmaxprisma );
+        }
+        
         SceneManager.LoadScene("ContinuarAventura");
     }
 }

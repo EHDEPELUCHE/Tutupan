@@ -36,7 +36,7 @@ public class Casilla : MonoBehaviour
                         VozNivelGenerico.coloca = true;
                         CrearCasillas.maxEspejodoble--;
                         PlayerPrefs.SetInt("EspejosDoblesComprados", CrearCasillas.maxEspejodoble);
-                         CrearCasillas.textoespejodoble.text =  CrearCasillas.maxEspejodoble.ToString();
+                        CrearCasillas.textoespejodoble.text =  CrearCasillas.maxEspejodoble.ToString();
                     }
                     
                 break;
