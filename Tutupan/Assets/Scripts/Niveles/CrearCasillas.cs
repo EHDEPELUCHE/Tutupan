@@ -615,7 +615,7 @@ public class CrearCasillas : MonoBehaviour
                                 Instantiate(creadorLuzAzul, new Vector3(i, 0.4f, j), Rotaciones.DERECHA);
                                 casillaAux.GetComponent<Casilla>().bMovible = false;
                                 maxCunna += 2;
-                                maxEspejo += 5;
+                                maxEspejo += 4;
                                 maxprisma = 0;
                             break;
                             case 8: case 23: case 31: case 38: case 69: case 78: case 99: case 100:

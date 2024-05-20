@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 567463976112464639}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.38268343, z: -0, w: 0.92387956}
-  m_LocalPosition: {x: -0.34, y: 0.07604396, z: 0.04}
+  m_LocalPosition: {x: -0.333, y: 0.18, z: 0.055}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -162,7 +162,7 @@ Transform:
   m_GameObject: {fileID: 1729379520341277881}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.9238795, z: -0, w: 0.38268346}
-  m_LocalPosition: {x: -0.34, y: 0.07604396, z: 0.04}
+  m_LocalPosition: {x: -0.331, y: 0.18, z: -0.049}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -344,10 +344,6 @@ MonoBehaviour:
   Laser1: {fileID: 3300564897483983422}
   Laser2: {fileID: 8296209824032664214}
   aux: 0
-  rojo: {fileID: 2100000, guid: 8351609b44d0a984c99b34cdd9dbbb85, type: 2}
-  azul: {fileID: 2100000, guid: 55de760e0b9d4ef46ab7e1eee754eee0, type: 2}
-  blanco: {fileID: 2100000, guid: 916cc19619d4a3a4ab5f751045043a88, type: 2}
-  amarillo: {fileID: 2100000, guid: 21282828d378c5d41b647257a86fee07, type: 2}
 --- !u!54 &7521391496063605103
 Rigidbody:
   m_ObjectHideFlags: 0
